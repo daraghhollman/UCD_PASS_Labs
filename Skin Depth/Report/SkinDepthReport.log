@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  22 SEP 2022 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  22 SEP 2022 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -532,18 +532,28 @@ Package pdftex.def Info: UCDLogo.png  used on input line 33.
 
 {C:/Users/hollm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UCDLogo.pn
 g>] [2]
+<copperGraph.png, id=39, 956.57375pt x 647.41875pt>
+File: copperGraph.png Graphic file (type png)
+<use copperGraph.png>
+Package pdftex.def Info: copperGraph.png  used on input line 79.
+(pdftex.def)             Requested size: 286.97433pt x 194.22711pt.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 86.
+Overfull \hbox (74.72165pt too wide) in paragraph at lines 79--80
+[][] 
+ []
 
-[3] [4] (SkinDepthReport.aux)
+
+LaTeX Warning: Empty `thebibliography' environment on input line 90.
+
+[3 <./copperGraph.png>] [4] (SkinDepthReport.aux)
 Package rerunfilecheck Info: File `SkinDepthReport.out' has not changed.
 (rerunfilecheck)             Checksum: E709A9F43C9B1ABE7C3763DE8ADD5260;445.
  ) 
 Here is how much of TeX's memory you used:
- 11138 strings out of 478659
- 179685 string characters out of 2855777
+ 11145 strings out of 478659
+ 179821 string characters out of 2855777
  491474 words of memory out of 3000000
- 29107 multiletter control sequences out of 15000+600000
+ 29113 multiletter control sequences out of 15000+600000
  406153 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,63p,889b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -551,9 +561,9 @@ Here is how much of TeX's memory you used:
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb>
-Output written on SkinDepthReport.pdf (4 pages, 439296 bytes).
+Output written on SkinDepthReport.pdf (4 pages, 474729 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
