@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  22 SEP 2022 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  23 SEP 2022 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,124 +329,55 @@ Package caption Info: hyperref package is loaded.
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box54
 )
-(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count289
-\mult@box=\box55
-\multicol@leftmargin=\dimen189
-\c@unbalance=\count290
-\c@collectmore=\count291
-\doublecol@number=\count292
-\multicoltolerance=\count293
-\multicolpretolerance=\count294
-\full@width=\dimen190
-\page@free=\dimen191
-\premulticols=\dimen192
-\postmulticols=\dimen193
-\multicolsep=\skip55
-\multicolbaselineskip=\skip56
-\partial@page=\box56
-\last@line=\box57
-\maxbalancingoverflow=\dimen194
-\mult@rightbox=\box58
-\mult@grightbox=\box59
-\mult@firstbox=\box60
-\mult@gfirstbox=\box61
-\@tempa=\box62
-\@tempa=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\c@minrows=\count295
-\c@columnbadness=\count296
-\c@finalcolumnbadness=\count297
-\last@try=\dimen195
-\multicolovershoot=\dimen196
-\multicolundershoot=\dimen197
-\mult@nat@firstbox=\box98
-\colbreak@box=\box99
-\mc@col@check@num=\count298
-)
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count299
+\c@float@type=\count289
 \float@exts=\toks25
-\float@box=\box100
+\float@box=\box55
 \@float@everytoks=\toks26
-\@floatcapt=\box101
+\@floatcapt=\box56
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box102
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box57
 )
 (SkinDepthReport.aux)
 \openout1 = `SkinDepthReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen198
-\scratchbox=\box103
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\scratchcounter=\count291
+\scratchdimen=\dimen189
+\scratchbox=\box58
+\nofMPsegments=\count292
+\nofMParguments=\count293
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen199
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen190
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
 \everyMPtoPDFconversion=\toks28
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -477,14 +408,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -498,7 +429,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 20.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -509,11 +440,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 (SkinDepthReport.out) (SkinDepthReport.out)
 \@outlinefile=\write3
@@ -530,41 +461,58 @@ Package pdftex.def Info: UCDLogo.png  used on input line 33.
 (pdftex.def)             Requested size: 200.7541pt x 200.7541pt.
  [1
 
-{C:/Users/hollm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UCDLogo.pn
-g>] [2]
-<copperGraph.png, id=39, 956.57375pt x 647.41875pt>
-File: copperGraph.png Graphic file (type png)
-<use copperGraph.png>
-Package pdftex.def Info: copperGraph.png  used on input line 80.
-(pdftex.def)             Requested size: 478.2857pt x 323.70857pt.
 
-Overfull \hbox (8.53069pt too wide) in paragraph at lines 80--81
-[][] 
+{C:/Users/hollm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UCDLogo.pn
+g>]
+<SDcircuit.jpg, id=32, 1887.05pt x 1280.785pt>
+File: SDcircuit.jpg Graphic file (type jpg)
+<use SDcircuit.jpg>
+Package pdftex.def Info: SDcircuit.jpg  used on input line 71.
+(pdftex.def)             Requested size: 188.71605pt x 128.086pt.
+<SDPhoto.jpg, id=33, 4641.34pt x 3481.005pt>
+File: SDPhoto.jpg Graphic file (type jpg)
+<use SDPhoto.jpg>
+Package pdftex.def Info: SDPhoto.jpg  used on input line 79.
+(pdftex.def)             Requested size: 208.85129pt x 156.63846pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 	
+       [1
+
+
+ <./SDcircuit.jpg> <./SDPhoto.jpg>]
+Underfull \hbox (badness 2495) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 Vestibulum non fa-cil-i-sis sem. Quisque
  []
 
-[3]
+[2]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 92.
+LaTeX Warning: Empty `thebibliography' environment on input line 99.
 
-[4] [5] [6 <./copperGraph.png>] (SkinDepthReport.aux)
+[3] (SkinDepthReport.aux)
 Package rerunfilecheck Info: File `SkinDepthReport.out' has not changed.
-(rerunfilecheck)             Checksum: E709A9F43C9B1ABE7C3763DE8ADD5260;445.
+(rerunfilecheck)             Checksum: 85B0743CDD4C95E0038A30C3C46F8E56;516.
  ) 
 Here is how much of TeX's memory you used:
- 11152 strings out of 478659
- 179922 string characters out of 2855777
- 491474 words of memory out of 3000000
- 29117 multiletter control sequences out of 15000+600000
- 406153 words of font info for 36 fonts, out of 8000000 for 9000
+ 11045 strings out of 478659
+ 177961 string characters out of 2855777
+ 485780 words of memory out of 3000000
+ 29004 multiletter control sequences out of 15000+600000
+ 409265 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,889b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,888b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr12.pfb>
-Output written on SkinDepthReport.pdf (6 pages, 476313 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on SkinDepthReport.pdf (4 pages, 5424572 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
