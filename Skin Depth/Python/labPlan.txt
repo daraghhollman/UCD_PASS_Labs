@@ -1,0 +1,5 @@
+lab plan:
+
+measure solenoid length
+measure solenoid coils
+measure pickup coils

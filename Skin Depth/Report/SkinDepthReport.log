@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  23 SEP 2022 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  27 SEP 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,32 +467,40 @@ g>]
 <SDcircuit.jpg, id=32, 1887.05pt x 1280.785pt>
 File: SDcircuit.jpg Graphic file (type jpg)
 <use SDcircuit.jpg>
-Package pdftex.def Info: SDcircuit.jpg  used on input line 71.
+Package pdftex.def Info: SDcircuit.jpg  used on input line 69.
 (pdftex.def)             Requested size: 188.71605pt x 128.086pt.
 <SDPhoto.jpg, id=33, 4641.34pt x 3481.005pt>
 File: SDPhoto.jpg Graphic file (type jpg)
 <use SDPhoto.jpg>
-Package pdftex.def Info: SDPhoto.jpg  used on input line 79.
+Package pdftex.def Info: SDPhoto.jpg  used on input line 77.
 (pdftex.def)             Requested size: 208.85129pt x 156.63846pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 91--92
+\OT1/cmr/m/n/12 Vestibulum non fa-cil-i-sis sem. Quisque
+ []
+
+
+Underfull \vbox (badness 2326) has occurred while \output is active []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 	
-       [1
+l.92 
+      [1
 
 
  <./SDcircuit.jpg> <./SDPhoto.jpg>]
-Underfull \hbox (badness 2495) in paragraph at lines 93--94
-\OT1/cmr/m/n/12 Vestibulum non fa-cil-i-sis sem. Quisque
- []
 
-[2]
+LaTeX Warning: Empty `thebibliography' environment on input line 97.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 99.
+[2] [3
 
-[3] (SkinDepthReport.aux)
+] (SkinDepthReport.aux)
 Package rerunfilecheck Info: File `SkinDepthReport.out' has not changed.
 (rerunfilecheck)             Checksum: 85B0743CDD4C95E0038A30C3C46F8E56;516.
  ) 
@@ -510,7 +518,7 @@ eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SkinDepthReport.pdf (4 pages, 5424757 bytes).
+Output written on SkinDepthReport.pdf (4 pages, 5429849 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
