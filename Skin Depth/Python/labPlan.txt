@@ -1,5 +1,4 @@
 lab plan:
 
-measure solenoid length
-measure solenoid coils
-measure pickup coils
+do error propagation
+calculate skin depth for each cylinder
