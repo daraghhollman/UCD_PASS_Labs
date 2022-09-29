@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  27 SEP 2022 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  29 SEP 2022 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,24 +325,102 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count288
 Package caption Info: hyperref package is loaded.
 )
-(C:\Program Files\MiKTeX\tex/latex/threeparttable\threeparttable.sty
+(C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count289
+\c@subtable=\count290
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count291
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+142.
+
+\mult@box=\box54
+\multicol@leftmargin=\dimen189
+\c@unbalance=\count292
+\c@collectmore=\count293
+\doublecol@number=\count294
+\multicoltolerance=\count295
+\multicolpretolerance=\count296
+\full@width=\dimen190
+\page@free=\dimen191
+\premulticols=\dimen192
+\postmulticols=\dimen193
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen194
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count297
+\c@columnbadness=\count298
+\c@finalcolumnbadness=\count299
+\last@try=\dimen195
+\multicolovershoot=\dimen196
+\multicolundershoot=\dimen197
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count300
+) (C:\Program Files\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box54
+\@tempboxb=\box99
 )
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count289
+\c@float@type=\count301
 \float@exts=\toks25
-\float@box=\box55
+\float@box=\box100
 \@float@everytoks=\toks26
-\@floatcapt=\box56
+\@floatcapt=\box101
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box102
 )
 (SkinDepthReport.aux)
 \openout1 = `SkinDepthReport.aux'.
@@ -368,16 +446,16 @@ LaTeX Font Info:    ... okay on input line 20.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
-\scratchdimen=\dimen189
-\scratchbox=\box58
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\scratchcounter=\count303
+\scratchdimen=\dimen198
+\scratchbox=\box103
+\nofMPsegments=\count304
+\nofMParguments=\count305
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count294
-\MPscratchDim=\dimen190
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen199
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks28
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -440,7 +518,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count297
+\c@section@level=\count309
 )
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
@@ -464,63 +542,148 @@ Package pdftex.def Info: UCDLogo.png  used on input line 33.
 
 {C:/Users/hollm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UCDLogo.pn
 g>]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 67.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 69.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 69.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 69.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 76--78
+\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 
+[]N[]B[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R[] \OMS/cmsy/m/n/12   \OML/cmm/m/it/
+12 R[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 b \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
 <SDcircuit.jpg, id=32, 1887.05pt x 1280.785pt>
 File: SDcircuit.jpg Graphic file (type jpg)
 <use SDcircuit.jpg>
-Package pdftex.def Info: SDcircuit.jpg  used on input line 69.
+Package pdftex.def Info: SDcircuit.jpg  used on input line 92.
 (pdftex.def)             Requested size: 188.71605pt x 128.086pt.
 <SDPhoto.jpg, id=33, 4641.34pt x 3481.005pt>
 File: SDPhoto.jpg Graphic file (type jpg)
 <use SDPhoto.jpg>
-Package pdftex.def Info: SDPhoto.jpg  used on input line 77.
+Package pdftex.def Info: SDPhoto.jpg  used on input line 100.
 (pdftex.def)             Requested size: 208.85129pt x 156.63846pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
-
-Underfull \hbox (badness 2495) in paragraph at lines 91--92
-\OT1/cmr/m/n/12 Vestibulum non fa-cil-i-sis sem. Quisque
  []
-
-
-Underfull \vbox (badness 2326) has occurred while \output is active []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 
-      [1
+l.107 	
+        [1
 
 
  <./SDcircuit.jpg> <./SDPhoto.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
-LaTeX Warning: Empty `thebibliography' environment on input line 97.
+ []
 
-[2] [3
+<copperGraph.png, id=62, 954.56625pt x 663.47874pt>
+File: copperGraph.png Graphic file (type png)
+<use copperGraph.png>
+Package pdftex.def Info: copperGraph.png  used on input line 126.
+(pdftex.def)             Requested size: 381.81973pt x 265.3868pt.
+<aluminiumGraph.png, id=63, 954.56625pt x 663.47874pt>
+File: aluminiumGraph.png Graphic file (type png)
+<use aluminiumGraph.png>
+Package pdftex.def Info: aluminiumGraph.png  used on input line 133.
+(pdftex.def)             Requested size: 381.81973pt x 265.3868pt.
+<brassGraph.png, id=64, 938.50626pt x 663.47874pt>
+File: brassGraph.png Graphic file (type png)
+<use brassGraph.png>
+Package pdftex.def Info: brassGraph.png  used on input line 140.
+(pdftex.def)             Requested size: 375.39584pt x 265.3868pt.
+<steelGraph.png, id=65, 938.50626pt x 663.47874pt>
+File: steelGraph.png Graphic file (type png)
+<use steelGraph.png>
+Package pdftex.def Info: steelGraph.png  used on input line 147.
+(pdftex.def)             Requested size: 375.39584pt x 265.3868pt.
+[2] [3 <./copperGraph.png> <./aluminiumGraph.png>] [4 <./brassGraph.png> <./ste
+elGraph.png>]
 
-] (SkinDepthReport.aux)
+LaTeX Warning: Empty `thebibliography' environment on input line 161.
+
+[5] (SkinDepthReport.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
+
 Package rerunfilecheck Info: File `SkinDepthReport.out' has not changed.
 (rerunfilecheck)             Checksum: 85B0743CDD4C95E0038A30C3C46F8E56;516.
  ) 
 Here is how much of TeX's memory you used:
- 11045 strings out of 478659
- 177961 string characters out of 2855777
- 485780 words of memory out of 3000000
- 29004 multiletter control sequences out of 15000+600000
- 409265 words of font info for 47 fonts, out of 8000000 for 9000
+ 11311 strings out of 478659
+ 182699 string characters out of 2855777
+ 493317 words of memory out of 3000000
+ 29252 multiletter control sequences out of 15000+600000
+ 410173 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,888b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,914b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SkinDepthReport.pdf (4 pages, 5429849 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on SkinDepthReport.pdf (6 pages, 5655751 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
