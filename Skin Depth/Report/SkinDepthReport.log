@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  29 SEP 2022 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  30 SEP 2022 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,8 +542,22 @@ Package pdftex.def Info: UCDLogo.png  used on input line 33.
 
 {C:/Users/hollm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UCDLogo.pn
 g>]
+Underfull \hbox (badness 3579) in paragraph at lines 62--63
+\OT1/cmr/m/n/12 As al-ter-nat-ing cur-rent flows through a
+ []
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 67.
+
+Underfull \hbox (badness 1043) in paragraph at lines 62--63
+\OT1/cmr/m/n/12 dis-tribute the charge car-ri-ers, and hence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 66.
 
 LaTeX Font Info:    Calculating math sizes for size <> on input line 69.
 
@@ -588,29 +602,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--71
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 \OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 a \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 
 []N[]B[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R[] \OMS/cmsy/m/n/12   \OML/cmm/m/it/
-12 R[]\OT1/cmr/m/n/12 )$, $\OML/cmm/m/it/12 b \OT1/cmr/m/n/12 =
+12 R[]\OT1/cmr/m/n/12 )$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+\OML/cmm/m/it/12 b \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 []N[]B[]R$ \OT1/cmr/m/n
+/12 and skin depth,
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 77--79
+\OT1/cmr/m/n/12 be used to cal-cu-late pa-ram-e-ters such as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
-<SDcircuit.jpg, id=32, 1887.05pt x 1280.785pt>
+<SDcircuit.jpg, id=34, 1887.05pt x 1280.785pt>
 File: SDcircuit.jpg Graphic file (type jpg)
 <use SDcircuit.jpg>
-Package pdftex.def Info: SDcircuit.jpg  used on input line 92.
+Package pdftex.def Info: SDcircuit.jpg  used on input line 86.
 (pdftex.def)             Requested size: 188.71605pt x 128.086pt.
-<SDPhoto.jpg, id=33, 4641.34pt x 3481.005pt>
+<SDPhoto.jpg, id=35, 4641.34pt x 3481.005pt>
 File: SDPhoto.jpg Graphic file (type jpg)
 <use SDPhoto.jpg>
-Package pdftex.def Info: SDPhoto.jpg  used on input line 100.
+Package pdftex.def Info: SDPhoto.jpg  used on input line 94.
 (pdftex.def)             Requested size: 208.85129pt x 156.63846pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
@@ -619,41 +644,100 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 	
+l.101 	
         [1
 
 
- <./SDcircuit.jpg> <./SDPhoto.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+ <./SDcircuit.jpg>]
+Underfull \hbox (badness 2990) in paragraph at lines 102--103
+[]\OT1/cmr/m/n/12 Four cylin-ders were used, all of the
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 102--103
+\OT1/cmr/m/n/12 same di-men-sions ($\OML/cmm/m/it/12 L \OT1/cmr/m/n/12 = (389 \
+OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5) []$
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 102--103
+\OT1/cmr/m/n/12 at its mid-point with a pick-up coil, of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<copperGraph.png, id=62, 954.56625pt x 663.47874pt>
+
+Underfull \vbox (badness 3260) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 108--109
+\OT1/cmr/m/n/12 skin depth at high fre-quen-cies be-com-ing
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 108--109
+\OT1/cmr/m/n/12 com-pa-ra-ble to the air gap be-tween the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 112.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 	
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2 <./SDPhoto.jpg>]
+<copperGraph.png, id=72, 954.56625pt x 663.47874pt>
 File: copperGraph.png Graphic file (type png)
 <use copperGraph.png>
-Package pdftex.def Info: copperGraph.png  used on input line 126.
+Package pdftex.def Info: copperGraph.png  used on input line 139.
 (pdftex.def)             Requested size: 381.81973pt x 265.3868pt.
-<aluminiumGraph.png, id=63, 954.56625pt x 663.47874pt>
+<aluminiumGraph.png, id=73, 954.56625pt x 663.47874pt>
 File: aluminiumGraph.png Graphic file (type png)
 <use aluminiumGraph.png>
-Package pdftex.def Info: aluminiumGraph.png  used on input line 133.
+Package pdftex.def Info: aluminiumGraph.png  used on input line 146.
 (pdftex.def)             Requested size: 381.81973pt x 265.3868pt.
-<brassGraph.png, id=64, 938.50626pt x 663.47874pt>
+<brassGraph.png, id=74, 938.50626pt x 663.47874pt>
 File: brassGraph.png Graphic file (type png)
 <use brassGraph.png>
-Package pdftex.def Info: brassGraph.png  used on input line 140.
+Package pdftex.def Info: brassGraph.png  used on input line 153.
 (pdftex.def)             Requested size: 375.39584pt x 265.3868pt.
-<steelGraph.png, id=65, 938.50626pt x 663.47874pt>
+<steelGraph.png, id=75, 938.50626pt x 663.47874pt>
 File: steelGraph.png Graphic file (type png)
 <use steelGraph.png>
-Package pdftex.def Info: steelGraph.png  used on input line 147.
+Package pdftex.def Info: steelGraph.png  used on input line 160.
 (pdftex.def)             Requested size: 375.39584pt x 265.3868pt.
-[2] [3 <./copperGraph.png> <./aluminiumGraph.png>] [4 <./brassGraph.png> <./ste
-elGraph.png>]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 161.
 
-[5] (SkinDepthReport.aux)
+LaTeX Warning: Empty `thebibliography' environment on input line 174.
+
+[3] [4 <./copperGraph.png> <./aluminiumGraph.png>] [5 <./brassGraph.png> <./ste
+elGraph.png>] [6
+
+] (SkinDepthReport.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -662,28 +746,28 @@ Package rerunfilecheck Info: File `SkinDepthReport.out' has not changed.
 (rerunfilecheck)             Checksum: 85B0743CDD4C95E0038A30C3C46F8E56;516.
  ) 
 Here is how much of TeX's memory you used:
- 11311 strings out of 478659
- 182699 string characters out of 2855777
- 493317 words of memory out of 3000000
- 29252 multiletter control sequences out of 15000+600000
+ 11316 strings out of 478659
+ 182768 string characters out of 2855777
+ 496972 words of memory out of 3000000
+ 29256 multiletter control sequences out of 15000+600000
  410173 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,914b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,820b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on SkinDepthReport.pdf (6 pages, 5655751 bytes).
+eX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on SkinDepthReport.pdf (7 pages, 5664790 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
