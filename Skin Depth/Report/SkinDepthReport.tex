@@ -2,6 +2,7 @@
 \usepackage{tabularx} % extra features for tabular environment
 \usepackage{amsmath}  % improve math presentation
 \usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[utf8]{inputenc}
 \usepackage[margin=1in,letterpaper]{geometry} % decreases margins
 \usepackage{cite} % takes care of citations
 \usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
@@ -16,6 +17,25 @@
 	filecolor=magenta,     % color of file links
 	urlcolor=black         
 }
+
+\usepackage[sorting=none]{biblatex}
+
+\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+{\iffieldundef{prenote}
+	{}
+	{\BibliographyWarning{Ignoring prenote argument}}%
+	\iffieldundef{postnote}
+	{}
+	{\BibliographyWarning{Ignoring postnote argument}}}
+{\usebibmacro{citeindex}%
+	\bibopenbracket\usebibmacro{cite}\bibclosebracket}
+{\supercitedelim}
+{}
+
+
+\addbibresource{references.bib}
+
+\let\cite=\supercite
 
 \begin{document}
 
@@ -55,13 +75,13 @@
 ]
 
 \section{Introduction}
-	The skin effect is the distribution of alternating current in a conductor such that the current density decreases exponentially away from its surface.
+	The skin effect is the distribution of alternating current in a conductor such that the current density decreases exponentially away from its surface. The current is primarily between the surface of the conductor and a distance known as the skin depth. It is defined as the depth at which the amplitude of the AC wave has been reduced by $1/e$\cite{geosci}.
 	
 \section{Theory}
 
-	As alternating current flows through a conductor the interaction between the electric and magnetic fields in the conductor distribute the charge carriers towards the surface of the wire [HYPERPHYSICS]. This process acts in the same way regardless of whether AC current is flowing in the conductor, or if the electric and magnetic fields are induced by another source such as a solenoid [JACKSON].\\
+	As alternating current flows through a conductor the interaction between the electric and magnetic fields in the conductor distribute the charge carriers towards the surface of the wire\cite{hyperPhysics}. This process acts in the same way regardless of whether AC current is flowing in the conductor, or if the electric and magnetic fields are induced by another source such as a solenoid\cite{jackson}.\\
 	
-	A secondary pick-up coil can be wound around the conductor and due to the increase in electric field because of the charged particles at the surface, a voltage can be measured (as shown in figure \ref{fig:circuit}). Faraday's law of induction presents the voltage across the pick-up coil as a function of time [JACKSON]:
+	A secondary pick-up coil can be wound around the conductor and due to the increase in electric field because of the charged particles at the surface, a voltage can be measured (as shown in figure \ref{fig:circuit}). Faraday's law of induction presents the voltage across the pick-up coil as a function of time\cite{jackson}:
 	\begin{equation}
 		\scriptsize
 		V(t) = - i \omega N_2 \left( \int_{0}^{R} B(r) \cdot 2\pi r dr + \int_{R}^{R'} B_0 \cdot 2\pi r dr \right) e^{i\omega t}
@@ -69,7 +89,7 @@
 	\end{equation}
 	where the first integral represents flux within the sample and the second integral represents flux outside the sample. $N_2$ is the number of turns in the pick-up coil, $R$ the radius of the sample cylinder and $R'$ the mean radius of the pick-up coil.\\
 	
-	Following the derivations carried out in [MANUAL] it can be shown that Faraday's Law reduces to the following equation for the pick-up voltage as a linear equation dependent on skin depth:
+	Following the derivations carried out in H. D. Wiederick and N. Gauthier's paper\cite{manual} it can be shown that Faraday's Law reduces to the following equation for the pick-up voltage as a linear equation dependent on skin depth:
 	
 	\begin{equation}
 		\frac{V}{\nu} = \frac{a}{2} + b\delta
@@ -101,11 +121,11 @@
 	
 	Four cylinders were used, all of the same dimensions ($L = (389 \pm 0.5)\,\text{mm}$ $R = (4.8 \pm 0.25)\,\text{mm}$): Copper, aluminum, brass and steel. Each cylinder was wrapped at its midpoint with a pick-up coil, of a thicker insulated copper wire than the solenoid, containing $(100 \pm 10)$ turns. The tail ends of this coil were routed down the length and outside of the solenoid to where they could be connected to a voltmeter to take measurements.\\
 	
-	Voltages were measured from this pick-up coil for 30 frequencies between $6.5 \,\text{kHz}$ and $62.5 \,\text{kHz}$. This range was decided upon based on the results of the same skin depth experiment carried out by H.D. Wiederick and N. Gauthier [MANUAL]. These data were recorded and the voltage divided by the frequency ($V \nu^{-1}$) was plotted against the inverse of the square root of the frequency ($\nu ^{-1/2}$). This was repeated for all four cylinders.
+	Voltages were measured from this pick-up coil for 30 frequencies between $6.5 \,\text{kHz}$ and $62.5 \,\text{kHz}$. This range was decided upon based on the results of the same skin depth experiment carried out by H.D. Wiederick and N. Gauthier\cite{manual}. These data were recorded and the voltage divided by the frequency ($V \nu^{-1}$) was plotted against the inverse of the square root of the frequency ($\nu ^{-1/2}$). This was repeated for all four cylinders.
 	
 \section{Results and Analysis}
 	
-	The voltage divided by the frequency ($V \nu^{-1}$) was plotted against the inverse of the square root of the frequency ($\nu ^{-1/2}$) for each cylinder in figures \ref{fig:copperGraph}, \ref{fig:aluminiumGraph}, \ref{fig:brassGraph} and \ref{fig:steelGraph}. Scatter plots were used to display the data and a linear least squares fit was used to calculate the slope of the linear portion of the data. At higher frequencies the data deviates significantly from the expected linear result and is hence excluded from the fit calculation. This was unexpected although it is likely due to the skin depth at high frequencies becoming comparable to the air gap between the pick-up coil and the conductor. This leads to a breakdown in the assumptions made in the theory[MANUAL].\\
+	The voltage divided by the frequency ($V \nu^{-1}$) was plotted against the inverse of the square root of the frequency ($\nu ^{-1/2}$) for each cylinder in figures \ref{fig:copperGraph}, \ref{fig:aluminiumGraph}, \ref{fig:brassGraph} and \ref{fig:steelGraph}. Scatter plots were used to display the data and a linear least squares fit was used to calculate the slope of the linear portion of the data. At higher frequencies the data deviates significantly from the expected linear result and is hence excluded from the fit calculation. This was unexpected although it is likely due to the skin depth at high frequencies becoming comparable to the air gap between the pick-up coil and the conductor. This leads to a breakdown in the assumptions made in the theory\cite{manual}.\\
 	
 	\begin{table}[]
 		\centering
@@ -120,7 +140,7 @@
 			\end{tabular}%
 		}
 		\captionsetup{font=scriptsize}
-		\caption{The calculated conductivity for each metal cylinder. The uncertainties shown were calculated using error propagation. See appendix [PYTHON ERROR]}
+		\caption{The calculated conductivity for each metal cylinder. The uncertainties shown were calculated using error propagation. See Appendix 1}
 		\label{tab:conductivity}
 	\end{table}
 	
@@ -134,15 +154,15 @@
 		\label{fig:skinDepth}
 	\end{figure}	
 	
-	When calculating the conductivity we had initially made the assumption that the permeability of all the conductors was sufficiently close to the permeability of free space, $\mu_0$. Although this is true for the copper, aluminium and brass samples, this is not true for ferromagnetic materials such as the steel sample and a factor for the relative permeability was included in the calculations. Based on trial values for the relative permeability of steel, and comparing the resulting conductivity to reference values, the unknown steel sample was determined to be a stainless steel with relative permeability of $\approx 95$ [REFERENCE]. \\
+	When calculating the conductivity we had initially made the assumption that the permeability of all the conductors was sufficiently close to the permeability of free space, $\mu_0$. Although this is true for the copper, aluminium and brass samples, this is not true for ferromagnetic materials such as the steel sample and a factor for the relative permeability was included in the calculations. Based on trial values for the relative permeability of steel, and comparing the resulting conductivity to reference values, the unknown steel sample was determined to be a stainless steel with relative permeability of $\approx 95$\cite{steel}. \\
 	
 	The uncertainties on the data points in figures \ref{fig:copperGraph}, \ref{fig:aluminiumGraph}, \ref{fig:brassGraph} and \ref{fig:steelGraph} were primarily due to uncertainty on the pick-up voltage. While the voltmeter read to an uncertainty of $\pm 0.005\,\text{mV}$, because the voltage was dependent on the current, the uncertainty on the current is the sole contributing factor to the uncertainty on the voltage. And as the current was dependent on the frequency, particular care to correctly calculate the uncertainty was needed.\\
 	
-	For each cylinder, at several evenly spaced fixed frequencies, a range of voltages were measured for currents $\pm 1 \,\text{mA}$ of the target current ($19$ mA). These data were plotted to determine if they were linear and a least squares fit was created. The uncertainty on the voltage for that frequency was calculated by taking the change in voltage between 18.9 mA and 19.1 mA - the uncertainty on the current - and diving the result by two. From this, an uncertainty on the voltage for these particular frequencies was calculated. A similar process was repeated on these data; They were plotted to determine if they were linear and a least squares fit was used to create a function to estimate the voltage uncertainty for all frequencies. These data were all recorded in [APPENDIX] and the error propagation was calculated in [APPENDIX PYTHON]\\
+	For each cylinder, at several evenly spaced fixed frequencies, a range of voltages were measured for currents $\pm 1 \,\text{mA}$ of the target current ($19$ mA). These data were plotted to determine if they were linear and a least squares fit was created. The uncertainty on the voltage for that frequency was calculated by taking the change in voltage between 18.9 mA and 19.1 mA - the uncertainty on the current - and diving the result by two. From this, an uncertainty on the voltage for these particular frequencies was calculated. A similar process was repeated on these data; They were plotted to determine if they were linear and a least squares fit was used to create a function to estimate the voltage uncertainty for all frequencies. These data were all recorded in Appendix 3 and the error propagation was calculated in Appendix 2\\
 	
 
 \section{Conclusion}
-	The conductivities calculated were compared to reference values. We calculated the conductivity of copper to be $(97.7 \pm 54.5) \times 10^6 \,\text{S m}^{-1}$. This is considerably far from the expected result of $59.6 \times 10^6 \,\text{S m}^{-1}$[REFERENCE] although within the range of uncertainty. Similarly for aluminium, the calculated conductivity $(60.7 \pm 17.9) \times 10^6 \,\text{S m}^{-1}$ is far from the expected result of $37.7 \times 10^6 \,\text{S m}^{-1}$ [REFERENCE]. As the composition of the brass was unknown an exact reference value cannot be quoted however the calculated conductivity of $(12.5 \pm 3.7) \times 10^6\,\text{S m}^{-1}$ is similar to that of a 30\% zinc brass with conductivity $17 \times 10^6 \,\text{S m}^{-1}$. Similarly the conductivity of the steel sample, $(4.3 \pm 1.4) \times 10^6 \,\text{S m}^{-1}$, was found to be close to the expected result of stainless steel at $1.45 \times 10^6 \,\text{S m}^{-1}$. Some of the discrepancy between these values comes from a temperature difference unaccounted for in the experiment. The reference values were all measured for a sample at 20°C whereas temperature was not factored into this experiment. \\
+	The conductivities calculated were compared to reference values. We calculated the conductivity of copper to be $(97.7 \pm 54.5) \times 10^6 \,\text{S m}^{-1}$. This is considerably far from the expected result of $58.9 \times 10^6 \,\text{S m}^{-1}$\cite{conductivityCopper} although within the range of uncertainty. Similarly for aluminium, the calculated conductivity $(60.7 \pm 17.9) \times 10^6 \,\text{S m}^{-1}$ is far from the expected result of $35.38 \times 10^6 \,\text{S m}^{-1}$\cite{iowa}. As the composition of the brass was unknown an exact reference value cannot be quoted however the calculated conductivity of $(12.5 \pm 3.7) \times 10^6\,\text{S m}^{-1}$ is similar to that of a 30\% zinc brass with conductivity $17 \times 10^6 \,\text{S m}^{-1}$\cite{conductivityBrass}. Similarly the conductivity of the steel sample, $(4.3 \pm 1.4) \times 10^6 \,\text{S m}^{-1}$, was found to be close to the expected result of stainless steel at $1.45 \times 10^6 \,\text{S m}^{-1}$\cite{conductivity}. Some of the discrepancy between these values comes from a temperature difference unaccounted for in the experiment. The reference values were all measured for a sample at 20°C whereas temperature was not factored into this experiment. \\
 	
 	To conclude, by comparison of the theory to experiment, the frequency dependence of the skin effect was determined and used to calculate the conductivity and hence the skin depth of four metal samples as a function of frequency.\\
 	
@@ -175,15 +195,8 @@
 		\label{fig:steelGraph}
 	\end{figure*}
 
-\begin{thebibliography}{}
-	
-	
-	%https://www.engineeringtoolbox.com/conductors-d_1381.html - Conductivity of copper and aluminium
-	%https://www.copper.org/applications/industrial/DesignGuide/selection/conductbrass02.html - Brass conductivity decreases with zinc content
-	%https://www.thoughtco.com/table-of-electrical-resistivity-conductivity-608499 - electrical steel
-	
-\end{thebibliography}
-
+%\newpage
+\printbibliography
 	
 \twocolumn[
 \begin{@twocolumnfalse}
