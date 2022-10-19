@@ -2,6 +2,22 @@
 
 % Packages
 \usepackage{graphicx}
+\usepackage{cite}
+
+\usepackage[sorting=none]{biblatex}
+% Makes citing apear in supertext
+\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+{\iffieldundef{prenote}
+	{}
+	{\BibliographyWarning{Ignoring prenote argument}}%
+	\iffieldundef{postnote}
+	{}
+	{\BibliographyWarning{Ignoring postnote argument}}}
+{\usebibmacro{citeindex}%
+	\bibopenbracket\usebibmacro{cite}\bibclosebracket}
+{\supercitedelim}
+{}
+\let\cite=\supercite
 
 \begin{document}
 	
@@ -31,5 +47,37 @@
 			
 		\end{center}
 	\end{titlepage}
-	hello
+	
+	\twocolumn[
+	\begin{@twocolumnfalse}
+		\begin{abstract}
+			The aim of this experiment was to calibrate a CCD for spectroscopy and determine the resolution of a spectrograph. This was done by comparing the emission spectrum of a mercury arc lap to reference values... INSERT RESULTS.
+		\end{abstract}
+	\end{@twocolumnfalse}
+	]
+	
+	\section{Introduction}
+	
+	\section{Theory}
+		A diffraction grating is used to split incident light into its separate wavelengths. As a diffraction grating is an array of very narrow and evenly spaced slits, the diffraction pattern from each slit interferes such that the light disperses by a angle $\theta$ as described by equation \ref{eq:diffraction}\cite{hyperPhysics}.
+		\begin{equation}
+			n \lambda = d sin\theta
+			\label{eq:diffraction}
+		\end{equation} where $d$ is the spacing between the slits, $\lambda$ is the wavelength of the incident light, $\theta$ is the angle which the light is diffracted by and $n$ is a positive integer.
+	
+		Diffraction grating and equation + figure, what is the spectrograph setup, arc lamps + emission lines
+	
+	\section{Methodology}
+		\subsection{Apparatus}
+			Photo of experimental setup + focal lengths of all pieces, Atik 314L+ CCD
+	
+		\subsection{Determining the Readnoise and the Gain}
+		
+		\subsection{Wavelength Calibration}
+	
+		\subsection{Determining the Resolution of the Spectrograph}
+	
+	\section{Results and Analysis}
+	
+	\section{Conclusion}
 \end{document}
