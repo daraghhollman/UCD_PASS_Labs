@@ -2,10 +2,9 @@
 
 % Packages
 \usepackage{graphicx}
-\usepackage{cite}
 
+% Making cites superscript
 \usepackage[sorting=none]{biblatex}
-% Makes citing apear in supertext
 \DeclareCiteCommand{\supercite}[\mkbibsuperscript]
 {\iffieldundef{prenote}
 	{}
@@ -18,6 +17,9 @@
 {\supercitedelim}
 {}
 \let\cite=\supercite
+
+% Adding the bibliography file
+\addbibresource{references.bib}
 
 \begin{document}
 	
@@ -80,4 +82,6 @@
 	\section{Results and Analysis}
 	
 	\section{Conclusion}
+	
+	\printbibliography
 \end{document}
