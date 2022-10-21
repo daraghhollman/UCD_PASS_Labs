@@ -63,6 +63,46 @@
       \field{title}{Sears and Zemansky's university physics: with modern physics}
       \field{year}{2020}
     \endentry
+    \entry{atnf}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Obtaining Astronomical Spectra - Spectrographs}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.atnf.csiro.au/outreach/education/senior/astrophysics/spectrographs.html
+      \endverb
+      \verb{url}
+      \verb https://www.atnf.csiro.au/outreach/education/senior/astrophysics/spectrographs.html
+      \endverb
+    \endentry
+    \entry{manual}{article}{}
+      \name{author}{1}{}{%
+        {{hash=41f10f94b473fecd124d76478cea7267}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Morgan},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{41f10f94b473fecd124d76478cea7267}
+      \strng{fullhash}{41f10f94b473fecd124d76478cea7267}
+      \strng{bibnamehash}{41f10f94b473fecd124d76478cea7267}
+      \strng{authorbibnamehash}{41f10f94b473fecd124d76478cea7267}
+      \strng{authornamehash}{41f10f94b473fecd124d76478cea7267}
+      \strng{authorfullhash}{41f10f94b473fecd124d76478cea7267}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{8}
+      \field{title}{CCDs and Spectroscopy}
+      \field{year}{2022}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

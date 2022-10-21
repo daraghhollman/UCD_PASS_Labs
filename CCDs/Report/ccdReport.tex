@@ -2,6 +2,7 @@
 
 % Packages
 \usepackage{graphicx}
+\usepackage{caption} % more customisation options for captions, used for fontsize in figures.
 
 % Making cites superscript
 \usepackage[sorting=none]{biblatex}
@@ -65,13 +66,15 @@
 		\begin{equation}
 			n \lambda = d sin\theta
 			\label{eq:diffraction}
-		\end{equation} where $d$ is the spacing between the slits, $\lambda$ is the wavelength of the incident light, $\theta$ is the angle which the light is diffracted by and $n$ is a positive integer. This process is the primary component of a spectrograph.
+		\end{equation} where $d$ is the spacing between the slits, $\lambda$ is the wavelength of the incident light, $\theta$ is the angle which the light is diffracted by and $n$ is a positive integer. This process is the primary element of a spectrograph.\\
 	
+		A spectrograph is an instrument used to measure incoming light and record its spectrum\cite{atnf}. It splits the incoming light based on its wavelength through diffraction. There are five key components to a spectrograph: telescope, slit, collimator, diffraction grating and detector, as shown in figure \ref{fig:spectrograph}. The telescope focuses the incident light on the slit which only allows a small (ideally 1D) slice of the target through\cite{manual}. The light diverges after the slit and so a collimator is used to make the rays parallel again to ensure that all parts of the light hit the grating at the same angle of incidence. The light then hits the grating and is diffracted at an angle according to its wavelength.
+		
 		\begin{figure}
 			\includegraphics[width=\columnwidth]{spectrograph_refl-transformed.png}
+			\captionsetup{font=scriptsize}
+			\caption{Diagram of a sample spectrograph setup. The primary lens focuses the incident light through a slit. The collimator makes the rays parallel as they diffract off of the reflection grating. A last lens focuses the rays on the detector.}
 			\label{fig:spectrograph}
-			\
-			\caption{text}
 		\end{figure}
 	
 		Diffraction grating and equation + figure, what is the spectrograph setup, arc lamps + emission lines
