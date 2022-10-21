@@ -19,33 +19,49 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{hyperPhysics}{online}{}
-      \name{author}{1}{}{%
-        {{hash=d75f55b548b7cd1cc4d20bd11d1d710f}{%
-           family={Developers},
-           familyi={D\bibinitperiod},
-           given={GeoSci},
-           giveni={G\bibinitperiod}}}%
+    \entry{universityPhysics}{book}{}
+      \name{author}{5}{}{%
+        {{hash=cdcb55db9d535bec955f5911f1ac4e59}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Hugh\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=073003dafd6f7a0d40236b25403e4573}{%
+           family={Freedman},
+           familyi={F\bibinitperiod},
+           given={Roger\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a57603fe654f32c05fe27d16b75aa132}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a10c47563deb0c0948f04a0a5205dfe5}{%
+           family={Sears},
+           familyi={S\bibinitperiod},
+           given={Francis\bibnamedelima W.},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=626fd1fc11d5a0ec50578886f434bf8c}{%
+           family={Zemansky},
+           familyi={Z\bibinitperiod},
+           given={Mark\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
-      \strng{namehash}{d75f55b548b7cd1cc4d20bd11d1d710f}
-      \strng{fullhash}{d75f55b548b7cd1cc4d20bd11d1d710f}
-      \strng{bibnamehash}{d75f55b548b7cd1cc4d20bd11d1d710f}
-      \strng{authorbibnamehash}{d75f55b548b7cd1cc4d20bd11d1d710f}
-      \strng{authornamehash}{d75f55b548b7cd1cc4d20bd11d1d710f}
-      \strng{authorfullhash}{d75f55b548b7cd1cc4d20bd11d1d710f}
+      \list{publisher}{1}{%
+        {Pearson Education Limited}%
+      }
+      \strng{namehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{fullhash}{ca98cc13437826cf9da41066bd6e76aa}
+      \strng{bibnamehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{authorbibnamehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{authornamehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{authorfullhash}{ca98cc13437826cf9da41066bd6e76aa}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Attenuation and Skin Depth}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://em.geosci.xyz/content/maxwell1_fundamentals/harmonic_planewaves_homogeneous/skindepth.html
-      \endverb
-      \verb{url}
-      \verb https://em.geosci.xyz/content/maxwell1_fundamentals/harmonic_planewaves_homogeneous/skindepth.html
-      \endverb
+      \field{title}{Sears and Zemansky's university physics: with modern physics}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection
