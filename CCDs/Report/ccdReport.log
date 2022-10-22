@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.20)  22 OCT 2022 13:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.20)  22 OCT 2022 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,12 +467,12 @@ Package pdftex.def Info: UCDLogo.png  used on input line 39.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./UCDLogo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 74--75
+Underfull \hbox (badness 2012) in paragraph at lines 75--76
 \OT1/cmr/m/n/12 mea-sure in-com-ing light and record its
  []
 
@@ -480,118 +480,217 @@ Underfull \hbox (badness 2012) in paragraph at lines 74--75
 File: spectrograph_refl-transformed.png Graphic file (type png)
 <use spectrograph_refl-transformed.png>
 Package pdftex.def Info: spectrograph_refl-transformed.png  used on input line 
-77.
+78.
 (pdftex.def)             Requested size: 221.0pt x 168.15694pt.
 [1
 
 
- <./spectrograph_refl-transformed.png (PNG copy)>]
-<ccdDiagram.png, id=20, 4223.78pt x 3131.7pt>
+]
+Underfull \hbox (badness 1546) in paragraph at lines 88--89
+\OT1/cmr/m/n/12 noise which must be ac-counted for to
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 88--89
+\OT1/cmr/m/n/12 and non-uniformities in the de-tec-tor$[]$.
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 88--89
+\OT1/cmr/m/n/12 field im-ages, are uni-formly il-lu-mi-nated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+<ccdDiagram.png, id=22, 4223.78pt x 3131.7pt>
 File: ccdDiagram.png Graphic file (type png)
 <use ccdDiagram.png>
-Package pdftex.def Info: ccdDiagram.png  used on input line 94.
+Package pdftex.def Info: ccdDiagram.png  used on input line 95.
 (pdftex.def)             Requested size: 221.0pt x 163.85762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []\OT1/cmr/bx/n/14.4 Determining Read-noise
  []
 
-<mercurySpectrum.jpg, id=21, 469.755pt x 321.2pt>
+
+Underfull \vbox (badness 4886) has occurred while \output is active []
+
+ [2 <./spectrograph_refl-transformed.png (PNG copy)> <./ccdDiagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+<mercurySpectrum.jpg, id=28, 469.755pt x 321.2pt>
 File: mercurySpectrum.jpg Graphic file (type jpg)
 <use mercurySpectrum.jpg>
-Package pdftex.def Info: mercurySpectrum.jpg  used on input line 118.
+Package pdftex.def Info: mercurySpectrum.jpg  used on input line 121.
 (pdftex.def)             Requested size: 221.0pt x 151.11105pt.
+<mercuryEmission.png, id=29, 977.0904pt x 603.4545pt>
+File: mercuryEmission.png Graphic file (type png)
+<use mercuryEmission.png>
+Package pdftex.def Info: mercuryEmission.png  used on input line 130.
+(pdftex.def)             Requested size: 221.0pt x 136.48962pt.
+[3 <./mercurySpectrum.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\OT1/cmr/m/n/12 The gain was cal-cu-lated to be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+\OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 58 \OMS/cmsy/m/n/12 ^^F \OT
+1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 74) \OMS/cmsy/m/n/12 ^^B \OT1/c
+mr/m/n/12 10[]$ and read-noise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+<HgPeaks.png, id=34, 812.3148pt x 742.2129pt>
+File: HgPeaks.png Graphic file (type png)
+<use HgPeaks.png>
+Package pdftex.def Info: HgPeaks.png  used on input line 152.
+(pdftex.def)             Requested size: 221.0pt x 201.91774pt.
+<calibration.png, id=35, 788.4657pt x 742.2129pt>
+File: calibration.png Graphic file (type png)
+<use calibration.png>
+Package pdftex.def Info: calibration.png  used on input line 159.
+(pdftex.def)             Requested size: 221.0pt x 208.03337pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./ccdDiagram.png>]
-Underfull \hbox (badness 2173) in paragraph at lines 134--134
-[]\OT1/cmr/m/n/12 Australia Tele-scope Na-tional Fa-cil-
+ [4 <./mercuryEmission.png> <./HgPeaks.png>]
+Underfull \hbox (badness 1077) in paragraph at lines 170--171
+\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 40 \OMS/cmsy/m/n/12 ^^F \OT1/cmr/m/n/12 130
+$, where the un-cer-tain-ties on
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 134--134
-\OT1/cmr/m/n/12 ity. \OT1/cmr/m/it/12 Ob-tain-ing As-tro-nom-i-cal Spec-tra
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
  []
 
-
-Underfull \hbox (badness 2772) in paragraph at lines 134--134
-\OT1/cmr/m/it/12 - Spec-tro-graphs\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cm
-r/m/n/12 : $\OT1/cmtt/m/n/12 https : / /
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 134--134
-\OT1/cmtt/m/n/12 spectrographs . html$ \OT1/cmr/m/n/12 (vis-ited on
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 134--134
+<sodiumSpectrum.png, id=41, 821.7099pt x 742.2129pt>
+File: sodiumSpectrum.png Graphic file (type png)
+<use sodiumSpectrum.png>
+Package pdftex.def Info: sodiumSpectrum.png  used on input line 175.
+(pdftex.def)             Requested size: 221.0pt x 199.61871pt.
+<resolutions.png, id=42, 780.516pt x 745.1037pt>
+File: resolutions.png Graphic file (type png)
+<use resolutions.png>
+Package pdftex.def Info: resolutions.png  used on input line 182.
+(pdftex.def)             Requested size: 221.0pt x 210.9697pt.
+<slitWidth.png, id=43, 810.1467pt x 742.2129pt>
+File: slitWidth.png Graphic file (type png)
+<use slitWidth.png>
+Package pdftex.def Info: slitWidth.png  used on input line 189.
+(pdftex.def)             Requested size: 221.0pt x 202.46135pt.
+[5 <./calibration.png>]
+Underfull \hbox (badness 1590) in paragraph at lines 199--199
 []\OT1/cmr/m/n/12 Fraser M. \OT1/cmr/m/it/12 CCDs and Spec-troscopy\OT1/cmr/m/n
 /12 .
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 134--134
+Underfull \hbox (badness 2173) in paragraph at lines 199--199
+[]\OT1/cmr/m/n/12 Australia Tele-scope Na-tional Fa-cil-
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 199--199
+\OT1/cmr/m/n/12 ity. \OT1/cmr/m/it/12 Ob-tain-ing As-tro-nom-i-cal Spec-tra
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 199--199
+\OT1/cmr/m/it/12 - Spec-tro-graphs\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cm
+r/m/n/12 : $\OT1/cmtt/m/n/12 https : / /
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 199--199
+\OT1/cmtt/m/n/12 spectrographs . html$ \OT1/cmr/m/n/12 (vis-ited on
+ []
+
+[6 <./sodiumSpectrum.png> <./resolutions.png> <./slitWidth.png>]
+Underfull \hbox (badness 1331) in paragraph at lines 199--199
 []\OT1/cmr/m/n/12 Dhillon V. \OT1/cmr/m/it/12 Spec-tro-graphs\OT1/cmr/m/n/12 . 
 Sept. 18,
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 134--134
+Underfull \hbox (badness 1596) in paragraph at lines 199--199
 \OT1/cmtt/m/n/12 astropy . org / ccd -[] reduction -[]
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 134--134
+Underfull \hbox (badness 2818) in paragraph at lines 199--199
 []\OT1/cmr/m/n/12 Davidson M. W. \OT1/cmr/m/it/12 Fun-da-men-tals of
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 134--134
+Underfull \hbox (badness 1281) in paragraph at lines 199--199
 \OT1/cmr/m/it/12 Mer-cury Arc Lamps\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/c
 mr/m/n/12 : $\OT1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 134--134
+Underfull \hbox (badness 4779) in paragraph at lines 199--199
 \OT1/cmtt/m/n/12 edu / articles / lightsources /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 \OT1/cmtt/m/n/12 mercuryarc . html$ \OT1/cmr/m/n/12 (vis-ited on
  []
 
-[3 <./mercurySpectrum.jpg>] (./ccdReport.aux)
+
+Underfull \hbox (badness 4647) in paragraph at lines 199--199
+\OT1/cmr/m/it/12 Sodium\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : 
+$\OT1/cmtt/m/n/12 https : / / www .
+ []
+
+[7
+
+] (./ccdReport.aux)
 Package logreq Info: Writing requests to 'ccdReport.run.xml'.
 \openout1 = `ccdReport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11341 strings out of 480247
- 215059 string characters out of 5896150
- 908878 words of memory out of 5000000
- 29201 multiletter control sequences out of 15000+600000
- 476138 words of font info for 52 fonts, out of 8000000 for 9000
+ 11402 strings out of 480247
+ 216388 string characters out of 5896150
+ 910058 words of memory out of 5000000
+ 29256 multiletter control sequences out of 15000+600000
+ 476978 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,8n,68p,825b,1508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,68p,1017b,1508s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ccdReport.pdf (4 pages, 20656800 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ccdReport.pdf (8 pages, 21103680 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

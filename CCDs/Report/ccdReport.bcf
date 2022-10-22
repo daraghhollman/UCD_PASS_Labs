@@ -2344,24 +2344,32 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">universityPhysics</bcf:citekey>
-    <bcf:citekey order="2">atnf</bcf:citekey>
-    <bcf:citekey order="3">manual</bcf:citekey>
-    <bcf:citekey order="4">vik</bcf:citekey>
-    <bcf:citekey order="5">vik</bcf:citekey>
-    <bcf:citekey order="6">manual</bcf:citekey>
-    <bcf:citekey order="7">astropy</bcf:citekey>
-    <bcf:citekey order="8">manual</bcf:citekey>
+    <bcf:citekey order="1">specInst</bcf:citekey>
+    <bcf:citekey order="2">manual</bcf:citekey>
+    <bcf:citekey order="3">universityPhysics</bcf:citekey>
+    <bcf:citekey order="4">atnf</bcf:citekey>
+    <bcf:citekey order="5">manual</bcf:citekey>
+    <bcf:citekey order="6">vik</bcf:citekey>
+    <bcf:citekey order="7">vik</bcf:citekey>
+    <bcf:citekey order="8">maglab</bcf:citekey>
     <bcf:citekey order="9">manual</bcf:citekey>
-    <bcf:citekey order="10">manual</bcf:citekey>
-    <bcf:citekey order="11">zeiss</bcf:citekey>
-    <bcf:citekey order="12">zeiss</bcf:citekey>
-    <bcf:citekey order="13">universityPhysics</bcf:citekey>
-    <bcf:citekey order="14">atnf</bcf:citekey>
-    <bcf:citekey order="15">manual</bcf:citekey>
-    <bcf:citekey order="16">vik</bcf:citekey>
-    <bcf:citekey order="17">astropy</bcf:citekey>
-    <bcf:citekey order="18">zeiss</bcf:citekey>
+    <bcf:citekey order="10">astropy</bcf:citekey>
+    <bcf:citekey order="11">manual</bcf:citekey>
+    <bcf:citekey order="12">manual</bcf:citekey>
+    <bcf:citekey order="13">manual</bcf:citekey>
+    <bcf:citekey order="14">zeiss</bcf:citekey>
+    <bcf:citekey order="15">zeiss</bcf:citekey>
+    <bcf:citekey order="16">manual</bcf:citekey>
+    <bcf:citekey order="17">uci</bcf:citekey>
+    <bcf:citekey order="18">specInst</bcf:citekey>
+    <bcf:citekey order="19">manual</bcf:citekey>
+    <bcf:citekey order="20">universityPhysics</bcf:citekey>
+    <bcf:citekey order="21">atnf</bcf:citekey>
+    <bcf:citekey order="22">vik</bcf:citekey>
+    <bcf:citekey order="23">maglab</bcf:citekey>
+    <bcf:citekey order="24">astropy</bcf:citekey>
+    <bcf:citekey order="25">zeiss</bcf:citekey>
+    <bcf:citekey order="26">uci</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
