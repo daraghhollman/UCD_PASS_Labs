@@ -1,0 +1,113 @@
+% Requires running Bibtex
+
+\documentclass[%
+reprint,
+amsmath,amssymb,
+aps,
+]{revtex4-2}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{hyperref}% add hypertext capabilities
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=black,        % color of internal links
+	citecolor=black,        % color of links to bibliography
+	filecolor=black,     % color of file links
+	urlcolor=black         
+}
+
+\begin{document}
+	
+	\preprint{APS/123-QED}
+	
+	\title{PHYC30170 Physics with Astronomy and Space Science Lab 1;\\Astronomical Image Analysis}% Force line breaks with \\
+	
+	\author{Daragh Hollman}
+	\email{daragh.hollman@ucdconnect.ie}
+	
+	\date{\today}
+	
+	\begin{abstract}
+		An article usually includes an abstract, a concise summary of the work
+		covered at length in the main body of the article. 
+	\end{abstract}
+
+	\maketitle
+	
+	\section{Introduction}
+	
+		This is the introduction.\\
+		
+		IAC 80 Telescope at the Teide Observatory on Tenerife.
+	
+	
+	\section{Theory}
+	
+		This is the theory section.
+	
+		\subsection{Image Reduction}
+			\subsection{Bias Images}
+			
+			\subsection{Flat Field Images}
+		
+		\subsection{Aperture Photometry}
+		
+			\begin{equation}
+				m_{std} = -2.5 \, \log_{10}\left(\frac{F}{t}\right) + \text{ZP}
+				\label{eq:mag}
+			\end{equation} where $m_{std}$ is the calibrated magnitude of a source in the system, $F$ is the measured background-subtracted counts from the light source, $t$ is the exposure time and $\text{ZP}$ is the zeropoint for the image.\\
+		
+			Do some talking about what the zeropoint actually is.\\
+			
+			Rearranging equation \ref{eq:mag} for $\text{ZP}$:
+			
+			\begin{equation}
+				\text{ZP} = m_{std} + 2.5 \log_{10}\left(\frac{F}{t}\right)
+				\label{eq:zeropoint}
+			\end{equation}
+		
+		\subsection{CCD}
+		
+			A CCD is used...\\
+			
+			Signal to noise (which can be compared to the fits file data)...\\
+			
+			\begin{equation}
+				\frac{S}{N} = \frac{F_\star}{\sqrt{F_\star + n_\star \left( 1 + \frac{n_\star}{n_\text{sky}}\right) \times \left(F_\text{sky} + R^2\right)}}
+			\end{equation}where $\frac{S}{N}$ is the signal noise ratio, $F_\star$ and $F_\text{sky}$ are the number of counts measured from the source and the background annulus respectively, $n_\star$ and $n_\text{sky}$ are the number of pixels within the  
+	 
+	\section{Methodology}
+	
+		\subsection{Data Reduction}
+		
+		\subsection{Determining the Size of Messier 91}
+			
+			\subsubsection{Angular Size}
+			
+			\subsubsection{Adjusting for Inclination and Position Angle}
+		
+		
+		\subsection{NN Serpentis}
+		
+		
+	\section{Results}
+	
+		\subsection{Messier 91}
+		
+		\subsection{NN Serpentis}
+
+	\section{Conclusion}
+		
+		
+	\bibliography{apssamp}% Produces the bibliography via BibTeX.
+		
+	\appendix
+		
+	\section{Python Code}
+		
+		
+		
+\end{document}
+
