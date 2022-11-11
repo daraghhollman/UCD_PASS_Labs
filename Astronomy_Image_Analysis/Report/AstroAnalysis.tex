@@ -37,10 +37,8 @@ aps,
 	\maketitle
 	
 	\section{Introduction}
-	
-		This is the introduction.\\
-		
-		IAC 80 Telescope at the Teide Observatory on Tenerife.
+
+		Astronomical image analysis is fundamental to the understanding...
 	
 	
 	\section{Theory}
@@ -48,9 +46,7 @@ aps,
 		This is the theory section.
 	
 		\subsection{Image Reduction}
-			\subsection{Bias Images}
-			
-			\subsection{Flat Field Images}
+			When taking images in astronomy there exists a level of background noise and non-uniformities which must be accounted for to ensure accurate measurements. Removing these effects is known as data reduction\cite{manual}. This noise comes from many things including readout electronics, thermal emissions, and non-uniformities in the detector\cite{astropy}. To ameliorate some of these noises and remove non-uniformities, flat field and bias frames are taken. Flat field frames (flats) are controlled, uniformly illuminated images used to correct for non-uniformities in the detector. Bias frames (biases) are images taken with a near (ideally exactly) zero second exposure time. These are used to ameliorate noise due to readout electronics. They contain no light and hence provide a constant offset which can be subtracted from all further images. Signals due to thermal emissions can be accounted for by keeping the imaging device cool.\\
 		
 		\subsection{Aperture Photometry}
 		
@@ -80,7 +76,11 @@ aps,
 	 
 	\section{Methodology}
 	
+		The images analysed in this experiment were taken by the IAC 80 Telescope at the Teide Observatory on Tenerife. The two objects analysed were Messier 91 (M91), a barred spiral galaxy\cite{messier}, and NN Serpentis (NN Ser), a post-main sequence eclipsing binary\cite{Horner_2012}. 63 images of M91 were taken, 21 biases, 11 flat field images were taken in 3 filters B, V and H$\alpha$ and 9 images of the object itself were taken divided between the 3 filters. 46 images were taken of NN Ser. 21 biases, 7 flats and 18 object images, all in the clear band. The images were all in FITS file formatting and were handled in python using the \texttt{ASTROPY} package.
+	
 		\subsection{Data Reduction}
+			
+			 For both the M91 and NN Ser images, the bias files and the flat files were averaged element-wise to create a master bias file which was an average of all the bias files. This was similarly done for the flat files in each band, however the master bias was subtracted from each flat image beforehand. Using these master files, each object image was then reduced by subtracting the master bias and diving by the master flat.
 		
 		\subsection{Determining the Size of Messier 91}
 			
@@ -101,7 +101,7 @@ aps,
 	\section{Conclusion}
 		
 		
-	\bibliography{apssamp}% Produces the bibliography via BibTeX.
+	\bibliography{AstroAnalysis}% Produces the bibliography via BibTeX.
 		
 	\appendix
 		

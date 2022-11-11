@@ -6,7 +6,8 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{4}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,4 +51,35 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {M.}({\natexlab{a}})}]{manual}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {M.}},\ }\href@noop {} {\bibinfo {title} {Astronomical iamge analysis}}
+  ({\natexlab{a}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M.}({\natexlab{b}})}]{astropy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {M.}},\ }\href {https://www.astropy.org/ccd-reduction-and-photometry-guide/}
+  {\bibinfo {title} {Ccd reduction and photemerty guide}}
+  ({\natexlab{b}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Objects}()}]{messier}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Objects}},\ }\href {https://www.messier-objects.com/messier-91/} {\bibinfo
+  {title} {Guide to the bright galaxies, nebulae and clusters listed in the
+  messier catalogue}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Horner}\ \emph {et~al.}(2012)\citenamefont {Horner},
+  \citenamefont {Wittenmyer}, \citenamefont {Hinse},\ and\ \citenamefont
+  {Tinney}}]{Horner_2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Horner}}, \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Wittenmyer}}, \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont
+  {Hinse}},\ and\ \bibinfo {author} {\bibfnamefont {C.~G.}\ \bibnamefont
+  {Tinney}},\ }\bibfield  {title} {\bibinfo {title} {A detailed investigation
+  of the proposed {NN} serpentis planetary system},\ }\href
+  {https://doi.org/10.1111/j.1365-2966.2012.21620.x} {\bibfield  {journal}
+  {\bibinfo  {journal} {Monthly Notices of the Royal Astronomical Society}\
+  }\textbf {\bibinfo {volume} {425}},\ \bibinfo {pages} {749} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
 \end{thebibliography}%
