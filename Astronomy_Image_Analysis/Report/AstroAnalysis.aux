@@ -15,6 +15,7 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{manual}
 \citation{astropy}
+\citation{modernAstro}
 \citation{messier}
 \citation{Horner_2012}
 \newlabel{FirstPage}{{}{1}{}{section*.1}{}}
@@ -23,31 +24,48 @@
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section*.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {II}Theory}{1}{section*.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {A}Image Reduction}{1}{section*.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {B}Aperture Photometry}{1}{section*.6}\protected@file@percent }
-\newlabel{eq:mag}{{1}{1}{}{equation.2.1}{}}
-\newlabel{eq:zeropoint}{{2}{1}{}{equation.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {C}CCD}{1}{section*.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {III}Methodology}{1}{section*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {A}Data Reduction}{1}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Apparent Size}{1}{section*.6}\protected@file@percent }
+\newlabel{eq:arctan}{{1}{1}{}{equation.2.1}{}}
+\newlabel{eq:angSize}{{2}{1}{}{equation.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Aperture Photometry}{1}{section*.7}\protected@file@percent }
+\newlabel{eq:mag}{{3}{1}{}{equation.2.3}{}}
+\newlabel{eq:zeropoint}{{4}{1}{}{equation.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}CCD}{1}{section*.8}\protected@file@percent }
+\citation{parsons}
+\citation{parsons}
+\citation{parsons}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Methodology}{2}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Data Reduction}{2}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Determining the Size of Messier 91}{2}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1}Angular Size}{2}{section*.12}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  An image of NN Serpentis. The reference stars used to calibrate the system to the r filter are circled to identify them.\relax }}{2}{figure.caption.16}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:rBandStars}{{1}{2}{An image of NN Serpentis. The reference stars used to calibrate the system to the r filter are circled to identify them.\relax }{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2}Adjusting for Inclination and Position Angle}{2}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Measuring Photometry of NN Serpentis and Plotting its Lightcurve}{2}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1}Calibrating to the r Filter and Determining Zeropoint}{2}{section*.15}\protected@file@percent }
 \bibdata{AstroAnalysisNotes,AstroAnalysis}
-\bibcite{manual}{{1}{}{{M.}}{{}}}
+\bibcite{manual}{{1}{8 24}{{M.}}{{}}}
 \bibcite{astropy}{{2}{}{{M.}}{{}}}
-\bibcite{messier}{{3}{}{{Objects}}{{}}}
-\bibcite{Horner_2012}{{4}{2012}{{Horner\ \emph  {et~al.}}}{{Horner, Wittenmyer, Hinse,\ and\ Tinney}}}
+\bibcite{modernAstro}{{3}{2018}{{Carroll\ and\ Ostlie}}{{}}}
+\bibcite{messier}{{4}{}{{Objects}}{{}}}
+\bibcite{Horner_2012}{{5}{2012}{{Horner\ \emph  {et~al.}}}{{Horner, Wittenmyer, Hinse,\ and\ Tinney}}}
+\bibcite{parsons}{{6}{2010}{{Parsons\ \emph  {et~al.}}}{{Parsons, Marsh, Copperwheat, Dhillon, Littlefair, Gänsicke,\ and\ Hickman}}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces A table of the reference stars used reference stars used to calibrate the system to the r filter\cite  {parsons}. The coordinate offset is with respect to NN Serpentis.\relax }}{3}{table.caption.17}\protected@file@percent }
+\newlabel{tab:pearsons}{{I}{3}{A table of the reference stars used reference stars used to calibrate the system to the r filter\cite {parsons}. The coordinate offset is with respect to NN Serpentis.\relax }{table.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  The reduced and combined image of Messier 91 with ellipses displaying the angular size. The red middle ellipse marks the calculated angular size with the baseline tolerance of 22 counts. The inner and outer ellipses mark the estimated bounds of uncertainty on the angular size. These were determined by changing the tolerance until the ellipse reached a position at which the angular size was either definitely larger (in the case of the outer bound) or definitely smaller (in the case of the inner bound) than the apparent angular size. This process of varying the tolerance to find appropriate bounds was done visually.\relax }}{3}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:angSize}{{2}{3}{The reduced and combined image of Messier 91 with ellipses displaying the angular size. The red middle ellipse marks the calculated angular size with the baseline tolerance of 22 counts. The inner and outer ellipses mark the estimated bounds of uncertainty on the angular size. These were determined by changing the tolerance until the ellipse reached a position at which the angular size was either definitely larger (in the case of the outer bound) or definitely smaller (in the case of the inner bound) than the apparent angular size. This process of varying the tolerance to find appropriate bounds was done visually.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2}Aperture Photometry of NN Serpentis}{3}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Results}{3}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Messier 91}{3}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}NN Serpentis}{3}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{3}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{3}{section*.24}\protected@file@percent }
 \bibstyle{apsrev4-2}
 \citation{REVTEX42Control}
 \citation{apsrev42Control}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B}Determining the Size of Messier 91}{2}{section*.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1}Angular Size}{2}{section*.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2}Adjusting for Inclination and Position Angle}{2}{section*.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {C}NN Serpentis}{2}{section*.13}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Results}{2}{section*.14}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {A}Messier 91}{2}{section*.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {B}NN Serpentis}{2}{section*.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{2}{section*.17}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {}References}{2}{section*.18}\protected@file@percent }
-\newlabel{LastBibItem}{{4}{2}{}{section*.18}{}}
+\newlabel{LastBibItem}{{6}{4}{}{section*.24}{}}
 \@writefile{toc}{\appendix }
-\@writefile{toc}{\contentsline {section}{\numberline {A}Python Code}{2}{section*.19}\protected@file@percent }
-\newlabel{LastPage}{{}{2}{}{}{}}
-\gdef \@abspage@last{2}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Python Code}{4}{section*.25}\protected@file@percent }
+\newlabel{LastPage}{{}{4}{}{}{}}
+\gdef \@abspage@last{4}

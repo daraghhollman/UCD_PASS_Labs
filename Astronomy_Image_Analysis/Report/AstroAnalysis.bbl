@@ -7,7 +7,7 @@
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{4}%
+\begin{thebibliography}{6}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -51,23 +51,34 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {M.}({\natexlab{a}})}]{manual}%
+\bibitem [{\citenamefont {M.}(8 24)}]{manual}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {M.}},\ }\href@noop {} {\bibinfo {title} {Astronomical iamge analysis}}
-  ({\natexlab{a}})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {M.}({\natexlab{b}})}]{astropy}%
+  {M.}},\ }\href@noop {} {\bibinfo {title} {Astronomical image analysis}}
+  (\bibinfo {year} {2022-08-24})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M.}()}]{astropy}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {M.}},\ }\href {https://www.astropy.org/ccd-reduction-and-photometry-guide/}
-  {\bibinfo {title} {Ccd reduction and photemerty guide}}
-  ({\natexlab{b}})\BibitemShut {NoStop}%
+  {M.}},\ }\href@noop {} {\bibinfo {title} {Ccd reduction and photemerty
+  guide}},\ \bibinfo {note}
+  {\url{https://www.astropy.org/ccd-reduction-and-photometry-guide/}, visited
+  2022-10-22}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carroll}\ and\ \citenamefont
+  {Ostlie}(2018)}]{modernAstro}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~W.}\ \bibnamefont
+  {Carroll}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Ostlie}},\ }\href@noop {} {{\selectlanguage {English}\emph {\bibinfo {title}
+  {An introduction to modern astrophysics}}}},\ \bibinfo {edition} {2nd}\ ed.\
+  (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo {address}
+  {Cambridge},\ \bibinfo {year} {2018})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Objects}()}]{messier}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Objects}},\ }\href {https://www.messier-objects.com/messier-91/} {\bibinfo
-  {title} {Guide to the bright galaxies, nebulae and clusters listed in the
-  messier catalogue}}\BibitemShut {NoStop}%
+  {Objects}},\ }\bibfield  {title} {\bibinfo {title} {Guide to the bright
+  galaxies, nebulae and clusters listed in the messier catalogue},\ }\href@noop
+  {} {\ }\bibinfo {note} {\url{https://www.messier-objects.com/messier-91/},
+  visited on 2022-11-10}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Horner}\ \emph {et~al.}(2012)\citenamefont {Horner},
   \citenamefont {Wittenmyer}, \citenamefont {Hinse},\ and\ \citenamefont
   {Tinney}}]{Horner_2012}%
@@ -82,4 +93,25 @@
   {\bibinfo  {journal} {Monthly Notices of the Royal Astronomical Society}\
   }\textbf {\bibinfo {volume} {425}},\ \bibinfo {pages} {749} (\bibinfo {year}
   {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parsons}\ \emph {et~al.}(2010)\citenamefont
+  {Parsons}, \citenamefont {Marsh}, \citenamefont {Copperwheat}, \citenamefont
+  {Dhillon}, \citenamefont {Littlefair}, \citenamefont {Gänsicke},\ and\
+  \citenamefont {Hickman}}]{parsons}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont
+  {Parsons}}, \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Marsh}},
+  \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Copperwheat}},
+  \bibinfo {author} {\bibfnamefont {V.~S.}\ \bibnamefont {Dhillon}}, \bibinfo
+  {author} {\bibfnamefont {S.~P.}\ \bibnamefont {Littlefair}}, \bibinfo
+  {author} {\bibfnamefont {B.~T.}\ \bibnamefont {Gänsicke}},\ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Hickman}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Precise mass and radius values for the white dwarf and
+  low mass M dwarf in the pre-cataclysmic binary NN Serpentis}},\ }\href
+  {https://doi.org/10.1111/j.1365-2966.2009.16072.x} {\bibfield  {journal}
+  {\bibinfo  {journal} {Monthly Notices of the Royal Astronomical Society}\
+  }\textbf {\bibinfo {volume} {402}},\ \bibinfo {pages} {2591} (\bibinfo {year}
+  {2010})},\ \Eprint
+  {https://arxiv.org/abs/https://academic.oup.com/mnras/article-pdf/402/4/2591/4903742/mnras0402-2591.pdf}
+  {https://academic.oup.com/mnras/article-pdf/402/4/2591/4903742/mnras0402-2591.pdf}
+  \BibitemShut {NoStop}%
 \end{thebibliography}%

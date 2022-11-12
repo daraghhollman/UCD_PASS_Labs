@@ -15,8 +15,6 @@ Database file #1: AstroAnalysisNotes.bib
 Database file #2: AstroAnalysis.bib
 Warning--entry type for "astropy" isn't style-file defined
 --line 12 of file AstroAnalysis.bib
-Warning--entry type for "messier" isn't style-file defined
---line 18 of file AstroAnalysis.bib
 control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -30,46 +28,87 @@ Control: production of article title (0) allowed
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
+Warning--empty year in astropy
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry messier
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in messier
 Warning--empty year in messier
-You've used 6 entries,
+You've used 8 entries,
             6079 wiz_defined-function locations,
-            1657 strings with 15737 characters,
-and the built_in function-call counts, 3828 in all, are:
-= -- 229
-> -- 74
-< -- 47
-+ -- 33
-- -- 34
-* -- 527
-:= -- 391
-add.period$ -- 4
-call.type$ -- 6
-change.case$ -- 20
-chr.to.int$ -- 15
-cite$ -- 7
-duplicate$ -- 405
-empty$ -- 226
-format.name$ -- 34
-if$ -- 680
-int.to.chr$ -- 2
-int.to.str$ -- 13
-missing$ -- 60
-newline$ -- 65
-num.names$ -- 12
-pop$ -- 190
+            1679 strings with 16443 characters,
+and the built_in function-call counts, 6493 in all, are:
+= -- 401
+> -- 151
+< -- 61
++ -- 56
+- -- 52
+* -- 963
+:= -- 623
+add.period$ -- 6
+call.type$ -- 8
+change.case$ -- 33
+chr.to.int$ -- 21
+cite$ -- 11
+duplicate$ -- 658
+empty$ -- 427
+format.name$ -- 78
+if$ -- 1222
+int.to.chr$ -- 1
+int.to.str$ -- 15
+missing$ -- 98
+newline$ -- 71
+num.names$ -- 18
+pop$ -- 287
 preamble$ -- 2
-purify$ -- 17
+purify$ -- 28
 quote$ -- 0
-skip$ -- 141
+skip$ -- 254
 stack$ -- 0
-substring$ -- 73
-swap$ -- 337
-text.length$ -- 7
+substring$ -- 121
+swap$ -- 577
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 63
-warning$ -- 2
-while$ -- 20
+type$ -- 93
+warning$ -- 4
+while$ -- 26
 width$ -- 0
-write$ -- 82
-(There were 4 warnings)
+write$ -- 101
+(There were 13 error messages)

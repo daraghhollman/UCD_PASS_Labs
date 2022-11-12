@@ -10,6 +10,8 @@ aps,
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{hyperref}% add hypertext capabilities
+\usepackage[font=small,labelfont=bf,justification=justified,format=plain]{caption}% change fontsize in captions
+\usepackage{booktabs}% cool table style
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
 	linkcolor=black,        % color of internal links
@@ -47,6 +49,20 @@ aps,
 	
 		\subsection{Image Reduction}
 			When taking images in astronomy there exists a level of background noise and non-uniformities which must be accounted for to ensure accurate measurements. Removing these effects is known as data reduction\cite{manual}. This noise comes from many things including readout electronics, thermal emissions, and non-uniformities in the detector\cite{astropy}. To ameliorate some of these noises and remove non-uniformities, flat field and bias frames are taken. Flat field frames (flats) are controlled, uniformly illuminated images used to correct for non-uniformities in the detector. Bias frames (biases) are images taken with a near (ideally exactly) zero second exposure time. These are used to ameliorate noise due to readout electronics. They contain no light and hence provide a constant offset which can be subtracted from all further images. Signals due to thermal emissions can be accounted for by keeping the imaging device cool.\\
+		
+		\subsection{Apparent Size}
+			To find the size of the galaxy...\\
+			
+			
+			The apparent size of the source can be determined using trigonometry using \ref{eq:arctan} as shown in figure \ref{fig:trig}.
+			\begin{equation}
+				\theta = 2 \arctan{\left(\frac{d}{2 D}\right)}
+				\label{eq:arctan}
+			\end{equation}where $\theta$ is the angular size, $d$ is the apparent size and $D$ is the distance between the source and the observer. This equation can be rearranged to get an expression for the angular size using the small angle approximation.
+			\begin{equation}
+				d = \frac{\theta}{206265\,\text{arcsec}} D
+				\label{eq:angSize}
+			\end{equation}The scalar divisor is introduced to work with $\theta$ in units of arcseconds as there are approximately 206265 arcseconds in a radian\cite{modernAstro}.
 		
 		\subsection{Aperture Photometry}
 		
@@ -86,15 +102,49 @@ aps,
 			
 			\subsubsection{Angular Size}
 			
+				As the images for M91 were taken in three different bands, these reduced images were first combined to create an averaged image in each band and were then added together to create a deeper image. To determine the angular size, the size of the galaxy in pixels needed to be calculated. This was done by iterating through the image in buckets of 5$\times$5 pixels. The average counts in this bucket was compared to an average background count over a region of 250$\times$250 pixels which was definitely outside of the galaxy. If the bucket counts were greater than the background counts by a certain tolerance, (a tolerance of 22 counts was chosen in this case as it visually fit the galaxy well), it was recorded as a bright bucket. This tolerance factor was used to estimate uncertainty on the angular size by using a higher and lower value to calculate larger and smaller angular sizes.\\
+				
+				The algorithm searched for the largest number of sequential bright buckets as that would represent the angular size of the galaxy in pixels. This was calculated for both the X and Y axes of the image to account for a major and minor size. It is important to note that the image was not aligned such that the X and Y axes were parallel to the major and minor axes of the galaxy, and although in this report we will refer to a major and a minor axis, these are not indicative of the galaxy's physical major and minor axes. The angular distance per pixel and the distance to the galaxy were known and hence the angular size was calculated using equation \ref{eq:angSize}.
+			
 			\subsubsection{Adjusting for Inclination and Position Angle}
+				Talk about how you did this when you do it I guess.
 		
-		
-		\subsection{NN Serpentis}
-		
+		\subsection{Measuring Photometry of NN Serpentis and Plotting its Lightcurve}
+			
+			\subsubsection{Calibrating to the r Filter and Determining Zeropoint}
+				To measure the magnitude of NN Serpentis, aperture photometry is used. To calculate the zeropoint equation \ref{eq:zeropoint} was used. A set of stars and reference magnitudes was required to calibrate this. The magnitude data most available was measured in the r filer and hence the system was calibrated from the clear filter to the r filter. Four stars nearby NN Ser with known magnitudes in the r filter were selected to calibrate the system\cite{parsons}. These stars are identified in figure \ref{fig:rBandStars}
+				
+				\begin{figure}
+					\includegraphics[width=\columnwidth]{rBandStars.png}
+					\caption{\label{fig:rBandStars} An image of NN Serpentis. The reference stars used to calibrate the system to the r filter are circled to identify them.}
+				\end{figure}
+			
+				\begin{table}[]
+					\begin{tabular*}{0.8\linewidth}{@{\extracolsep{\fill}}llll@{}}
+						\toprule
+						Star & r'   & \begin{tabular}[c]{@{}l@{}}RA offset\\ (arcsec)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Dec. offset\\ (arcsec)\end{tabular} \\ \midrule
+						A    & 15.8 & -31.4                                                        & +2.2                                                           \\
+						B    & 15.1 & -46.4                                                        & +106.7                                                         \\
+						C    & 13.7 & -114.5                                                       & +103.7                                                         \\
+						D    & 13.7 & -22.2                                                        & -94.1                                                          \\ \bottomrule
+					\end{tabular*}
+					\caption{A table of the reference stars used reference stars used to calibrate the system to the r filter\cite{parsons}. The coordinate offset is with respect to NN Serpentis.}
+					\label{tab:pearsons}
+				\end{table}
+			
+			\subsubsection{Aperture Photometry of NN Serpentis}
 		
 	\section{Results}
 	
 		\subsection{Messier 91}
+		
+			The angular size is plotted as an ellipse in figure \ref{fig:angSize}
+			
+			\begin{figure}
+				\includegraphics[width=\columnwidth]{angularSize.png}
+				\caption{\label{fig:angSize} The reduced and combined image of Messier 91 with ellipses displaying the angular size. The red middle ellipse marks the calculated angular size with the baseline tolerance of 22 counts. The inner and outer ellipses mark the estimated bounds of uncertainty on the angular size. These were determined by changing the tolerance until the ellipse reached a position at which the angular size was either definitely larger (in the case of the outer bound) or definitely smaller (in the case of the inner bound) than the apparent angular size. This process of varying the tolerance to find appropriate bounds was done visually.}
+			\end{figure}
+			
 		
 		\subsection{NN Serpentis}
 
@@ -103,6 +153,7 @@ aps,
 		
 	\bibliography{AstroAnalysis}% Produces the bibliography via BibTeX.
 		
+	\newpage
 	\appendix
 		
 	\section{Python Code}
