@@ -10,7 +10,7 @@ aps,
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{hyperref}% add hypertext capabilities
-\usepackage[font=small,labelfont=bf,justification=justified,format=plain]{caption}% change fontsize in captions
+\usepackage[font=scriptsize,labelfont=bf, justification=justified]{caption}% change fontsize in captions
 \usepackage{booktabs}% cool table style
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
@@ -19,6 +19,10 @@ aps,
 	filecolor=black,     % color of file links
 	urlcolor=black         
 }
+
+\usepackage{bibspacing}
+\setlength{\bibitemsep}{.5\baselineskip plus .05\baselineskip minus .05\baselineskip}
+
 
 \begin{document}
 	
@@ -62,7 +66,14 @@ aps,
 			\begin{equation}
 				d = \frac{\theta}{206265\,\text{arcsec}} D
 				\label{eq:angSize}
-			\end{equation}The scalar divisor is introduced to work with $\theta$ in units of arcseconds as there are approximately 206265 arcseconds in a radian\cite{modernAstro}.
+			\end{equation}The scalar divisor is introduced to work with $\theta$ in units of arcseconds as there are approximately 206265 arcseconds in a radian\cite{modernAstro}.\\
+		
+			Figure \ref{fig:positionAngle} shows how the position angle can be accounted for using the trigonometric rule that corresponding angles are congruent between parallel lines.
+		
+			\begin{figure}
+				\includegraphics[width=0.75\columnwidth]{positionAngle.png}
+				\caption{\label{fig:positionAngle} A diagram of how the position angle can be accounted for. The actual size of the source is marked by line B whereas the apparent size is marked by line A. We can solve for $alpha$ in terms of the position angle using the law that corresponding angles are congruent for parallel lines. Figure made using GeoGebra}
+			\end{figure}
 		
 		\subsection{Aperture Photometry}
 		
@@ -112,7 +123,7 @@ aps,
 		\subsection{Measuring Photometry of NN Serpentis and Plotting its Lightcurve}
 			
 			\subsubsection{Calibrating to the r Filter and Determining Zeropoint}
-				To measure the magnitude of NN Serpentis, aperture photometry is used. To calculate the zeropoint equation \ref{eq:zeropoint} was used. A set of stars and reference magnitudes was required to calibrate this. The magnitude data most available was measured in the r filer and hence the system was calibrated from the clear filter to the r filter. Four stars nearby NN Ser with known magnitudes in the r filter were selected to calibrate the system\cite{parsons}. These stars are identified in figure \ref{fig:rBandStars}
+				To measure the magnitude of NN Serpentis, aperture photometry is used with the aid of the \texttt{PHOTUTILS} package. A set of stars and reference magnitudes were required to calculate the zeropoint using equation \ref{eq:zeropoint}. The magnitude data most available was measured in the r filer and hence the system was calibrated from the clear filter to the r filter. Four stars nearby NN Ser with known magnitudes in the r filter were selected to calibrate the system. These stars are identified in figure \ref{fig:rBandStars} using their offset from NN Ser as described in table \ref{tab:parsons} along with their magnitude in the r filter from Parsons et al. \cite{parsons}. The zeropoint was calculated in each image for each star, and the mean zeropoint across all four stars was calculated.
 				
 				\begin{figure}
 					\includegraphics[width=\columnwidth]{rBandStars.png}
@@ -129,12 +140,13 @@ aps,
 						D    & 13.7 & -22.2                                                        & -94.1                                                          \\ \bottomrule
 					\end{tabular*}
 					\caption{A table of the reference stars used reference stars used to calibrate the system to the r filter\cite{parsons}. The coordinate offset is with respect to NN Serpentis.}
-					\label{tab:pearsons}
+					\label{tab:parsons}
 				\end{table}
 			
-			\subsubsection{Aperture Photometry of NN Serpentis}
+			\subsubsection{Aperture Photometry and the Lightcurve of NN Serpentis}
+				To plot the lightcurve of NN Serpentis, the star-finding function DAOStarFinder was used from the \texttt{PHOTUTILS} package to determine the locations of each star in the image. At each of these positions, an aperture with radius 8 pixels and an annulus with inner and outer radii of 12 pixels and 16 pixels respectively were created. These were fed to the aperture\_photometry function, also from photoutils, to create a phototable containing the stars' positions and their counts within the aperture and annulus. The final flux of NN Ser was calculated by subtracting the background counts from the annulus from the counts in the aperture. Equation \ref{eq:mag} was used to calculate the magnitude of NN Ser for each image. In the case where the system was eclipsed, the binary system doesn't appear in the image and hence a magnitude cannot be calculated. In this case a limiting magnitude is calculated instead. The limiting magnitude is the faintest apparent magnitude which appears in the image\cite{manual}, it provides an upper limit for the brightest possible magnitude NN Ser could be. The faintest source detected by DAOStarFinder is chosen and the limiting magnitude is calculated in the same way as before with the faintest star as the source. The magnitudes from each image were recorded and plotted against the time the image was taken to create the lightcurve.
 		
-	\section{Results}
+	\section{Results and Analysis}
 	
 		\subsection{Messier 91}
 		
@@ -147,10 +159,15 @@ aps,
 			
 		
 		\subsection{NN Serpentis}
+		
+			\begin{figure}
+				\includegraphics[width=\columnwidth]{lightcurve.png}
+				\caption{\label{fig:lightcurve} Caption}
+			\end{figure}
 
 	\section{Conclusion}
 		
-		
+	\newpage
 	\bibliography{AstroAnalysis}% Produces the bibliography via BibTeX.
 		
 	\newpage

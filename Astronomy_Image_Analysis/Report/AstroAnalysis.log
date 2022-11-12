@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  11 NOV 2022 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  12 NOV 2022 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,11 +422,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen177
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+
+(/home/daraghhollman/texmf/tex/latex/commonstuff/bibspacing.sty
+\bibitemsep=\skip57
+\bibparskip=\skip58
+)
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 23.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 23.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 23.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 23.
+lass! (Proceeding with fingers crossed.) on input line 27.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 27.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 27.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 27.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
@@ -436,24 +441,24 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 (./AstroAnalysis.aux)
 \openout1 = `AstroAnalysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -486,7 +491,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 27.
 
 (./AstroAnalysis.out) (./AstroAnalysis.out)
 \@outlinefile=\write4
@@ -494,7 +499,7 @@ Package hyperref Info: Link coloring ON on input line 23.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 23.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 27.
 \openout3 = `AstroAnalysisNotes.bib'.
 
 
@@ -503,43 +508,48 @@ Class revtex4-2 Warning: Assuming \noaffiliation for authors.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 39.
+(hyperref)                removing `\\' on input line 43.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1117) in paragraph at lines 51--52
+Underfull \hbox (badness 1117) in paragraph at lines 55--56
 \OT1/cmr/m/n/10 be ac-counted for to en-sure ac-cu-rate mea-sure-ments.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-LaTeX Warning: Reference `fig:trig' on page 1 undefined on input line 57.
+LaTeX Warning: Reference `fig:trig' on page 1 undefined on input line 61.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
+<positionAngle.png, id=99, 509.905pt x 581.17125pt>
+File: positionAngle.png Graphic file (type png)
+<use positionAngle.png>
+Package pdftex.def Info: positionAngle.png  used on input line 74.
+(pdftex.def)             Requested size: 184.5pt x 210.28564pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
@@ -548,42 +558,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pos
+itionAngle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1596) in paragraph at lines 105--106
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 116--117
 \OT1/cmr/m/n/10 count over a re-gion of 250$\OMS/cmsy/m/n/10 ^^B$\OT1/cmr/m/n/1
 0 250 pix-els which was
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<rBandStars.png, id=133, 542.7477pt x 505.89pt>
+<rBandStars.png, id=134, 542.7477pt x 505.89pt>
 File: rBandStars.png Graphic file (type png)
 <use rBandStars.png>
-Package pdftex.def Info: rBandStars.png  used on input line 118.
+Package pdftex.def Info: rBandStars.png  used on input line 129.
 (pdftex.def)             Requested size: 246.0pt x 229.29259pt.
+[2]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 122.
+               Default added (so using `tbp') on input line 133.
 
-<angularSize.png, id=138, 462.528pt x 462.528pt>
+<angularSize.png, id=156, 462.528pt x 462.528pt>
 File: angularSize.png Graphic file (type png)
 <use angularSize.png>
-Package pdftex.def Info: angularSize.png  used on input line 144.
+Package pdftex.def Info: angularSize.png  used on input line 156.
 (pdftex.def)             Requested size: 246.0pt x 245.9997pt.
-[2 <./rBandStars.png>]
+<lightcurve.png, id=157, 508.0581pt x 499.3857pt>
+File: lightcurve.png Graphic file (type png)
+<use lightcurve.png>
+Package pdftex.def Info: lightcurve.png  used on input line 164.
+(pdftex.def)             Requested size: 246.0pt x 241.80553pt.
+(./AstroAnalysis.bbl [3 <./rBandStars.png> <./angularSize.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 147.
+ on input line 10.
 
-(./AstroAnalysis.bbl
+
 Underfull \hbox (badness 10000) in paragraph at lines 62--67
  []\OT1/cmr/m/n/9 C. M., Ccd re-duc-tion and phote-
  []
@@ -613,43 +635,44 @@ Underfull \hbox (badness 4353) in paragraph at lines 107--117
  \OT1/cmr/m/n/9 2591 (2010)[][], [][]https://academic.oup.com/mnras/article-
  []
 
-[3 <./angularSize.png>]) [4] (./AstroAnalysis.aux)
+) [4 <./lightcurve.png>] (./AstroAnalysis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `AstroAnalysis.out' has not changed.
-(rerunfilecheck)             Checksum: 7B210105B280ED09E8811D433588D72C;3786.
+(rerunfilecheck)             Checksum: FE46C9BB5F52A46F1BD6362B3118FF19;3965.
  ) 
 Here is how much of TeX's memory you used:
- 13035 strings out of 475071
- 204095 string characters out of 5778915
- 570401 words of memory out of 5000000
- 34219 multiletter control sequences out of 15000+600000
+ 13079 strings out of 475071
+ 205239 string characters out of 5778915
+ 566813 words of memory out of 5000000
+ 34255 multiletter control sequences out of 15000+600000
  482415 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,980b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,77p,1429b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on AstroAnalysis.pdf (4 pages, 612501 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on AstroAnalysis.pdf (4 pages, 687011 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
