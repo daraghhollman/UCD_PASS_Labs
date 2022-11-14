@@ -13,8 +13,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: AstroAnalysisNotes.bib
 Database file #2: AstroAnalysis.bib
-Warning--entry type for "astropy" isn't style-file defined
---line 12 of file AstroAnalysis.bib
 control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -29,6 +27,8 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty year in astropy
+Warning--empty year in ccdEquation
+Warning--empty author in messier
 "J. High Energy Phys." is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry messier
 while executing---line 3515 of file apsrev4-2.bst
@@ -70,45 +70,45 @@ while executing---line 3515 of file apsrev4-2.bst
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in messier
 Warning--empty year in messier
-You've used 8 entries,
+You've used 15 entries,
             6079 wiz_defined-function locations,
-            1679 strings with 16443 characters,
-and the built_in function-call counts, 6493 in all, are:
-= -- 401
-> -- 151
-< -- 61
-+ -- 56
-- -- 52
-* -- 963
-:= -- 623
-add.period$ -- 6
-call.type$ -- 8
-change.case$ -- 33
-chr.to.int$ -- 21
-cite$ -- 11
-duplicate$ -- 658
-empty$ -- 427
-format.name$ -- 78
-if$ -- 1222
-int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 98
-newline$ -- 71
-num.names$ -- 18
-pop$ -- 287
+            1718 strings with 17799 characters,
+and the built_in function-call counts, 13540 in all, are:
+= -- 855
+> -- 373
+< -- 98
++ -- 127
+- -- 108
+* -- 2103
+:= -- 1294
+add.period$ -- 13
+call.type$ -- 15
+change.case$ -- 71
+chr.to.int$ -- 33
+cite$ -- 22
+duplicate$ -- 1309
+empty$ -- 928
+format.name$ -- 206
+if$ -- 2631
+int.to.chr$ -- 2
+int.to.str$ -- 22
+missing$ -- 179
+newline$ -- 92
+num.names$ -- 36
+pop$ -- 548
 preamble$ -- 2
-purify$ -- 28
+purify$ -- 62
 quote$ -- 0
-skip$ -- 254
+skip$ -- 505
 stack$ -- 0
-substring$ -- 121
-swap$ -- 577
-text.length$ -- 16
+substring$ -- 245
+swap$ -- 1205
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 93
-warning$ -- 4
-while$ -- 26
+type$ -- 198
+warning$ -- 6
+while$ -- 41
 width$ -- 0
-write$ -- 101
+write$ -- 157
 (There were 13 error messages)
