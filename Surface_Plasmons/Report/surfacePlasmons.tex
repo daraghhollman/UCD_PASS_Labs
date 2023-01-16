@@ -60,8 +60,17 @@ aps,
 	 
 	\section{Methodology}
 		\subsection{Apparatus Setup}
+			The apparatus was set up in the Kretschmann configuration as shown in figure \ref{fig:kConfig}. A silver film was evaporated onto three prisms so that the thickness of the film could be varied. Thicknesses of 10nm, 13nm, and 15nm were used. The prism was placed in the centre of a bidirectional stepping rotary table. This table had two independently movable discs (specifically one disc and one annulus) controlled by stepper motors which, through a gear system, had a precision of $0.045$ degrees per step. The prism was placed on the inner disc and a photodiode was fixed on the outer annulus to be used as a detector.\\
+			
+			The apparatus was controlled using python to interface with a USB multifunction I/O device, NI USB-6009 \cite{nationalInstruments}. This was used as a digital to analogue converter to control the stepper motors as well as an input from the photodiode to read voltages.
+
+			\subsubsection{Light Source}
+				Three He-Ne lasers were used of wavelengths 633nm, 515nm, and 405nm all of which had a maximum power $\le 4 \,\text{mW}$. In this report we will refer to these lasers as red, green, and blue respectively. A linear polarising filter was positioned between the laser and the prism such to p-polarise the incident light.
+			
 			\subsubsection{Motor Programming}
 				Be salty about things being labelled incorrectly.
+				
+				How were the motors powered
 			
 			\subsubsection{Developing an Algorithm for Data Collection}
 				Note efficiency
