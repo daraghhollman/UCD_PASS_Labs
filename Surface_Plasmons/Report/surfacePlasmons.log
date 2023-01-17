@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  16 JAN 2023 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  17 JAN 2023 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,23 +529,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
 LaTeX Warning: Reference `fig:apparatus' on page 1 undefined on input line 54.
 
-<kConfig.png, id=95, 350.05782pt x 253.69781pt>
+<kConfig.png, id=107, 350.05782pt x 253.69781pt>
 File: kConfig.png Graphic file (type png)
 <use kConfig.png>
-Package pdftex.def Info: kConfig.png  used on input line 57.
+Package pdftex.def Info: kConfig.png  used on input line 59.
 (pdftex.def)             Requested size: 221.3985pt x 160.45758pt.
+<anglesDiagram.png, id=110, 243.91125pt x 223.58531pt>
+File: anglesDiagram.png Graphic file (type png)
+<use anglesDiagram.png>
+Package pdftex.def Info: anglesDiagram.png  used on input line 64.
+(pdftex.def)             Requested size: 221.3985pt x 202.95119pt.
 
-Underfull \hbox (badness 2134) in paragraph at lines 63--64
+Underfull \hbox (badness 2134) in paragraph at lines 70--71
 []\OT1/cmr/m/n/10 The ap-pa-ra-tus was set up in the Kretschmann
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./kCo
-nfig.png>] (./surfacePlasmons.bbl
+nfig.png> <./anglesDiagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+(./surfacePlasmons.bbl [2]
 ! Not loaded.
 \selectlanguage ...ing it}\errmessage {Not loaded}
                                                   
@@ -574,21 +589,24 @@ l.89   polaritons: physics and applications}},\ }
 
 Selecting a language requires a package supporting it
 
-) [2] (./surfacePlasmons.aux)
+) [3] (./surfacePlasmons.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `surfacePlasmons.out' has not changed.
-(rerunfilecheck)             Checksum: 6B600CDB643A84E5775F43D37458B89A;3446.
+(rerunfilecheck)             Checksum: B14D7A97ED0E13FF27846C9DD88CC924;3800.
  ) 
 Here is how much of TeX's memory you used:
- 13017 strings out of 475071
- 204466 string characters out of 5778915
- 565518 words of memory out of 5000000
- 34210 multiletter control sequences out of 15000+600000
+ 13043 strings out of 475071
+ 204880 string characters out of 5778915
+ 560698 words of memory out of 5000000
+ 34228 multiletter control sequences out of 15000+600000
  482415 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,77p,667b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,77p,1012b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -604,10 +622,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/202
 2/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on surfacePlasmons.pdf (2 pages, 250857 bytes).
+Output written on surfacePlasmons.pdf (3 pages, 266879 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
