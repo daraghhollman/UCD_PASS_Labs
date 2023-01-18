@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  17 JAN 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  18 JAN 2023 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,38 +529,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
 LaTeX Warning: Reference `fig:apparatus' on page 1 undefined on input line 54.
 
-<kConfig.png, id=107, 350.05782pt x 253.69781pt>
+<kConfig.png, id=103, 350.05782pt x 253.69781pt>
 File: kConfig.png Graphic file (type png)
 <use kConfig.png>
-Package pdftex.def Info: kConfig.png  used on input line 59.
+Package pdftex.def Info: kConfig.png  used on input line 61.
 (pdftex.def)             Requested size: 221.3985pt x 160.45758pt.
-<anglesDiagram.png, id=110, 243.91125pt x 223.58531pt>
+<anglesDiagram.png, id=106, 243.91125pt x 223.58531pt>
 File: anglesDiagram.png Graphic file (type png)
 <use anglesDiagram.png>
-Package pdftex.def Info: anglesDiagram.png  used on input line 64.
-(pdftex.def)             Requested size: 221.3985pt x 202.95119pt.
+Package pdftex.def Info: anglesDiagram.png  used on input line 66.
+(pdftex.def)             Requested size: 172.19925pt x 157.84941pt.
 
-Underfull \hbox (badness 2134) in paragraph at lines 70--71
+Underfull \hbox (badness 2134) in paragraph at lines 72--73
 []\OT1/cmr/m/n/10 The ap-pa-ra-tus was set up in the Kretschmann
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./kCo
 nfig.png> <./anglesDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-(./surfacePlasmons.bbl [2]
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+<redThicknessVariation.png, id=140, 409.7709pt x 328.8285pt>
+File: redThicknessVariation.png Graphic file (type png)
+<use redThicknessVariation.png>
+Package pdftex.def Info: redThicknessVariation.png  used on input line 110.
+(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
+<greenThicknessVariation.png, id=141, 409.7709pt x 328.8285pt>
+File: greenThicknessVariation.png Graphic file (type png)
+<use greenThicknessVariation.png>
+Package pdftex.def Info: greenThicknessVariation.png  used on input line 111.
+(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
+<blueThicknessVariation.png, id=142, 409.7709pt x 328.8285pt>
+File: blueThicknessVariation.png Graphic file (type png)
+<use blueThicknessVariation.png>
+Package pdftex.def Info: blueThicknessVariation.png  used on input line 112.
+(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
+
+Underfull \hbox (badness 1231) in paragraph at lines 117--118
+\OT1/cmr/m/n/10 re-sult oc-curred. Large os-cil-la-tions with a rel-a-tive
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 117--118
+\OT1/cmr/m/n/10 in-ten-sity am-pli-tude of ap-prox-i-mately $0\OML/cmm/m/it/10 
+:\OT1/cmr/m/n/10 1$ could be
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 117--118
+\OT1/cmr/m/n/10 eight con-sec-u-tive mea-sure-ments ($\OMS/cmsy/m/n/10 ^^Y$\OT1
+/cmr/m/n/10 30 min-utes) the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+<oscillationsExample.png, id=145, 409.7709pt x 312.2064pt>
+File: oscillationsExample.png Graphic file (type png)
+<use oscillationsExample.png>
+Package pdftex.def Info: oscillationsExample.png  used on input line 120.
+(pdftex.def)             Requested size: 209.1015pt x 159.31367pt.
+<exampleTimeDependence.png, id=149, 422.0568pt x 328.8285pt>
+File: exampleTimeDependence.png Graphic file (type png)
+<use exampleTimeDependence.png>
+Package pdftex.def Info: exampleTimeDependence.png  used on input line 127.
+(pdftex.def)             Requested size: 209.1015pt x 162.9136pt.
+<quadraticFit.png, id=150, 400.3758pt x 312.2064pt>
+File: quadraticFit.png Graphic file (type png)
+<use quadraticFit.png>
+Package pdftex.def Info: quadraticFit.png  used on input line 131.
+(pdftex.def)             Requested size: 209.1015pt x 163.05807pt.
+<stillData.png, id=151, 416.2752pt x 312.2064pt>
+File: stillData.png Graphic file (type png)
+<use stillData.png>
+Package pdftex.def Info: stillData.png  used on input line 135.
+(pdftex.def)             Requested size: 209.1015pt x 156.82692pt.
+[2]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 138.
+
+(./surfacePlasmons.bbl [3 <./redThicknessVariation.png> <./greenThicknessVariat
+ion.png> <./blueThicknessVariation.png> <./oscillationsExample.png> <./exampleT
+imeDependence.png> <./quadraticFit.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 9.
+
+[4 <./stillData.png>]
 ! Not loaded.
 \selectlanguage ...ing it}\errmessage {Not loaded}
                                                   
@@ -589,21 +658,25 @@ l.89   polaritons: physics and applications}},\ }
 
 Selecting a language requires a package supporting it
 
-) [3] (./surfacePlasmons.aux)
+! Not loaded.
+\selectlanguage ...ing it}\errmessage {Not loaded}
+                                                  
+l.119 ...larization of a helium‐neon laser}},\ }
+                                                  \href@noop {} {\bibfield
+Selecting a language requires a package supporting it
+
+) [5] [6] (./surfacePlasmons.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `surfacePlasmons.out' has not changed.
-(rerunfilecheck)             Checksum: B14D7A97ED0E13FF27846C9DD88CC924;3800.
+(rerunfilecheck)             Checksum: 565A2BC7B194C74695F86EC3925FB799;3751.
  ) 
 Here is how much of TeX's memory you used:
- 13043 strings out of 475071
- 204880 string characters out of 5778915
- 560698 words of memory out of 5000000
- 34228 multiletter control sequences out of 15000+600000
+ 13111 strings out of 475071
+ 206579 string characters out of 5778915
+ 570885 words of memory out of 5000000
+ 34280 multiletter control sequences out of 15000+600000
  482415 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,8n,77p,1012b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -622,10 +695,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/202
 2/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on surfacePlasmons.pdf (3 pages, 266879 bytes).
+Output written on surfacePlasmons.pdf (6 pages, 602484 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 

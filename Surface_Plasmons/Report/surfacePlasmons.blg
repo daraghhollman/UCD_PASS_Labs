@@ -28,45 +28,45 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty year in nationalInstruments
 Warning--empty year in motorDoc
-You've used 8 entries,
+You've used 10 entries,
             6079 wiz_defined-function locations,
-            1679 strings with 16235 characters,
-and the built_in function-call counts, 6823 in all, are:
-= -- 435
-> -- 159
-< -- 60
-+ -- 54
-- -- 54
-* -- 1023
-:= -- 618
-add.period$ -- 6
-call.type$ -- 8
-change.case$ -- 29
-chr.to.int$ -- 18
-cite$ -- 14
-duplicate$ -- 678
-empty$ -- 454
-format.name$ -- 80
-if$ -- 1318
+            1696 strings with 16595 characters,
+and the built_in function-call counts, 8774 in all, are:
+= -- 593
+> -- 197
+< -- 69
++ -- 66
+- -- 62
+* -- 1301
+:= -- 810
+add.period$ -- 8
+call.type$ -- 10
+change.case$ -- 39
+chr.to.int$ -- 20
+cite$ -- 16
+duplicate$ -- 861
+empty$ -- 599
+format.name$ -- 100
+if$ -- 1720
 int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 106
-newline$ -- 70
-num.names$ -- 12
-pop$ -- 306
+int.to.str$ -- 17
+missing$ -- 136
+newline$ -- 76
+num.names$ -- 18
+pop$ -- 384
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 38
 quote$ -- 0
-skip$ -- 271
+skip$ -- 361
 stack$ -- 0
-substring$ -- 149
-swap$ -- 607
-text.length$ -- 17
+substring$ -- 195
+swap$ -- 773
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 95
+type$ -- 121
 warning$ -- 3
-while$ -- 23
+while$ -- 29
 width$ -- 0
-write$ -- 101
+write$ -- 119
 (There were 3 warnings)
