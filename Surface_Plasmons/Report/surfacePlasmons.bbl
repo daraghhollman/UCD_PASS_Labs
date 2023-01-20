@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{8}%
+\begin{thebibliography}{11}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -101,6 +101,24 @@
   {\bibinfo  {journal} {European journal of physics}\ }\textbf {\bibinfo
   {volume} {32}},\ \bibinfo {pages} {585} (\bibinfo {year} {2011})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Zeng}\ \emph {et~al.}(2014)\citenamefont {Zeng},
+  \citenamefont {Baillargeat}, \citenamefont {Ho},\ and\ \citenamefont
+  {Yong}}]{zeng}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Zeng}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Baillargeat}},
+  \bibinfo {author} {\bibfnamefont {H.-P.}\ \bibnamefont {Ho}},\ and\ \bibinfo
+  {author} {\bibfnamefont {K.-T.}\ \bibnamefont {Yong}},\ }\bibfield  {title}
+  {{\selectlanguage {English}\bibinfo {title} {Nanomaterials enhanced surface
+  plasmon resonance for biological and chemical sensing applications}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Chemical Society
+  reviews}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {3426}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{spr()}]{sprTheory}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {Surface plasmon resonance theory}},\
+  \bibinfo {note} {\url{https://www.sprpages.nl/spr-overview/spr-theory},
+  visited on 20/01/2023}\BibitemShut {NoStop}%
 \bibitem [{nat()}]{nationalInstruments}%
   \BibitemOpen
   \href@noop {} {\emph {\bibinfo {title} {Data Acquisition in Python in the UCD
@@ -112,6 +130,13 @@
   \href@noop {} {\emph {\bibinfo {title} {Concentric Stepper Motors, Surface
   Plasmons Experiment}}},\ \bibinfo {organization} {University College Dublin
   Advanced Physics Labs}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Polyanskiy}()}]{refractiveIndex}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Polyanskiy}},\ }\href@noop {} {\bibinfo {title} {Optical constants of
+  silver}},\ \bibinfo {note}
+  {\url{https://refractiveindex.info/?shelf=main&book=Ag&page=Johnson},
+  accessed on 19/01/2023}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jones}(1996)}]{jonesPolarisation}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~R.}\ \bibnamefont

@@ -26,47 +26,49 @@ Control: production of article title (0) allowed
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
+Warning--empty year in sprTheory
 Warning--empty year in nationalInstruments
 Warning--empty year in motorDoc
-You've used 10 entries,
+Warning--empty year in refractiveIndex
+You've used 13 entries,
             6079 wiz_defined-function locations,
-            1696 strings with 16595 characters,
-and the built_in function-call counts, 8774 in all, are:
-= -- 593
-> -- 197
-< -- 69
-+ -- 66
-- -- 62
-* -- 1301
-:= -- 810
-add.period$ -- 8
-call.type$ -- 10
-change.case$ -- 39
-chr.to.int$ -- 20
-cite$ -- 16
-duplicate$ -- 861
-empty$ -- 599
-format.name$ -- 100
-if$ -- 1720
+            1713 strings with 17111 characters,
+and the built_in function-call counts, 10990 in all, are:
+= -- 766
+> -- 239
+< -- 77
++ -- 82
+- -- 72
+* -- 1619
+:= -- 1038
+add.period$ -- 11
+call.type$ -- 13
+change.case$ -- 56
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 1071
+empty$ -- 766
+format.name$ -- 124
+if$ -- 2159
 int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 136
-newline$ -- 76
-num.names$ -- 18
-pop$ -- 384
+int.to.str$ -- 20
+missing$ -- 163
+newline$ -- 85
+num.names$ -- 24
+pop$ -- 482
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 51
 quote$ -- 0
-skip$ -- 361
+skip$ -- 450
 stack$ -- 0
-substring$ -- 195
-swap$ -- 773
-text.length$ -- 21
+substring$ -- 251
+swap$ -- 948
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 121
-warning$ -- 3
-while$ -- 29
+type$ -- 159
+warning$ -- 5
+while$ -- 34
 width$ -- 0
-write$ -- 119
-(There were 3 warnings)
+write$ -- 141
+(There were 5 warnings)
