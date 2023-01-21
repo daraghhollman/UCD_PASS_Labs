@@ -11,6 +11,7 @@ aps,
 \usepackage{bm}% bold math
 \usepackage{hyperref}% add hypertext capabilities
 \usepackage[font=scriptsize,labelfont=bf, justification=justified]{caption}% change fontsize in captions
+\usepackage{float}
 \usepackage{booktabs}% cool table style
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
@@ -36,7 +37,7 @@ aps,
 	\date{\today}
 	
 	\begin{abstract}
-		The aims of this experiment were to determine the excitation angle of the surface plasmon within the Kretschmann configuration and to investigate the dependence of surface plasmon resonance (SPR) on the wavelength of the incident light and the thickness of the silver foil. [NOT FINISHED]
+		The aims of this experiment were to determine the excitation angle of surface plasmon resonance (SPR) using the Kretschmann configuration, and observe and investigate the dependencies it has on the wavelength of the incident light and the thickness of the silver film used. We found that the excitation angle of SPR has both an inverse dependence on the wavelength of the incident light and an inverse dependence on the thickness of the silver film.  At a film thickness of 13 nm we determined the excitation angle to be $(43.9\pm0.5)^\circ$, $(44.6\pm0.5)^\circ$, and $(50.0\pm0.5)^\circ$ for the 633 nm, 515 nm, and 405 nm laser respectively.
 	\end{abstract}
 
 	\maketitle
@@ -46,7 +47,7 @@ aps,
 	
 	\section{Theory}
 		\subsection{Excitation of Free Electrons}
-			The free electrons in the conduction band of metallic substances can be excited to oscillate with an eigenfrequency described by the plasma frequency, $\omega_p^2 = \frac{n_e e^2}{\epsilon_0 m_e}$ where $n_e$ is the number density of electrons, $e$ is the electric charge, $m$ is the effective mass of the electron, and $\epsilon_0$ is the permittivity of free space \cite{pluchery}. The collective coherent oscillations of these electrons on the surface of the metallic substance give rise to a longitudinal charge density wave which is known as a surface plasmon polariton or surface plasmon wave \cite{pluchery}\cite{zeng}. One way to detect these waves is through the coupling of them with an electromagnetic field.
+			The free electrons in the conduction band of metallic substances can be excited to oscillate with an eigenfrequency described by the plasma frequency \cite{pluchery}. The collective coherent oscillations of these electrons on the surface of the metallic substance give rise to a longitudinal charge density wave which is known as a surface plasmon polariton or surface plasmon wave \cite{pluchery}\cite{zeng}. One way to detect these waves is through the coupling of them with an electromagnetic field.
 			
 		
 		\subsection{Surface Plasmon Waves}
@@ -71,7 +72,7 @@ aps,
 				\label{eq:angle}
 			\end{equation}
 			
-			Therefore...
+			Therefore by using this equation to calculate the expected angle of incidence which will excite surface plasmon resonance, we can then compare this to what values are measured.
 		
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{SPdiagram.jpg}
@@ -139,7 +140,7 @@ aps,
 		
 		\subsection{Thickness Dependence}
 			
-			Figure \ref{fig:thicknessVariation} shows the thickness variation across all three wavelengths of the reduced dataset.
+			A dependence on the thickness of the silver film is clearly seen throughout the dataset. Figure \ref{fig:thicknessVariation} shows the thickness variation across all three wavelengths. The excitation angle moves towards smaller angles with increasing thickness. An effect of the thickness on the coupling of the waves can be seen in the variation of the depth of the extinction dip. However, we don't see a trend across all three wavelengths and no dependence was determined.
 			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{redThicknessVariation.png}
@@ -172,6 +173,8 @@ aps,
 			\end{figure}
 
 	\section{Conclusion}
+		
+		The aims of this experiment were to determine the excitation angle of surface plasmon resonance (SPR) and observe and investigate the dependencies it has on the wavelength of the incident light and the thickness of the silver film used. We found that the excitation angle of SPR has both an inverse dependence on the wavelength of the incident light and an inverse dependence on the thickness of the silver film.  At a film thickness of 13 nm we determined the excitation angle to be $(43.9\pm0.5)^\circ$, $(44.6\pm0.5)^\circ$, and $(50.0\pm0.5)^\circ$ for the 633 nm, 515 nm, and 405 nm laser respectively. The calculated theoretical angles were outside of the range of uncertainty on these measurements. This is likely due to the approximation of excluding the imaginary component of the dielectric function $\epsilon_1$ and due to not factoring in the thickness of the silver film in the calculation. It was also found that the coupling of the surface plasmon wave with the light was also dependent on the thickness, however more measurements are necessary to determine a trend.
 		
 		
 	\clearpage

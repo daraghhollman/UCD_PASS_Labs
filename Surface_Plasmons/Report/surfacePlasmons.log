@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  20 JAN 2023 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  21 JAN 2023 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,7 +401,15 @@ See the caption package documentation for explanation.
 \c@caption@flags=\count290
 \c@continuedfloat=\count291
 Package caption Info: hyperref package is loaded.
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks26
+\float@box=\box70
+\@float@everytoks=\toks27
+\@floatcapt=\box71
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen165
 \lightrulewidth=\dimen166
@@ -413,66 +421,69 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count292
-\@cmidlb=\count293
+\@cmidla=\count293
+\@cmidlb=\count294
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count294
-\@lastruleclass=\count295
+\@thisruleclass=\count295
+\@lastruleclass=\count296
 \@thisrulewidth=\dimen177
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
 (/home/daraghhollman/texmf/tex/latex/commonstuff/bibspacing.sty
 \bibitemsep=\skip57
 \bibparskip=\skip58
 )
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 27.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 27.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 27.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 27.
+lass! (Proceeding with fingers crossed.) on input line 28.
 
+
+Class revtex4-2 Warning: Repair the float package.
+
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 28.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 28.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 28.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
-\l__pdf_internal_box=\box70
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box72
 )
 (./surfacePlasmons.aux)
 \openout1 = `surfacePlasmons.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
+\scratchcounter=\count298
 \scratchdimen=\dimen178
-\scratchbox=\box71
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count300
+\scratchbox=\box73
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count301
 \MPscratchDim=\dimen179
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -491,151 +502,154 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 28.
 
 (./surfacePlasmons.out) (./surfacePlasmons.out)
 \@outlinefile=\write4
 \openout4 = `surfacePlasmons.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 27.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 28.
 \openout3 = `surfacePlasmonsNotes.bib'.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
-
-Class revtex4-2 Warning: Assuming \noaffiliation for authors.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 42.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+Class revtex4-2 Warning: Assuming \noaffiliation for authors.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 43.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 <SPdiagram.jpg, id=104, 2047.65pt x 1164.35pt>
 File: SPdiagram.jpg Graphic file (type jpg)
 <use SPdiagram.jpg>
-Package pdftex.def Info: SPdiagram.jpg  used on input line 77.
+Package pdftex.def Info: SPdiagram.jpg  used on input line 78.
 (pdftex.def)             Requested size: 209.1015pt x 118.8936pt.
 <anglesDiagram.png, id=105, 243.91125pt x 223.58531pt>
 File: anglesDiagram.png Graphic file (type png)
 <use anglesDiagram.png>
-Package pdftex.def Info: anglesDiagram.png  used on input line 81.
+Package pdftex.def Info: anglesDiagram.png  used on input line 82.
 (pdftex.def)             Requested size: 172.19925pt x 157.84941pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 92.
+ on input line 89.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 [2 <./SPdiagram.jpg> <./anglesDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 121.
+               Default added (so using `tbp') on input line 122.
 
 <wavelengthDependence.png, id=161, 894.7026pt x 327.3831pt>
 File: wavelengthDependence.png Graphic file (type png)
 <use wavelengthDependence.png>
-Package pdftex.def Info: wavelengthDependence.png  used on input line 136.
+Package pdftex.def Info: wavelengthDependence.png  used on input line 137.
 (pdftex.def)             Requested size: 455.1015pt x 166.52856pt.
 <redThicknessVariation.png, id=163, 409.7709pt x 328.8285pt>
 File: redThicknessVariation.png Graphic file (type png)
 <use redThicknessVariation.png>
-Package pdftex.def Info: redThicknessVariation.png  used on input line 145.
+Package pdftex.def Info: redThicknessVariation.png  used on input line 146.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
 <greenThicknessVariation.png, id=164, 409.7709pt x 328.8285pt>
 File: greenThicknessVariation.png Graphic file (type png)
 <use greenThicknessVariation.png>
-Package pdftex.def Info: greenThicknessVariation.png  used on input line 146.
+Package pdftex.def Info: greenThicknessVariation.png  used on input line 147.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
 <blueThicknessVariation.png, id=165, 409.7709pt x 328.8285pt>
 File: blueThicknessVariation.png Graphic file (type png)
 <use blueThicknessVariation.png>
-Package pdftex.def Info: blueThicknessVariation.png  used on input line 147.
+Package pdftex.def Info: blueThicknessVariation.png  used on input line 148.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
 
-Underfull \hbox (badness 1231) in paragraph at lines 152--153
+Underfull \hbox (badness 1231) in paragraph at lines 153--154
 \OT1/cmr/m/n/10 re-sult oc-curred. Large os-cil-la-tions with a rel-a-tive
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 152--153
+Underfull \hbox (badness 2096) in paragraph at lines 153--154
 \OT1/cmr/m/n/10 in-ten-sity am-pli-tude of ap-prox-i-mately $0\OML/cmm/m/it/10 
 :\OT1/cmr/m/n/10 1$ could be
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 152--153
+Underfull \hbox (badness 1142) in paragraph at lines 153--154
 \OT1/cmr/m/n/10 os-cil-la-tions was in-creas-ing un-til, af-ter around eight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-<oscillationsExample.png, id=173, 409.7709pt x 312.2064pt>
+[3]
+<oscillationsExample.png, id=187, 409.7709pt x 312.2064pt>
 File: oscillationsExample.png Graphic file (type png)
 <use oscillationsExample.png>
-Package pdftex.def Info: oscillationsExample.png  used on input line 158.
+Package pdftex.def Info: oscillationsExample.png  used on input line 159.
 (pdftex.def)             Requested size: 209.1015pt x 159.31367pt.
-<exampleTimeDependence.png, id=174, 422.0568pt x 328.8285pt>
+<exampleTimeDependence.png, id=188, 422.0568pt x 328.8285pt>
 File: exampleTimeDependence.png Graphic file (type png)
 <use exampleTimeDependence.png>
-Package pdftex.def Info: exampleTimeDependence.png  used on input line 162.
+Package pdftex.def Info: exampleTimeDependence.png  used on input line 163.
 (pdftex.def)             Requested size: 209.1015pt x 162.9136pt.
-<quadraticFit.png, id=175, 400.3758pt x 312.2064pt>
+<quadraticFit.png, id=189, 400.3758pt x 312.2064pt>
 File: quadraticFit.png Graphic file (type png)
 <use quadraticFit.png>
-Package pdftex.def Info: quadraticFit.png  used on input line 166.
+Package pdftex.def Info: quadraticFit.png  used on input line 167.
 (pdftex.def)             Requested size: 209.1015pt x 163.05807pt.
-<stillData.png, id=176, 416.2752pt x 312.2064pt>
+<stillData.png, id=190, 416.2752pt x 312.2064pt>
 File: stillData.png Graphic file (type png)
 <use stillData.png>
-Package pdftex.def Info: stillData.png  used on input line 170.
+Package pdftex.def Info: stillData.png  used on input line 171.
 (pdftex.def)             Requested size: 209.1015pt x 156.82692pt.
-(./surfacePlasmons.bbl [3] [4 <./wavelengthDependence.png>]
+ (./surfacePlasmons.bbl [4 <./wavelengthDependence.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 9.
@@ -725,10 +739,10 @@ Package rerunfilecheck Info: File `surfacePlasmons.out' has not changed.
 (rerunfilecheck)             Checksum: 5E32D36CDA4789FBA2F16DE89A83460F;3528.
  ) 
 Here is how much of TeX's memory you used:
- 13145 strings out of 475071
- 207168 string characters out of 5778915
- 578040 words of memory out of 5000000
- 34303 multiletter control sequences out of 15000+600000
+ 13200 strings out of 475071
+ 208182 string characters out of 5778915
+ 577180 words of memory out of 5000000
+ 34354 multiletter control sequences out of 15000+600000
  482247 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,77p,1462b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -737,26 +751,25 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on surfacePlasmons.pdf (8 pages, 763462 bytes).
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on surfacePlasmons.pdf (8 pages, 755593 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+ 329 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
