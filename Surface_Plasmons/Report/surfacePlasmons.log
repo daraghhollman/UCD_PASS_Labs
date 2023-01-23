@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  23 JAN 2023 08:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  23 JAN 2023 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,12 +543,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-<SPdiagram.jpg, id=104, 2047.65pt x 1164.35pt>
+<SPdiagram.jpg, id=92, 2047.65pt x 1164.35pt>
 File: SPdiagram.jpg Graphic file (type jpg)
 <use SPdiagram.jpg>
 Package pdftex.def Info: SPdiagram.jpg  used on input line 78.
 (pdftex.def)             Requested size: 209.1015pt x 118.8936pt.
-<anglesDiagram.png, id=105, 243.91125pt x 223.58531pt>
+<anglesDiagram.png, id=93, 243.91125pt x 223.58531pt>
 File: anglesDiagram.png Graphic file (type png)
 <use anglesDiagram.png>
 Package pdftex.def Info: anglesDiagram.png  used on input line 82.
@@ -579,84 +579,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
  []
 
 [2 <./SPdiagram.jpg> <./anglesDiagram.png>]
-<wavelengthDependence.png, id=155, 894.7026pt x 327.3831pt>
-File: wavelengthDependence.png Graphic file (type png)
-<use wavelengthDependence.png>
-Package pdftex.def Info: wavelengthDependence.png  used on input line 113.
-(pdftex.def)             Requested size: 393.6015pt x 144.02402pt.
-<redThicknessVariation.png, id=156, 409.7709pt x 328.8285pt>
-File: redThicknessVariation.png Graphic file (type png)
-<use redThicknessVariation.png>
-Package pdftex.def Info: redThicknessVariation.png  used on input line 117.
-(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-<greenThicknessVariation.png, id=157, 409.7709pt x 328.8285pt>
-File: greenThicknessVariation.png Graphic file (type png)
-<use greenThicknessVariation.png>
-Package pdftex.def Info: greenThicknessVariation.png  used on input line 118.
-(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-<blueThicknessVariation.png, id=158, 409.7709pt x 328.8285pt>
-File: blueThicknessVariation.png Graphic file (type png)
-<use blueThicknessVariation.png>
-Package pdftex.def Info: blueThicknessVariation.png  used on input line 119.
-(pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
+<wavelengthDependence.png, id=148, 894.7026pt x 327.3831pt>
+File: wavelengthDependence.png Graphic file (type png)
+<use wavelengthDependence.png>
+Package pdftex.def Info: wavelengthDependence.png  used on input line 124.
+(pdftex.def)             Requested size: 369.0pt x 135.02222pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 133.
+               Default added (so using `tbp') on input line 128.
+
+<redThicknessVariation.png, id=152, 409.7709pt x 328.8285pt>
+File: redThicknessVariation.png Graphic file (type png)
+<use redThicknessVariation.png>
+Package pdftex.def Info: redThicknessVariation.png  used on input line 148.
+(pdftex.def)             Requested size: 184.5pt x 148.05675pt.
+<greenThicknessVariation.png, id=153, 409.7709pt x 328.8285pt>
+File: greenThicknessVariation.png Graphic file (type png)
+<use greenThicknessVariation.png>
+Package pdftex.def Info: greenThicknessVariation.png  used on input line 149.
+(pdftex.def)             Requested size: 184.5pt x 148.05675pt.
+<blueThicknessVariation.png, id=154, 409.7709pt x 328.8285pt>
+File: blueThicknessVariation.png Graphic file (type png)
+<use blueThicknessVariation.png>
+Package pdftex.def Info: blueThicknessVariation.png  used on input line 150.
+(pdftex.def)             Requested size: 184.5pt x 148.05675pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
+[][]
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
+[]
+ []
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[3]
-<oscillationsExample.png, id=186, 409.7709pt x 312.2064pt>
+<oscillationsExample.png, id=169, 409.7709pt x 312.2064pt>
 File: oscillationsExample.png Graphic file (type png)
 <use oscillationsExample.png>
-Package pdftex.def Info: oscillationsExample.png  used on input line 161.
+Package pdftex.def Info: oscillationsExample.png  used on input line 158.
 (pdftex.def)             Requested size: 209.1015pt x 159.31367pt.
-<exampleTimeDependence.png, id=187, 422.0568pt x 328.8285pt>
+<exampleTimeDependence.png, id=170, 422.0568pt x 328.8285pt>
 File: exampleTimeDependence.png Graphic file (type png)
 <use exampleTimeDependence.png>
-Package pdftex.def Info: exampleTimeDependence.png  used on input line 165.
+Package pdftex.def Info: exampleTimeDependence.png  used on input line 163.
 (pdftex.def)             Requested size: 209.1015pt x 162.9136pt.
-<quadraticFit.png, id=188, 400.3758pt x 312.2064pt>
+<quadraticFit.png, id=171, 400.3758pt x 312.2064pt>
 File: quadraticFit.png Graphic file (type png)
 <use quadraticFit.png>
-Package pdftex.def Info: quadraticFit.png  used on input line 169.
+Package pdftex.def Info: quadraticFit.png  used on input line 168.
 (pdftex.def)             Requested size: 209.1015pt x 163.05807pt.
-<stillData.png, id=189, 416.2752pt x 312.2064pt>
+[4 <./wavelengthDependence.png> <./redThicknessVariation.png> <./greenThickness
+Variation.png> <./blueThicknessVariation.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 173.
+
+<stillData.png, id=190, 416.2752pt x 312.2064pt>
 File: stillData.png Graphic file (type png)
 <use stillData.png>
-Package pdftex.def Info: stillData.png  used on input line 173.
+Package pdftex.def Info: stillData.png  used on input line 175.
 (pdftex.def)             Requested size: 209.1015pt x 156.82692pt.
- (./surfacePlasmons.bbl [4 <./wavelengthDependence.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 9.
-
-
-Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
-
-[5 <./redThicknessVariation.png> <./greenThicknessVariation.png> <./blueThickne
-ssVariation.png> <./oscillationsExample.png> <./exampleTimeDependence.png> <./q
-uadraticFit.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 9.
-
-
-Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
-
-[6 <./stillData.png>]
+(./surfacePlasmons.bbl [5 <./oscillationsExample.png> <./exampleTimeDependence.
+png> <./quadraticFit.png> <./stillData.png>]
 ! Not loaded.
 \selectlanguage ...ing it}\errmessage {Not loaded}
                                                   
@@ -723,18 +716,15 @@ l.144 ...larization of a helium‐neon laser}},\ }
                                                   \href@noop {} {\bibfield
 Selecting a language requires a package supporting it
 
-) [7] [8] (./surfacePlasmons.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+) [6] (./surfacePlasmons.aux)
 Package rerunfilecheck Info: File `surfacePlasmons.out' has not changed.
-(rerunfilecheck)             Checksum: 600DEA32611008CBE4E692B1E133782D;3528.
+(rerunfilecheck)             Checksum: 1407886B1B8D56DD83B6BF7448D6232E;3177.
  ) 
 Here is how much of TeX's memory you used:
- 13199 strings out of 475071
- 208172 string characters out of 5778915
- 577404 words of memory out of 5000000
- 34353 multiletter control sequences out of 15000+600000
+ 13192 strings out of 475071
+ 208098 string characters out of 5778915
+ 577399 words of memory out of 5000000
+ 34351 multiletter control sequences out of 15000+600000
  482247 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,77p,1467b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -758,10 +748,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on surfacePlasmons.pdf (8 pages, 756935 bytes).
+Output written on surfacePlasmons.pdf (6 pages, 755675 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

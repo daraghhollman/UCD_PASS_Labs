@@ -109,16 +109,6 @@ aps,
 			To take data, the apparatus was set to an initial angle of approximately $30^\circ$. The data function was executed and the prism and the detector slowly rotated. Care was taken to ensure that the laser stayed tracked on the centre of the photodiode as if there were any misalignments it would drift off and the data would be inaccurate. The code ran for $600$ steps equivalent to an angular distance of $27^\circ$. The mean voltages across each step of this arc were recorded along with their standard deviations. This was done several times to improve accuracy and then repeated for all three lasers before switching to a $13\,\text{nm}$ prism and then repeated again for a $15\,\text{nm}$ prism. Note that an initial angle of $43.65^\circ$ was used for the blue laser as its excitation angle was outside of the range used in the runs for the red and green lasers. Each run of the data was saved as a plain text file which could opened and plotted in Python. See appendix A.2 on data analysis.
 		
 		
-		\begin{figure*}
-			\includegraphics[width=1.6\columnwidth]{wavelengthDependence.png}
-			\caption{\label{fig:wavelengthDependence}A plot of all three wavelengths with the $13\,\text{nm}$ prism. The mean voltage is marked by the dark lines and the standard deviation is marked by the lighter region behind them. Note these are strictly errors on the y-axis. Note an uncertainty of approximately 0.5 degrees is present on the x-axis however, this was not included as error-bars in the plot to improve readability}
-		\end{figure*}
-		\begin{figure}[h]
-			\includegraphics[width=0.85\columnwidth]{redThicknessVariation.png}
-			\includegraphics[width=0.85\columnwidth]{greenThicknessVariation.png}
-			\includegraphics[width=0.85\columnwidth]{blueThicknessVariation.png}
-			\caption{\label{fig:thicknessVariation}Plots visualising the variation between each film thickness across all three wavelengths. A thickness dependence of the excitation angle can clearly be visually seen as the minima consistently move towards smaller internal angles as the thickness increases. There appears to be some effect of the film thickness on the coupling as the extent of the extinction varies, however across the dataset no clear correlation can be made.}
-		\end{figure}
 		
 	
 	\section{Results and Analysis}
@@ -129,6 +119,11 @@ aps,
 			For each laser, red, green, and blue, the normalised intensity of the light reflected was plotted against the internal angle, see figure \ref{fig:wavelengthDependence} where the 13 nm thickness prism was used. It can be seen that the uncertainty on the voltage unexpectedly jumps much higher in the later stages of each run. We are unsure why this occurs however it could be due to interference from other light sources above particular angles, although this still would be unusual considering how prolonged and uniform it is. \\
 			
 			We see a clear non-linear dependence of surface plasmon resonance on wavelength. The extinction in the reflected light occurs at larger internal angles for shorter wavelengths. This matches what is shown in by the theory. The theoretical approximation of the internal angles were calculated using equation \ref{eq:angle} for each laser wavelength and added to table \ref{tab:dielectric}. Each theoretical angle is displayed as a dashed vertical line in figure \ref{fig:wavelengthDependence}. The minimum of the extinction dip was determined graphically and also recorded in table \ref{tab:dielectric}. Although the motors had a precision of $0.045^\circ$ the uncertainty on the angle was dominated by the uncertainty on the initial angle which was significantly higher at $0.5^\circ$. This is assumed to be due to be a combination of unaccounted for uncertainties and approximations. The approximation of excluding the imaginary component of the dielectric function $\epsilon_1$ and due to not factoring in the thickness of the silver film in the calculation.
+			
+			\begin{figure*}
+				\includegraphics[width=1.5\columnwidth]{wavelengthDependence.png}
+				\caption{\label{fig:wavelengthDependence}A plot of all three wavelengths with the $13\,\text{nm}$ prism. The mean voltage is marked by the dark lines and the standard deviation is marked by the lighter region behind them. Note these are strictly errors on the y-axis. Note an uncertainty of approximately 0.5 degrees is present on the x-axis however, this was not included as error-bars in the plot to improve readability}
+			\end{figure*}
 			
 			\begin{table}[]
 				\resizebox{\columnwidth}{!}{%
@@ -149,26 +144,33 @@ aps,
 			
 			A dependence on the thickness of the silver film is clearly seen throughout the dataset. Figure \ref{fig:thicknessVariation} shows the thickness variation across all three wavelengths. The excitation angle moves towards smaller angles with increasing thickness. An effect of the thickness on the coupling of the waves can be seen in the variation of the depth of the extinction dip, however we don't see a trend across all three wavelengths and no dependence was determined.
 			
-			
+			\begin{figure}[H]
+				\includegraphics[width=0.75\columnwidth]{redThicknessVariation.png}
+				\includegraphics[width=0.75\columnwidth]{greenThicknessVariation.png}
+				\includegraphics[width=0.75\columnwidth]{blueThicknessVariation.png}
+				\caption{\label{fig:thicknessVariation}Plots visualising the variation between each film thickness across all three wavelengths. A thickness dependence of the excitation angle can clearly be visually seen as the minima consistently move towards smaller internal angles as the thickness increases. There appears to be some effect of the film thickness on the coupling as the extent of the extinction varies, however across the dataset no clear correlation can be made.}
+			\end{figure}
 	
 		\subsection{Anomaly found during Red Laser Runs}
 			When taking data with the red laser and unexpected result occurred. Large oscillations with a relative intensity amplitude of approximately $0.1$ could be seen in the data, see figure \ref{fig:oscillationsExample}. After attempting to troubleshoot any potential interferences with the data the anomaly seemed unavoidable and a workflow was developed to average multiple data runs together to eliminate the oscillations by destructive interference. This proved to be successful, however while carrying out this workflow after making several consecutive measurements a pattern was apparent from the data. With each consecutive measurement the period of the oscillations was increasing until, after around eight consecutive measurements ($\approx$30 minutes) the period was long enough that the change in intensity was negligible. This change in period is shown in figure \ref{fig:oscillationsExample}. We developed a function to automatically fit a sin wave to each set of data and output its period. An example of this is shown in figure \ref{fig:exampleSin}. Consecutive measurements were made while noting the time that each run started, and using this function a time dependence relation of the period of oscillations was determined. As shown in figure \ref{fig:quadraticDependence} which within the first 22 minutes of laser warm-up the period of these oscillations closely follows a quadratic time dependence. \\
-			
-			E. R. Jones describes varying intensity from helium-neon lasers after the light is passed through a linear polariser during an approximately hour long warm-up period after a cold start \cite{jonesPolarisation}. He describes the cause of the effect to be from a few factors: The width of the lasing transition line, the resonant frequencies of the cavity between the mirrors, and the thermal expansion of the laser tube. The figures in this paper and another by Woolsey et al. \cite{woolseyPolarisation} closely match the change in the period of oscillations over time as shown in figure \ref{fig:stillData}. It is important to note that this effect was noticed in the other lasers too but to a much lesser, and in most cases, a negligible effect. This leads us to believe that what was observed is the same effect as demonstrated in the paper by E. R. Jones and that this laser in particular has become somewhat defective with use.
-			
 			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{oscillationsExample.png}
 				\caption{\label{fig:oscillationsExample}An example measurement showing the oscillations apparent in the red laser measurements. Consecutive measurements were taken. This plot displays the 1st, 3rd, and 7th runs showing the apparent change in the oscillations over time. In the 7th run, the oscillations are barely apparent and would not be noticed as such if not for the data taken prior.}
 			\end{figure}
+		
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{exampleTimeDependence.png}
 				\caption{\label{fig:exampleSin}An example of how the oscillations in the data closely resemble a sinusoidal wave. This is a sample taken from a standard run of the data collection algorithm approximately 18 minutes after the laser was turned on and started warming up. The period of the sin wave is noted in the legend in degrees.}
-			\end{figure}
+			\end{figure}		
+		
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{quadraticFit.png}
 				\caption{\label{fig:quadraticDependence}The quadratic orthogonal distance regression fit of the period of oscillations against the time after the laser was turned on. Following this quadratic curve upwards of thirty seconds the period becomes large enough as to be greater than the range in which the data collection is being carried out.}
 			\end{figure}
+			
+			E. R. Jones describes varying intensity from helium-neon lasers after the light is passed through a linear polariser during an approximately hour long warm-up period after a cold start \cite{jonesPolarisation}. He describes the cause of the effect to be from a few factors: The width of the lasing transition line, the resonant frequencies of the cavity between the mirrors, and the thermal expansion of the laser tube. The figures in this paper and another by Woolsey et al. \cite{woolseyPolarisation} closely match the change in the period of oscillations over time as shown in figure \ref{fig:stillData}. It is important to note that this effect was noticed in the other lasers too but to a much lesser, and in most cases, a negligible effect. This leads us to believe that what was observed is the same effect as demonstrated in the paper by E. R. Jones and that this laser in particular has become somewhat defective with use.
+			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{stillData.png}
 				\caption{\label{fig:stillData}Data taken where the red laser is directly incident on the detector and without the motors turning. The oscillations are still present in this case and can visibly be seen to increase in period over time. Note that although the x axis is represented as steps, these are irrelevant of motor turning and instead mark steps of approximately 0.3 seconds delays between measurements for a full time frame of 3 minutes. The increase in average intensity towards the later part of the plot is unknown but is likely also a part of the "warm-up" process of helium-neon lasers.}
@@ -181,15 +183,7 @@ aps,
 		
 	\clearpage
 	\bibliography{surfacePlasmons}% Produces the bibliography via BibTeX.
-		
-	\clearpage
-	\appendix
-		
-	\section{Python Code}
-	
-		\subsection{Data Acquisition}
-		
-		\subsection{Analysis}
+
 		
 \end{document}
 
