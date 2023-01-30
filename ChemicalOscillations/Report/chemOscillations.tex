@@ -33,7 +33,11 @@ This is the abstract...
 
 What are chemical oscillations and what are their modern applications.\\
 
-What is the Brusselator?
+A chemical oscillator is a nonlinear system of reacting chemicals in which exhibits
+
+Nonlinear systems have many applications in modern areas of science and engineering \cite{parada} particularly in .\\
+
+The Brusselator is one such system.
 
 \subsection{Oscillations in a Chemical System}
 
@@ -71,7 +75,7 @@ Describe the stable position of the system and derive it.\\
 At any stable point, the rate of change of $X$ and $Y$ is zero.
 \begin{equation}
 	\frac{dX}{dt}=0\,\text{  ;  }\frac{dY}{dt}=0
-\end{equation}Hence,
+\end{equation}Hence we can find the stable point by solving for $X$ and $Y$. A full derivation is inlcuded in appendix 1, however a single point at $(X, Y) = \left(A, \frac{B}{A}\right)$ is the only stable point in the system.\\
 
 
 Discuss what will be looked at, i.e. phase space diagrams and concentration evolutions. The variation of intial conditions and the fixed constants etc.\\
@@ -108,6 +112,26 @@ Discuss what will be looked at, i.e. phase space diagrams and concentration evol
 
 \clearpage
 \bibliography{chemOscillationsReferences.bib}
+
+\clearpage
+
+\section*{Appendix 1 - Derrivation of the Stable Point}
+\begin{align*}
+	\begin{aligned}
+	A - (B + 1)X + X^2 Y &= 0\\
+	BX - X^2 Y &= 0\\
+	\\
+	\therefore \hspace{1cm} X^2 Y &= BX\\
+	\\
+	\implies A - (B + 1)X + BX &= 0\\
+	X &= A\\
+	\\
+	A^2 Y &= BA\\
+	\implies Y &= \frac{B}{A}\\
+	\\
+	(X, Y) &= \left(A, \frac{B}{A}\right)
+	\end{aligned}
+\end{align*}
 
 \end{document}
 
