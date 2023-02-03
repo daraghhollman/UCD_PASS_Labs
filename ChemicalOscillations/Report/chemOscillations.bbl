@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{2}%
+\begin{thebibliography}{4}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -57,14 +57,27 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
   {Lozano-Parada}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
   {Burnham}},\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Machuca~Martinez}},\ }\bibfield  {title} {{\selectlanguage {English}\bibinfo
-  {title} {Pedagogical approach to the modeling and simulation of oscillating
-  chemical systems with modern software: The brusselator model}},\ }\href@noop
-  {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of chemical
-  education}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages} {758}
-  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+  {Machuca~Martinez}},\ }\bibfield  {title} {\bibinfo {title} {Pedagogical
+  approach to the modeling and simulation of oscillating chemical systems with
+  modern software: The brusselator model},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of chemical education}\ }\textbf
+  {\bibinfo {volume} {95}},\ \bibinfo {pages} {758} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
 \bibitem [{man()}]{manual}%
   \BibitemOpen
   \href@noop {} {\emph {\bibinfo {title} {Chemical Oscillations}}},\ \bibinfo
   {organization} {University College Dublin}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Israel}()}]{eulerError}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {Israel}},\ }\href@noop {} {\bibinfo {title} {Error analysis of the euler
+  method}},\ \bibinfo {note}
+  {\url{https://personal.math.ubc.ca/~israel/m215/euler2/euler2.html}, visited
+  on 01/02/23}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dawkins}()}]{paulsNotes}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Dawkins}},\ }\href@noop {} {\bibinfo {title} {Euler's method}},\ \bibinfo
+  {note} {\url{https://tutorial.math.lamar.edu/classes/de/eulersmethod.aspx},
+  visited on 01/02/23, last modified on 16/11/22}\BibitemShut {NoStop}%
 \end{thebibliography}%

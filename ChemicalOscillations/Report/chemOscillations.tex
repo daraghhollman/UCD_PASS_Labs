@@ -4,8 +4,10 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{hyperref}% add hypertext capabilities
+\usepackage{bibspacing}
 \usepackage[font=scriptsize,labelfont=bf, justification=justified]{caption}% change fontsize in captions
 \usepackage{float}
+\usepackage[english]{babel}
 \usepackage{booktabs}% cool table style
 \hypersetup{
 	colorlinks=true,       % false: boxed links; true: colored links
@@ -69,24 +71,28 @@ With ODEs given by:
 	\end{aligned}
 \end{align}
 
-
-Describe the stable position of the system and derive it.\\
-
-At any stable point, the rate of change of $X$ and $Y$ is zero.
+The steady state solution of this system is one which stays stationary over time, sometimes refered to as a stable point. At any stable point, the rate of change of $X$ and $Y$ is zero.
 \begin{equation}
 	\frac{dX}{dt}=0\,\text{  ;  }\frac{dY}{dt}=0
-\end{equation}Hence we can find the stable point by solving for $X$ and $Y$. A full derivation is inlcuded in appendix 1, however a single point at $(X, Y) = \left(A, \frac{B}{A}\right)$ is the only stable point in the system.\\
+\end{equation}Hence we can find the stable point by solving for $X$ and $Y$. A full derivation is inlcuded in appendix 1, however a single point at $(X, Y) = \left(A, \frac{B}{A}\right)$ is calculated to be the only stable point in the system.\\
 
-
-Discuss what will be looked at, i.e. phase space diagrams and concentration evolutions. The variation of intial conditions and the fixed constants etc.\\
+In this report we will investigate the evolution of the Brusselator system over time, and discuss the oscillatory nature of the reaction using phase space diagrams and concentration diagrams. This will be carried out over a range of initial conditions for X and Y, but also varying ratios of A and B.
 
 \section{Computational Methods}
 
 \subsection{The Euler Method}
+The Euler Method was chosen to numerically integrate the rate equations to evolve the system over time. The Euler Method is used to solve the first-order initial value problem \cite{eulerError}:
+\begin{equation}
+	\frac{dy}{dx} = f\left(x, y \right),\, y(x_0) = y_0
+\end{equation}Here we have first-order ordinary differential equation with a known initial condition. Euler's Method makes use of a relativly simple process where it takes the slope of the function at an initial point and assumes a linear path between that point and the next some arbitrary step away. The formula is given as follows \cite{paulsNotes}:
+\begin{equation}
+	y(x+h) = y(x) + h f(x, y)
+\end{equation}where $h$ is the step size. This will construct the tangent at coordinate $x$, and find the value of $y(x+h)$ to determine the next point.
 
 \subsubsection{The Application of the Euler method to the System}
 
 \subsection{Error Analysis of the Euler Method}
+Note how the error scales with h.
 
 \section{Results and Discussion}
 
