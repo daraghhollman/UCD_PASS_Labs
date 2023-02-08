@@ -69,12 +69,13 @@ With ODEs given by:
 	\frac{dX}{dt} &= A - (B + 1)X + X^2 Y & (a)\\
 	\frac{dY}{dt} &= BX - X^2 Y & (b)
 	\end{aligned}
+	\label{eq:rate}
 \end{align}
 
-The steady state solution of this system is one which stays stationary over time, sometimes refered to as a stable point. At any stable point, the rate of change of $X$ and $Y$ is zero.
+The steady state solution of this system is one which stays stationary over time, sometimes referred to as a stable point. At any stable point, the rate of change of $X$ and $Y$ is zero.
 \begin{equation}
 	\frac{dX}{dt}=0\,\text{  ;  }\frac{dY}{dt}=0
-\end{equation}Hence we can find the stable point by solving for $X$ and $Y$. A full derivation is inlcuded in appendix 1, however a single point at $(X, Y) = \left(A, \frac{B}{A}\right)$ is calculated to be the only stable point in the system.\\
+\end{equation}Hence we can find the stable point by solving for $X$ and $Y$. A full derivation is included in appendix 1, however a single point at $(X, Y) = \left(A, \frac{B}{A}\right)$ is calculated to be the only stable point in the system.\\
 
 In this report we will investigate the evolution of the Brusselator system over time, and discuss the oscillatory nature of the reaction using phase space diagrams and concentration diagrams. This will be carried out over a range of initial conditions for X and Y, but also varying ratios of A and B.
 
@@ -84,19 +85,54 @@ In this report we will investigate the evolution of the Brusselator system over 
 The Euler Method was chosen to numerically integrate the rate equations to evolve the system over time. The Euler Method is used to solve the first-order initial value problem \cite{eulerError}:
 \begin{equation}
 	\frac{dy}{dx} = f\left(x, y \right),\, y(x_0) = y_0
-\end{equation}Here we have first-order ordinary differential equation with a known initial condition. Euler's Method makes use of a relativly simple process where it takes the slope of the function at an initial point and assumes a linear path between that point and the next some arbitrary step away. The formula is given as follows \cite{paulsNotes}:
+\end{equation}Here we have first-order ordinary differential equation with a known initial condition. Euler's Method makes use of a relatively simple process where it takes the slope of the function at an initial point and assumes a linear path between that point and the next some arbitrary step away. The formula is given as follows \cite{paulsNotes}:
 \begin{equation}
 	y(x+h) = y(x) + h f(x, y)
-\end{equation}where $h$ is the step size. This will construct the tangent at coordinate $x$, and find the value of $y(x+h)$ to determine the next point.
+	\label{eq:eulers}
+\end{equation}where $h$ is the step size. This will construct the tangent at coordinate $x$, and find the value of $y(x+h)$ to determine the next point. Hence to use Euler's method we can pick a starting point around which we want to approximate and then evaluate equation \ref{eq:eulers} until we have reached the desired number of steps.
 
 \subsubsection{The Application of the Euler method to the System}
 
+The Brusselator system is has two dependent variables which vary with time as shown in the rate equations, see equation \ref{eq:rate}, and hence we need to run two calculations of Euler's method simultaneously. Rewriting these rate equations in the form of equation \ref{eq:eulers}, we have the following:
+\begin{align}
+	\begin{aligned}
+	X_{i+1} &= X_i + \Delta t \frac{dX}{dt} & (a)\\
+	Y_{i+1} &= Y_i + \Delta t \frac{dY}{dt} & (b)
+	\end{aligned}
+	\label{eq:application}
+\end{align}where $X_{i}$ is value of $X(t)$ and $X_{i+1}$ is the next step, $X(t+\Delta t)$ with step size $\Delta t$. These variables have the same meaning for equation \ref{eq:application}b but in terms of $Y$.
+
 \subsection{Error Analysis of the Euler Method}
-Note how the error scales with h.
+Note how the error scales with h. and that Euler's method is useful for a system which doesn't change quickly.
+
+\subsubsection{Round-off Error}
+Discuss the precision of a float. Explain how we ignore this
+
+\subsubsection{Truncation Error}
+Aside from the round-off error there exists truncation error between the exact solution and the solution estimated by Euler's method. There is the local error between each step and the global error which is the summation of all the local errors up to a certain step \cite{owkes}. If we take the Taylor series approximation for a function:
+\begin{equation}
+	y_{i+1} = y_{i} + y'_{i}h + \frac{y''_i}{2} h^2 + \dots + \frac{y_i^{(n)}}{n!} h^n + \dots
+\end{equation}we can clearly see that the first two terms of this are the same as Euler's method shown in equation \ref{eq:eulers}. The Taylor series will be an exact solution if all terms are included however if we truncate it after the first two terms, what remains will be the difference between Euler's method and the exact solution over a step. This is the local error. For an ODE with:
+\begin{align*}
+	\begin{aligned}
+	\frac{dy}{dx} &= f(x,y)\\
+	y' &= f(x,y)
+	\end{aligned}
+\end{align*}we have
+\begin{equation}
+	y_{i+1} = \underbrace{y_i + f(x_i, y_i) h}_\text{Euler's Method} + \underbrace{\frac{f'(x_i,y_i)}{2}h^2 + \dots}_\text{Error}
+\end{equation}We can assume that, with a small step size $h$, that higher order terms will be small. Hence we can take the local error to scale with $\mathcal{O}(h^2)$ and that terms of $\mathcal{O}(h^3)$ or higher are negligible.\\
+
+The global error is the summation of the local errors for each step. As the step size decreases, the number of steps within a length L increases with $h^{-1}$. Hence the global error is given by the following.
+\begin{equation}
+	\epsilon_g = \frac{1}{h} \sum \epsilon_l
+\end{equation}hence as the local error scales with $h^2$ and the global error scales with the local error and $h^{-1}$. The global error scales with $\mathcal{O}(h)$.
 
 \section{Results and Discussion}
 
 \subsection{Varying the initial conditions}
+What were the step and variable initial conditions.
+
 
 \begin{figure*}
 \includegraphics[width=2\columnwidth]{combinedPlot.png}

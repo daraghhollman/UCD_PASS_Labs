@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.25)  1 FEB 2023 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.25)  7 FEB 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,36 +568,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<combinedPlot.png, id=96, 893.2572pt x 339.669pt>
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+<combinedPlot.png, id=110, 893.2572pt x 339.669pt>
 File: combinedPlot.png Graphic file (type png)
 <use combinedPlot.png>
-Package pdftex.def Info: combinedPlot.png  used on input line 102.
+Package pdftex.def Info: combinedPlot.png  used on input line 138.
 (pdftex.def)             Requested size: 492.0pt x 187.08803pt.
-<combinedPlot_fallToStable.png, id=98, 897.5934pt x 339.669pt>
+<combinedPlot_fallToStable.png, id=112, 897.5934pt x 339.669pt>
 File: combinedPlot_fallToStable.png Graphic file (type png)
 <use combinedPlot_fallToStable.png>
-Package pdftex.def Info: combinedPlot_fallToStable.png  used on input line 107.
+Package pdftex.def Info: combinedPlot_fallToStable.png  used on input line 143.
 
 (pdftex.def)             Requested size: 492.0pt x 186.1862pt.
-<variationOfInitialConditions_phase.png, id=99, 409.7709pt x 328.8285pt>
+<variationOfInitialConditions_phase.png, id=113, 409.7709pt x 328.8285pt>
 File: variationOfInitialConditions_phase.png Graphic file (type png)
 <use variationOfInitialConditions_phase.png>
 Package pdftex.def Info: variationOfInitialConditions_phase.png  used on input 
-line 112.
+line 148.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-<variationOfInitialConditions_evolution.png, id=100, 409.7709pt x 328.8285pt>
+<variationOfInitialConditions_evolution.png, id=114, 409.7709pt x 328.8285pt>
 File: variationOfInitialConditions_evolution.png Graphic file (type png)
 <use variationOfInitialConditions_evolution.png>
 Package pdftex.def Info: variationOfInitialConditions_evolution.png  used on in
-put line 113.
+put line 149.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
- (./chemOscillations.bbl
-[2] [3 <./combinedPlot.png> <./combinedPlot_fallToStable.png>]
+(./chemOscillations.bbl [2] [3 <./combinedPlot.png> <./combinedPlot_fallToStabl
+e.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 9.
@@ -628,13 +632,13 @@ m/n/9 , vis-ited on
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `chemOscillations.out' has not changed.
-(rerunfilecheck)             Checksum: 1A410BB0C7355E0DFD827525D8A5015F;3188.
+(rerunfilecheck)             Checksum: 1D083F9C588E8BE8FF639F0F6CA19CDC;3463.
  ) 
 Here is how much of TeX's memory you used:
- 13914 strings out of 480204
- 219101 string characters out of 5895010
- 546688 words of memory out of 5000000
- 31632 multiletter control sequences out of 15000+600000
+ 13929 strings out of 480204
+ 219282 string characters out of 5895010
+ 547789 words of memory out of 5000000
+ 31640 multiletter control sequences out of 15000+600000
  482247 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  69i,15n,76p,759b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -653,10 +657,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on chemOscillations.pdf (6 pages, 505454 bytes).
+Output written on chemOscillations.pdf (6 pages, 517063 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

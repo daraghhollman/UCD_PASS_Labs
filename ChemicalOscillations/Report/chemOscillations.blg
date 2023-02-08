@@ -29,45 +29,46 @@ Control: production of eprint (0) enabled
 Warning--empty year in manual
 Warning--empty year in eulerError
 Warning--empty year in paulsNotes
-You've used 6 entries,
+Warning--empty year in owkes
+You've used 7 entries,
             6079 wiz_defined-function locations,
-            1656 strings with 15699 characters,
-and the built_in function-call counts, 3683 in all, are:
-= -- 227
-> -- 59
-< -- 44
-+ -- 26
-- -- 30
-* -- 501
-:= -- 364
-add.period$ -- 4
-call.type$ -- 6
-change.case$ -- 21
-chr.to.int$ -- 16
-cite$ -- 11
-duplicate$ -- 398
-empty$ -- 224
-format.name$ -- 25
-if$ -- 652
+            1660 strings with 15777 characters,
+and the built_in function-call counts, 4259 in all, are:
+= -- 272
+> -- 67
+< -- 46
++ -- 30
+- -- 32
+* -- 579
+:= -- 434
+add.period$ -- 5
+call.type$ -- 7
+change.case$ -- 26
+chr.to.int$ -- 17
+cite$ -- 13
+duplicate$ -- 455
+empty$ -- 267
+format.name$ -- 30
+if$ -- 758
 int.to.chr$ -- 1
-int.to.str$ -- 13
-missing$ -- 60
-newline$ -- 64
-num.names$ -- 9
-pop$ -- 194
+int.to.str$ -- 14
+missing$ -- 66
+newline$ -- 67
+num.names$ -- 12
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 21
 quote$ -- 0
-skip$ -- 142
+skip$ -- 164
 stack$ -- 0
-substring$ -- 77
-swap$ -- 318
-text.length$ -- 5
+substring$ -- 91
+swap$ -- 361
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 61
-warning$ -- 4
-while$ -- 18
+type$ -- 73
+warning$ -- 5
+while$ -- 20
 width$ -- 0
-write$ -- 81
-(There were 4 warnings)
+write$ -- 88
+(There were 5 warnings)
