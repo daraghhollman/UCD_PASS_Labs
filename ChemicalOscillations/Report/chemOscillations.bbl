@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{5}%
+\begin{thebibliography}{12}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,15 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Nicolis}\ and\ \citenamefont
+  {Portnow}(1973)}]{nicolis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Nicolis}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Portnow}},\ }\bibfield  {title} {{\selectlanguage {English}\bibinfo {title}
+  {Chemical oscillations}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Chemical reviews}\ }\textbf {\bibinfo {volume} {73}},\ \bibinfo
+  {pages} {365} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lozano-Parada}\ \emph {et~al.}(2018)\citenamefont
   {Lozano-Parada}, \citenamefont {Burnham},\ and\ \citenamefont
   {Machuca~Martinez}}]{parada}%
@@ -63,6 +72,49 @@
   {journal} {\bibinfo  {journal} {Journal of chemical education}\ }\textbf
   {\bibinfo {volume} {95}},\ \bibinfo {pages} {758} (\bibinfo {year}
   {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cupic}\ \emph {et~al.}(2021)\citenamefont {Cupic},
+  \citenamefont {Taylor}, \citenamefont {Horváth}, \citenamefont {Orlik},\
+  and\ \citenamefont {Epstein}}]{oscillationsAdvances}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~D.}\ \bibnamefont
+  {Cupic}}, \bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont {Taylor}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Horváth}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Orlik}},\ and\ \bibinfo {author}
+  {\bibfnamefont {I.~R.}\ \bibnamefont {Epstein}},\ }\bibfield  {title}
+  {\bibinfo {title} {Editorial: Advances in oscillating reactions},\ }\bibfield
+   {journal} {\bibinfo  {journal} {Frontiers in Chemistry}\ }\textbf {\bibinfo
+  {volume} {9}},\ \href {https://doi.org/10.3389/fchem.2021.690699}
+  {10.3389/fchem.2021.690699} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ren}\ \emph {et~al.}(2013)\citenamefont {Ren},
+  \citenamefont {Zhang}, \citenamefont {Gao},\ and\ \citenamefont
+  {Yang}}]{analytical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Ren}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Gao}},\ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Yang}},\ }\bibfield  {title} {\bibinfo
+  {title} {The application of oscillating chemical reactions to analytical
+  determinations},\ }\href {https://doi.org/doi:10.2478/s11532-013-0239-y}
+  {\bibfield  {journal} {\bibinfo  {journal} {Open Chemistry}\ }\textbf
+  {\bibinfo {volume} {11}},\ \bibinfo {pages} {1023} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ault}\ and\ \citenamefont
+  {Holmgreen}(2003)}]{dynamics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ault}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Holmgreen}},\ }\bibfield  {title} {\bibinfo {title} {Dynamics of the
+  brusselator},\ }\href@noop {} {\  (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Horn}\ and\ \citenamefont
+  {Jackson}(1972)}]{massAction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Horn}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Jackson}},\
+  }\bibfield  {title} {{\selectlanguage {English}\bibinfo {title} {General mass
+  action kinetics}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Archive for rational mechanics and analysis}\ }\textbf {\bibinfo {volume}
+  {47}},\ \bibinfo {pages} {81} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
 \bibitem [{man()}]{manual}%
   \BibitemOpen
   \href@noop {} {\emph {\bibinfo {title} {Chemical Oscillations}}},\ \bibinfo
@@ -80,6 +132,16 @@
   {Dawkins}},\ }\href@noop {} {\bibinfo {title} {Euler's method}},\ \bibinfo
   {note} {\url{https://tutorial.math.lamar.edu/classes/de/eulersmethod.aspx},
   visited on 01/02/23, last modified on 16/11/22}\BibitemShut {NoStop}%
+\bibitem [{pyt()}]{python}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {{Python 3.11.1 Documentation}}},\ \bibinfo
+  {note} {{The Python Software Foundation}, \url{https://docs.python.org/3/},
+  accessed on 08/02/23}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Warburton}()}]{niels}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Warburton}},\ }\href@noop {} {\bibinfo {title} {{ACM20030: Computational
+  Science - Introduction and Python Programming}}}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Owkes}()}]{owkes}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont

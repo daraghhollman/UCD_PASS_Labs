@@ -26,49 +26,91 @@ Control: production of article title (0) allowed
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry dynamics
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in dynamics
 Warning--empty year in manual
 Warning--empty year in eulerError
 Warning--empty year in paulsNotes
+Warning--empty year in python
+Warning--empty year in niels
 Warning--empty year in owkes
-You've used 7 entries,
+You've used 14 entries,
             6079 wiz_defined-function locations,
-            1660 strings with 15777 characters,
-and the built_in function-call counts, 4259 in all, are:
-= -- 272
-> -- 67
-< -- 46
-+ -- 30
-- -- 32
-* -- 579
-:= -- 434
-add.period$ -- 5
-call.type$ -- 7
-change.case$ -- 26
-chr.to.int$ -- 17
-cite$ -- 13
-duplicate$ -- 455
-empty$ -- 267
-format.name$ -- 30
-if$ -- 758
+            1707 strings with 16839 characters,
+and the built_in function-call counts, 10491 in all, are:
+= -- 747
+> -- 208
+< -- 74
++ -- 78
+- -- 64
+* -- 1491
+:= -- 1050
+add.period$ -- 12
+call.type$ -- 14
+change.case$ -- 61
+chr.to.int$ -- 24
+cite$ -- 25
+duplicate$ -- 1041
+empty$ -- 723
+format.name$ -- 116
+if$ -- 2013
 int.to.chr$ -- 1
-int.to.str$ -- 14
-missing$ -- 66
-newline$ -- 67
-num.names$ -- 12
-pop$ -- 221
+int.to.str$ -- 21
+missing$ -- 152
+newline$ -- 88
+num.names$ -- 30
+pop$ -- 481
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 54
 quote$ -- 0
-skip$ -- 164
+skip$ -- 436
 stack$ -- 0
-substring$ -- 91
-swap$ -- 361
-text.length$ -- 6
+substring$ -- 216
+swap$ -- 885
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 73
-warning$ -- 5
-while$ -- 20
+type$ -- 166
+warning$ -- 8
+while$ -- 35
 width$ -- 0
-write$ -- 88
-(There were 5 warnings)
+write$ -- 144
+(There were 13 error messages)
