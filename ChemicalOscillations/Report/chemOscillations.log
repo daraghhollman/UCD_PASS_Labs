@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.25)  8 FEB 2023 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.25)  9 FEB 2023 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,14 +445,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box71
 )
-(./chemOscillations.aux
-
-LaTeX Warning: Label `fig:combinedPlot' multiply defined.
-
-
-LaTeX Warning: Label `fig:combinedPlot' multiply defined.
-
-)
+(./chemOscillations.aux)
 \openout1 = `chemOscillations.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -473,7 +466,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
 \scratchdimen=\dimen176
@@ -558,31 +552,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<combinedPlot.png, id=120, 893.2572pt x 339.669pt>
-File: combinedPlot.png Graphic file (type png)
-<use combinedPlot.png>
-Package pdftex.def Info: combinedPlot.png  used on input line 129.
-(pdftex.def)             Requested size: 442.80075pt x 168.37767pt.
-<combinedPlot_fallToStable.png, id=122, 897.5934pt x 339.669pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<combinedPlot_fallToStable.png, id=139, 897.5934pt x 339.669pt>
 File: combinedPlot_fallToStable.png Graphic file (type png)
 <use combinedPlot_fallToStable.png>
-Package pdftex.def Info: combinedPlot_fallToStable.png  used on input line 134.
+Package pdftex.def Info: combinedPlot_fallToStable.png  used on input line 128.
 
-(pdftex.def)             Requested size: 442.80075pt x 167.56914pt.
-<variationOfInitialConditions_phase.png, id=123, 409.7709pt x 328.8285pt>
+(pdftex.def)             Requested size: 405.8985pt x 153.60115pt.
+<oneToOne-Nine.png, id=141, 891.0891pt x 339.669pt>
+File: oneToOne-Nine.png Graphic file (type png)
+<use oneToOne-Nine.png>
+Package pdftex.def Info: oneToOne-Nine.png  used on input line 133.
+(pdftex.def)             Requested size: 405.8985pt x 154.72585pt.
+<combinedPlot.png, id=144, 893.2572pt x 339.669pt>
+File: combinedPlot.png Graphic file (type png)
+<use combinedPlot.png>
+Package pdftex.def Info: combinedPlot.png  used on input line 138.
+(pdftex.def)             Requested size: 405.8985pt x 154.34232pt.
+
+Underfull \hbox (badness 1215) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 con-trasted by fig-ure [][]3[][] where the os-cil-la-tions reac
+h
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<oneToTwo-Five.png, id=150, 891.0891pt x 339.669pt>
+File: oneToTwo-Five.png Graphic file (type png)
+<use oneToTwo-Five.png>
+Package pdftex.def Info: oneToTwo-Five.png  used on input line 145.
+(pdftex.def)             Requested size: 405.8985pt x 154.72585pt.
+<oneToFour.png, id=151, 881.694pt x 339.669pt>
+File: oneToFour.png Graphic file (type png)
+<use oneToFour.png>
+Package pdftex.def Info: oneToFour.png  used on input line 150.
+(pdftex.def)             Requested size: 405.8985pt x 156.36884pt.
+<variationOfInitialConditions_phase.png, id=154, 409.7709pt x 328.8285pt>
 File: variationOfInitialConditions_phase.png Graphic file (type png)
 <use variationOfInitialConditions_phase.png>
 Package pdftex.def Info: variationOfInitialConditions_phase.png  used on input 
-line 139.
+line 157.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-<variationOfInitialConditions_evolution.png, id=124, 409.7709pt x 328.8285pt>
+<variationOfInitialConditions_evolution.png, id=155, 409.7709pt x 328.8285pt>
 File: variationOfInitialConditions_evolution.png Graphic file (type png)
 <use variationOfInitialConditions_evolution.png>
 Package pdftex.def Info: variationOfInitialConditions_evolution.png  used on in
-put line 140.
+put line 158.
 (pdftex.def)             Requested size: 209.1015pt x 167.79564pt.
-(./chemOscillations.bbl [2] [3 <./combinedPlot.png> <./combinedPlot_fallToStabl
-e.png>]
+(./chemOscillations.bbl [3] [4 <./combinedPlot_fallToStable.png> <./oneToOne-Ni
+ne.png> <./combinedPlot.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 9.
@@ -590,7 +620,15 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 
 Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-[4 <./variationOfInitialConditions_phase.png> <./variationOfInitialConditions_e
+[5 <./oneToTwo-Five.png> <./oneToFour.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 9.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+[6 <./variationOfInitialConditions_phase.png> <./variationOfInitialConditions_e
 volution.png>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¡ in font cmr9!
@@ -605,21 +643,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--129
 /
  []
 
-) [5] [6] (./chemOscillations.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+) [7] [8] (./chemOscillations.aux)
 Package rerunfilecheck Info: File `chemOscillations.out' has not changed.
-(rerunfilecheck)             Checksum: 7A0B5833A315F90ADB218BBA6280ECE0;3266.
+(rerunfilecheck)             Checksum: A4EB34AD295968279AB8E5F32EB80E90;3050.
  ) 
 Here is how much of TeX's memory you used:
- 13954 strings out of 480204
- 219708 string characters out of 5895010
- 548696 words of memory out of 5000000
- 31657 multiletter control sequences out of 15000+600000
+ 13983 strings out of 480204
+ 220252 string characters out of 5895010
+ 551056 words of memory out of 5000000
+ 31679 multiletter control sequences out of 15000+600000
  482247 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 69i,15n,76p,830b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,15n,76p,1133b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
@@ -627,18 +662,20 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on chemOscillations.pdf (6 pages, 523832 bytes).
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb>
+Output written on chemOscillations.pdf (8 pages, 852878 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

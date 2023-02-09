@@ -50,15 +50,6 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Nicolis}\ and\ \citenamefont
-  {Portnow}(1973)}]{nicolis}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Nicolis}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Portnow}},\ }\bibfield  {title} {{\selectlanguage {English}\bibinfo {title}
-  {Chemical oscillations}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Chemical reviews}\ }\textbf {\bibinfo {volume} {73}},\ \bibinfo
-  {pages} {365} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lozano-Parada}\ \emph {et~al.}(2018)\citenamefont
   {Lozano-Parada}, \citenamefont {Burnham},\ and\ \citenamefont
   {Machuca~Martinez}}]{parada}%
@@ -72,6 +63,15 @@
   {journal} {\bibinfo  {journal} {Journal of chemical education}\ }\textbf
   {\bibinfo {volume} {95}},\ \bibinfo {pages} {758} (\bibinfo {year}
   {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nicolis}\ and\ \citenamefont
+  {Portnow}(1973)}]{nicolis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Nicolis}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Portnow}},\ }\bibfield  {title} {{\selectlanguage {English}\bibinfo {title}
+  {Chemical oscillations}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Chemical reviews}\ }\textbf {\bibinfo {volume} {73}},\ \bibinfo
+  {pages} {365} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cupic}\ \emph {et~al.}(2021)\citenamefont {Cupic},
   \citenamefont {Taylor}, \citenamefont {Horváth}, \citenamefont {Orlik},\
   and\ \citenamefont {Epstein}}]{oscillationsAdvances}%

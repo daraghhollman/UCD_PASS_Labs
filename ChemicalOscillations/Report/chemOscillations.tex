@@ -27,7 +27,7 @@
 \date{\today}
 
 \begin{abstract}
-This is the abstract...
+This report aims to demonstrate and investigate the dynamics of oscillating chemical systems through a study of a specific system known as the Brusselator. This was carried out using Euler's method of numerical integration. It was determined that for ratios of A to B less that 1:2 the system would oscillate but with dampening amplitude until converging to the stable point. Conversely increasing the ratio of A to B resulted in very short periods of dampening before reaching a constant amplitude oscillation. It was also determined that the steady state behaviour of the system was independent of the initial conditions of X and Y as the system converged to the same pattern of constant oscillation regardless of initial conditions with the only difference being in the phase. These findings agree with those found in simulations by Lozno-Parada et al\cite{parada} which exhibits the same steady state behaviour and similarly shows cases where the system converges to the stable point.
 \end{abstract}
 
 \maketitle
@@ -120,28 +120,47 @@ The global error is the summation of the local errors for each step. As the step
 \end{equation}and as the local error scales with $h^2$ and the global error scales with the local error and $h^{-1}$. The global error on the system for any number of steps scales with $\mathcal{O}(h)$, the step size.
 
 \section{Results and Discussion}
+Two kinds of plots were created, one showing directly how the concentrations of X and Y vary over time, and the other was a phase space plot of the entire evolution. Chemicals A and B were kept at constant values throughout the evolution while chemicals X and Y were free to vary. Chemical A was given a value of 1 as the concentration of the chemicals is in arbitrary units it made sense to solely vary the concentration of B and inspect different ratios of A to B. For an initial phase space position of $(X, Y) = (0, 0)$, we looked at ratios of A:B of 1:1.5, 1:1.9, 1:2, 1:2.5, and 1:4. These were simulated and plotted in figures \ref{fig:oneToOne-Five}, \ref{fig:oneToOne-Nine}, \ref{fig:oneToTwo}, \ref{fig:oneToTwo-Five}, and \ref{fig:oneToFour} respectively.\\
 
-\subsection{Varying the initial conditions}
-What were the step and variable initial conditions.
-
+From these simulations, it was determined that there is a limit on the ratio of A and B to whether the oscillations dampen. We found that a ratio of A:B of less than 1:2 results in continued dampening of the oscillations of chemicals X and Y until arriving at the stable point. This can be seen clearly in figures \ref{fig:oneToOne-Five} and \ref{fig:oneToOne-Nine}. When $B=1.5$ we see rapid dampening with X and Y reaching constant values after 30 seconds, whereas closer to a ratio of 1:2, when $B=1.9$ we see longer oscillations with X and Y only reaching constant values after 100 seconds. This is contrasted by figure \ref{fig:oneToTwo} where A:B is equal to 1:2 and recurring oscillations are present.\\
 
 \begin{figure*}
-\includegraphics[width=1.8\columnwidth]{combinedPlot.png}
-\caption{\label{fig:combinedPlot}Example caption}
+\includegraphics[width=1.65\columnwidth]{combinedPlot_fallToStable.png}
+\caption{\label{fig:oneToOne-Five}Evolutions of the system for 50 seconds ($50,000$ steps with a size of $10^{-3}$) with $B=1.5$ and initial conditions $X=0$, $Y=0$. \textbf{Left:} Concentration of each chemical over time. We see a damping in the oscillations as the system falls towards the stable point of the system. \textbf{Right:} A phase space plot of the evolution of the concentrations of X and Y over time. We can visually see the damping of the oscillations as the system evolves and stops on the stable point (1, 1.5).}
 \end{figure*}
 
 \begin{figure*}
-\includegraphics[width=1.8\columnwidth]{combinedPlot_fallToStable.png}
-\caption{\label{fig:combinedPlot}Falls to stable point}
+\includegraphics[width=1.65\columnwidth]{oneToOne-Nine.png}
+\caption{\label{fig:oneToOne-Nine}Evolutions of the system for 100 seconds ($100,000$ steps with a size of $10^{-3}$) with $B=1.9$ and initial conditions $X=0$, $Y=0$. Similarly to figure \ref{fig:oneToOne-Five} we see dampening before converging on the stable point.}
 \end{figure*}
+
+\begin{figure*}
+\includegraphics[width=1.65\columnwidth]{combinedPlot.png}
+\caption{\label{fig:oneToTwo}Evolutions of the system for 200 seconds ($200,000$ steps with a size of $10^{-3}$) with $B=2$ and initial conditions $X=0$, $Y=0$. \textbf{Left:} Concentration of each chemical over time. The oscillations in the concentration of each chemical can be clearly seen. \textbf{Right:} A phase space plot of the evolution of the concentrations of X and Y over time. We can see the amplitude of the oscillations decreases before reaching a stable constant amplitude. The oscillations are around the stable point (1, 2).}
+\end{figure*}
+
+For higher ratios of A:B, such as in figures \ref{fig:oneToTwo-Five} and \ref{fig:oneToFour} we still see consistent oscillations however we also see much larger amplitude oscillations for increasing ratios. It can also be seen that the concentrations approach their constant amplitude much quicker meaning the damping time is shorter. The simulation in figure \ref{fig:oneToTwo-Five} reaches constant amplitude in less than 20 seconds and the simulation in figure \ref{fig:oneToFour} reaches constant amplitude almost immediately (less than 10 seconds). This is contrasted by figure \ref{fig:oneToTwo} where the oscillations reach constant amplitude after approximately 150 seconds. \\
+
+\begin{figure*}
+\includegraphics[width=1.65\columnwidth]{oneToTwo-Five.png}
+\caption{\label{fig:oneToTwo-Five}Evolutions of the system for 50 seconds ($50,000$ steps with a size of $10^{-3}$) with $B=2.5$ and initial conditions $X=0$, $Y=0$. Here we see that a larger ratio of A:B results in a quicker approach to constant amplitude oscillations.}
+\end{figure*}
+
+\begin{figure*}
+\includegraphics[width=1.65\columnwidth]{oneToFour.png}
+\caption{\label{fig:oneToFour}Evolutions of the system for 100 seconds ($100,000$ steps with a size of $10^{-3}$) with $B=4$ and initial conditions $X=0$, $Y=0$. Again we see that a larger ratio of A:B results in a quicker approach to constant amplitude oscillations. We also see much larger amplitude oscillations due to the increase in the constant supply of chemical B.}
+\end{figure*}
+
+Figure \ref{fig:multiPlot} shows the effect of the initial conditions of X and Y on the oscillations. It can be clearly seen from the phase space plot that the steady state behaviour is independent of the initial conditions of X and Y. It can be seen that regardless of initial location on the phase space plot, each path dampens towards the same constant path in phase space of constant amplitude oscillations. This is demonstrated too by the second plot in figure \ref{fig:multiPlot}. Despite each line of concentration being out of phase with one another, it can clearly be seen that they follow the same pattern of oscillations, dampening at the same rate until reaching a constant amplitude.
 
 \begin{figure}
 \includegraphics[width=0.85\columnwidth]{variationOfInitialConditions_phase.png}
 \includegraphics[width=0.85\columnwidth]{variationOfInitialConditions_evolution.png}
-\caption{\label{fig:combinedPlot}Variation of initial conditions}
-\end{figure}
+\caption{\label{fig:multiPlot}Plots showing the differences between 6 different initial conditions for $B=2$. We see all initial conditions yield the same steady state behaviour. The upper plot shows that each system dampens before reaching the same steady amplitude oscillation surrounding the stable point at (1,2). Although in the lower plot we see each system is out of phase with each other, we see that they still all track the same shape showing an equal dampening regardless of their initial conditions.}
+\end{figure} 
 
 \section{Conclusion}
+The aim of this report was to demonstrate and investigate, using Euler's numerical method, the dynamics of the Brusselator system as an example of oscillating chemical reactions. The system was looked at with varying initial constants A and B, along with varying initial conditions of the chemicals being investigated X and Y. It was determined that for ratios of A to B less that 1:2 the system would oscillate but with dampening amplitude until converging to the stable point. Conversely increasing the ratio of A to B resulted in very short periods of dampening before reaching a constant amplitude oscillation. It was also determined that the steady state behaviour of the system was independent of the initial conditions of X and Y as the system converged to the same pattern of constant oscillation regardless of initial conditions with the only difference being in the phase. These findings agree with those found in simulations by Lozno-Parada et al\cite{parada} which exhibits the same steady state behaviour and similarly shows cases where the system converges to the stable point.
 
 \clearpage
 \bibliography{chemOscillationsReferences.bib}
