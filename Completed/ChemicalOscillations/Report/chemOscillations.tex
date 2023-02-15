@@ -1,6 +1,16 @@
 \UseRawInputEncoding
 \documentclass[reprint, amsmath, amssymb, aps]{revtex4-2}
 
+\usepackage{listings}
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\lstset{language=Python}
+
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -166,7 +176,7 @@ The aim of this report was to demonstrate and investigate, using Euler's numeric
 \bibliography{chemOscillationsReferences.bib}
 
 \clearpage
-
+\onecolumngrid
 \section*{Appendix 1 - Derrivation of the Stable Point}
 \begin{align*}
 	\begin{aligned}
@@ -184,6 +194,137 @@ The aim of this report was to demonstrate and investigate, using Euler's numeric
 	(X, Y) &= \left(A, \frac{B}{A}\right)
 	\end{aligned}
 \end{align*}
+
+\section*{Appendix 2 - Python Code}
+\begin{lstlisting}
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Change default colours to personal colour scheme
+mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color=["indianred", "cornflowerblue",\
+ "mediumseagreen", "plum", "sandybrown"])
+ 
+def StabilityPoint(A, B):
+    return (A, B/A)
+    
+# Representation of the ODEs as functions
+
+def dXdt(X, Y, A, B):
+    return A - (B + 1) * X + X**2 * Y
+
+def dYdt(X, Y, A, B):
+    return B * X - X**2 * Y
+    
+# Function must input initial values of X and Y along with constants A and B and output
+# x against y over time
+# Note global error on Euler method is of order O(stepSize)
+
+def Brusselator(initialX=0, initialY=0, A=1, B=2, stepSize=1e-3, numberOfSteps=100000):
+
+    currentX = initialX
+    currentY = initialY
+
+    currentTime = 0
+
+    outputs = []
+
+    for i in range(0, numberOfSteps+1):
+        # plus one o numberOfSteps so it finalises the last step and doesn't throw an exception, note how they're added to outputs before the maths
+        outputs.append([currentX, currentY])
+
+        slopeX = dXdt(currentX, currentY, A, B)
+        slopeY = dYdt(currentX, currentY, A, B)
+
+        nextX = currentX + stepSize * slopeX
+        nextY = currentY + stepSize * slopeY
+
+        currentX = nextX
+        currentY = nextY
+        currentTime = currentTime + stepSize
+
+    return outputs
+    
+def MakePhasePlot(dataset, A, B, labels=[], stationaryPoint=None):
+    i=0
+    for data in dataset:
+        data = np.array(data)
+
+        if labels != []: plt.plot(data[:,0], data[:,1], label=labels[i])
+        else: plt.plot(data[:,0], data[:,1])
+
+        i+=1
+
+    if stationaryPoint != None: plt.scatter(stationaryPoint[0], stationaryPoint[1], label="Stable Point")
+
+    plt.grid()
+    plt.legend()
+
+    plt.title(f"Phase-space Diagram for A = {A}, B = {B}")
+    plt.xlabel("Concentration of X (arb. units)")
+    plt.ylabel("Concentration of Y (arb. units)")
+    
+def MakeEvolutionPlot(data, A, B, stepSize, initalCoords=[]):
+    
+    times = np.arange(0, len(data))
+    times = [el*stepSize for el in times]
+
+    xValues = []
+    yValues = []
+
+    for el in data:
+        xValues.append(el[0])
+        yValues.append(el[1])
+
+    if initalCoords != []:
+        plt.plot(times, xValues, label=f"Initial X={initalCoords[0]}")
+        plt.plot(times, yValues, label=f"Initial Y={initalCoords[1]}")
+
+    else:
+        plt.plot(times, xValues, label="Substance X")
+        plt.plot(times, yValues, label="Substance Y")
+
+    plt.title(f"Time Evolution of Concentrations for A = {A}, B = {B}")
+    plt.xlabel("Time (seconds)")
+    plt.ylabel("Concentration (arb. units)")
+    plt.legend()
+    plt.grid()
+    
+def MakePlots(initialX, initialY, A, B, stepSize, numberOfSteps, initialConditionsLabel):
+    
+    data = Brusselator(initialX, initialY, A, B, stepSize, numberOfSteps)
+    data = np.array(data)
+
+    times = np.arange(0, len(data))
+    times = [el*stepSize for el in times]
+
+    xValues = []
+    yValues = []
+
+    for el in data:
+        xValues.append(el[0])
+        yValues.append(el[1])
+    
+    figure, (concentrationAxis, phasespaceAxis) = plt.subplots(1, 2)
+
+    figure.set_size_inches(15, 5)
+
+    concentrationAxis.plot(times, xValues, label="Substance X")
+    concentrationAxis.plot(times, yValues, label="Substance Y")
+
+    concentrationAxis.set_title(f"Concentrations of X and Y with A={A}, B={B}")
+    concentrationAxis.set_xlabel("Time (seconds)")
+    concentrationAxis.set_ylabel("Concentration (arb. units)")
+    concentrationAxis.legend()
+    concentrationAxis.grid()
+
+    phasespaceAxis.plot(data[:,0], data[:,1], label=f"Initial Conditions: X={initialX}, Y={initialY}")
+    phasespaceAxis.set_title(f"Phase-space Diagram with A={A}, B={B}")
+    phasespaceAxis.set_xlabel("Concentration of X (arb. units)")
+    phasespaceAxis.set_ylabel("Concentration of Y (arb. units)")
+    phasespaceAxis.legend()
+    phasespaceAxis.grid()
+\end{lstlisting}
 
 \end{document}
 
