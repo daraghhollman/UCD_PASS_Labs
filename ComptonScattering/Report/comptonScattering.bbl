@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{7}%
+\begin{thebibliography}{8}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -118,4 +118,10 @@
   \bibinfo {note} {{Florida International University},
   \url{https://wanda.fiu.edu/boeglinw/courses/Modern_lab_manual3/Compton_Scattering.html},
   visited on 02/03/23}\BibitemShut {NoStop}%
+\bibitem [{vcu()}]{vcu}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {{The Analysis Pulse-Height Spectrometry}}},\
+  \bibinfo {note} {{Virginia Commonwealth University},
+  \url{http://www.people.vcu.edu/~mhcrosthwait/clrs322/Pulseanalysis.htm},
+  visited on 03/03/23}\BibitemShut {NoStop}%
 \end{thebibliography}%

@@ -29,45 +29,46 @@ Control: production of eprint (0) enabled
 Warning--empty year in manual1
 Warning--empty year in fowler
 Warning--empty year in comptonFIU
-You've used 9 entries,
+Warning--empty year in vcu
+You've used 10 entries,
             6079 wiz_defined-function locations,
-            1686 strings with 16703 characters,
-and the built_in function-call counts, 6808 in all, are:
-= -- 451
+            1689 strings with 16874 characters,
+and the built_in function-call counts, 7240 in all, are:
+= -- 491
 > -- 139
 < -- 61
-+ -- 52
++ -- 54
 - -- 50
-* -- 982
-:= -- 670
-add.period$ -- 7
-call.type$ -- 9
-change.case$ -- 35
-chr.to.int$ -- 19
-cite$ -- 14
-duplicate$ -- 689
-empty$ -- 449
+* -- 1031
+:= -- 719
+add.period$ -- 8
+call.type$ -- 10
+change.case$ -- 40
+chr.to.int$ -- 20
+cite$ -- 18
+duplicate$ -- 733
+empty$ -- 487
 format.name$ -- 68
-if$ -- 1285
+if$ -- 1367
 int.to.chr$ -- 1
-int.to.str$ -- 16
-missing$ -- 103
-newline$ -- 73
+int.to.str$ -- 17
+missing$ -- 107
+newline$ -- 76
 num.names$ -- 18
-pop$ -- 301
+pop$ -- 328
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 36
 quote$ -- 0
-skip$ -- 276
+skip$ -- 294
 stack$ -- 0
-substring$ -- 140
-swap$ -- 598
+substring$ -- 156
+swap$ -- 623
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 104
-warning$ -- 4
+type$ -- 115
+warning$ -- 5
 while$ -- 26
 width$ -- 0
-write$ -- 110
-(There were 4 warnings)
+write$ -- 116
+(There were 5 warnings)
