@@ -30,45 +30,45 @@ Warning--empty year in manual1
 Warning--empty year in fowler
 Warning--empty year in comptonFIU
 Warning--empty year in vcu
-You've used 10 entries,
+You've used 11 entries,
             6079 wiz_defined-function locations,
-            1689 strings with 16874 characters,
-and the built_in function-call counts, 7240 in all, are:
-= -- 491
-> -- 139
-< -- 61
-+ -- 54
-- -- 50
-* -- 1031
-:= -- 719
-add.period$ -- 8
-call.type$ -- 10
-change.case$ -- 40
-chr.to.int$ -- 20
-cite$ -- 18
-duplicate$ -- 733
-empty$ -- 487
-format.name$ -- 68
-if$ -- 1367
+            1697 strings with 17036 characters,
+and the built_in function-call counts, 8237 in all, are:
+= -- 573
+> -- 159
+< -- 66
++ -- 60
+- -- 54
+* -- 1172
+:= -- 815
+add.period$ -- 9
+call.type$ -- 11
+change.case$ -- 45
+chr.to.int$ -- 21
+cite$ -- 19
+duplicate$ -- 826
+empty$ -- 560
+format.name$ -- 81
+if$ -- 1573
 int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 107
-newline$ -- 76
-num.names$ -- 18
-pop$ -- 328
+int.to.str$ -- 18
+missing$ -- 122
+newline$ -- 79
+num.names$ -- 21
+pop$ -- 368
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 41
 quote$ -- 0
-skip$ -- 294
+skip$ -- 341
 stack$ -- 0
-substring$ -- 156
-swap$ -- 623
-text.length$ -- 15
+substring$ -- 179
+swap$ -- 708
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 115
+type$ -- 128
 warning$ -- 5
-while$ -- 26
+while$ -- 29
 width$ -- 0
-write$ -- 116
+write$ -- 125
 (There were 5 warnings)

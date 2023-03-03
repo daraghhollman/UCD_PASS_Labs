@@ -120,30 +120,61 @@ aps,
 			\end{figure}
 		
 		\subsection{Results and Analysis}
-			The reciprocal of the energy of the scattered gamma ray was plotted against the angle in figure \ref{fig:energyPlot}. A linear least squares fit was applied and compared to the theory. Note that as the data contained both an uncertainty in the x and y directions an orthogonal distance regression would in theory be a more accurate fit, however as the x uncertainties were mostly insignificant compared to the y uncertanties, for simplicity a least squares fitting was used instead. We see a slight offset from the from the theory line in figure \ref{fig:energyPlot} however the slope is very similar. This is likely due to a systematic error in the alignment of the apparatus such as a misalignment of the placement of the detector in its housing.\\
+			The reciprocal of the energy of the scattered gamma ray was plotted against the angle in figure \ref{fig:energyPlot}. A linear least squares fit was applied and compared to the theory. Note that as the data contained both an uncertainty in the x and y directions an orthogonal distance regression would in theory be a more accurate fit, however as the x uncertainties were mostly insignificant compared to the y uncertanties, for simplicity a least squares fitting was used instead. We see a slight offset from the from the theory line in figure \ref{fig:energyPlot} however the slope is very similar. This is likely due to a systematic error in the alignment of the apparatus such as a misalignment of the placement of the detector in its housing. The total uncertainties for this plot were determined by propagating the error on the measured values through their respective equations.\\
 			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{energyPlot.png}
 				\caption{\label{fig:energyPlot}A scatter plot of the data with a fitted line. This is compared to the theory of equation \ref{eq:inverseGammaEnergyTheory}.}
 			\end{figure}
 			
-			The total net counts under the photopeak were divided by the counting time and plotted against the scattering angle in figure \ref{fig:crossSectionPlot}, and compared to the Klein-Nishina formula. We see that, as predicted, that the low angle data points deviate from the theory. This is due to the unwanted inclusion of direct gamma rays arriving at the detector unscattered. The data in this plot was initially much lower than the theory values (however still of the same order). The data was multiplied by a constant scalar of 4.95 to match the theoretical line. This was determined visually. This constant offset is likely due to an inaccurate assumption of the activity of the source included in the calculations. The source used is old and would have decayed multiple half-lives since the measurement was taken.
+			The total net counts under the photopeak were divided by the counting time and plotted against the scattering angle in figure \ref{fig:crossSectionPlot}, and compared to the Klein-Nishina formula. We see that, as predicted, that the low angle data points deviate from the theory. This is due to the unwanted inclusion of direct gamma rays arriving at the detector unscattered. The data in this plot was initially much lower than the theory values (however still of the same order). The data was multiplied by a constant scalar of 4.95 to match the theoretical line. This was determined visually. This constant offset is likely due to an inaccurate assumption of the activity of the source included in the calculations. The source used is old and would have decayed multiple half-lives since the measurement was taken. Again the total uncertainties for this plot were determined by propagating the error on the measured values through their respective equations.\\
 			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{crossSectionPlot.png}
 				\caption{\label{fig:crossSectionPlot}A scatter plot of the data comparing the measured cross-section to the theoretical values calculated by the Klein-Nishina equation, equation \ref{eq:klein-nishina}.}
 			\end{figure}
 		
-	\section{Relativity and the Electron Rest Mass}
-		
-		In the previous section we assumed that the electrons involved in the scattering process needed to be treated relativistically. We know this must be true as our data follows closely that of the theory, however, this can be tested more rigorously.		
+	\section{Relativity and the Electron Rest Mass}	
 		
 		\subsection{Theory}
+			In the previous section we assumed that the electrons involved in the scattering process needed to be treated relativistically. We know this must be true as our data follows closely that of the theory, however, this can be tested more rigorously by determining the rest mass of the electron. This can be done by comparing the kinetic energy of the electron and the energy of the scattered gamma ray.\\
+			\subsubsection{Classical Calculation}
+			Similarly to section II.A we must consdier the conservation of energy and momentum in the collision. We know the classical relation between the energy and momentum of a photon to be $E_\gamma = p_\gamma c$. The Compton edge of the gamma ray energy spectrum in figure \ref{fig:gammaSpectrum} represents the incident gamma ray being backscattered, i.e. a scattering angle of 180 degrees. Hence by conservation of momentum we have \cite{manual2}:
+			\begin{equation}
+				p_\gamma = p - p_\gamma '
+			\end{equation}where $p_\gamma$, $p$, and $p_\gamma '$ are the momenta of the incident gamma ray, the electron after scattering, and the scattered gamma ray respectively. By conservation of energy we have:
+			\begin{equation}
+				p_\gamma c = p_\gamma 'c + T
+			\end{equation}where T is the kinetic energy of the electron. These two equations can be combined to yield an expression for the total energy in terms of the measurable quantities.
+			\begin{equation}
+				pc = 2 E_\gamma - T
+			\end{equation}\\
 			
+			In the classical approach, we take the non-relativistic kinetic energy, $T = p^2 / 2m_{nr}$, were the mass subscript corresponds to the non-relativistic mass. Hence we can substitute the momentum into this expression to find the rest mass of the electron in terms of the measurable quantities.
+			\begin{equation}
+				m_{nr} = \frac{p^2 c^2}{2T} = \frac{(2 E_\gamma - T)^2}{2T}
+				\label{eq:classical}
+			\end{equation}
+			
+			\subsubsection{Relativistic Calculation}
+			Factoring for special relativity we have the total electron energy equalling the rest mass energy and the kinetic energy,
+			\begin{equation}
+				p^2 c^2 + (m_0 c^2)^2 = (T + m_0 c^2)^2 = E_e^2
+			\end{equation}yielding the energy-momentum relationship for special relativity \cite{manual2}. We can then relate the rest mass in terms of the measurable quantities:
+			\begin{equation}
+				m_0 c^2 = \frac{p^2 c^2 - T^2}{2T} = \frac{2 E_\gamma (E_\gamma -T)}{T}
+				\label{eq:relativistic}
+			\end{equation}
+		
+		Therefore, by plotting the equations for the classical rest mass and the relativistic rest mass (equations \ref{eq:classical} and \ref{eq:relativistic} respectively) and comparing the two, we can see whether the electrons in this reaction need to be treated relativistically.		
 		
 		\subsection{Methodology}
+			Apparatus differences, what sources were used, general procedure	
+		
+			In this experiment a germanium detector was used to measure with high precision.
 		
 		\subsection{Results and Analysis}
+			Determining the uncertainty based on the channel width of the photopeak.
 
 
 	\section{Conclusion}
