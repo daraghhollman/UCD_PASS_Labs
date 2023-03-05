@@ -4,6 +4,7 @@
 reprint,
 amsmath,amssymb,
 aps,
+floatfix
 ]{revtex4-2}
 
 \usepackage{graphicx}% Include figure files
@@ -37,7 +38,7 @@ aps,
 	\date{\today}
 	
 	\begin{abstract}
-
+		The aim of this report was to investigate the scattering interaction between gamma rays and electrons known as Compton scattering. The aims were to determine the energy of the gamma ray after the interaction as a function of angle and to determine the differential cross-section. This was done by studying the gamma ray energy spectrum of a gamma emitting Caesium-137 source after scattering off an aluminium sample. A separate experiment was undertaken to investigate whether the electrons in this interaction needed to be treated relativistically or if classical assumptions were sufficient. The energy spectrum and differential cross-section as a function of scattering angle were determined and it was concluded that the electrons should be treated relativistically.
 	\end{abstract}
 
 	\maketitle
@@ -75,11 +76,13 @@ aps,
 			\end{equation}and hence it is clear that the inverse of the energy of the scattered ray has a linear relationship with one minus the cosign of the angle it scattered at.\\
 			
 			\subsubsection{Cross-Section Determination}
-			The differential cross-section is the fraction of the total number of scattered particles that emerge from a solid angle \cite{fowler}. In Compton scattering, the differential cross-section is the probability for each angle that an incident gamma ray is scattered \cite{manual1}. The Klein-Nishina formula is an equation of the differential cross-section treated quantum mechanically \cite{yazaki}. In a simplified (classical) form we have:
-			\begin{multline}
-				\frac{d\sigma}{d\Omega} = \frac{r_0}{2}\left( \frac{1 + \cos^2 \theta}{\left[1 + \alpha (1-\cos\theta)\right]^2} \right) \\ \times \left( 1 + \frac{\alpha^2 (1-\cos\theta)^2}{(1 + \cos^2 \theta)(1 + \alpha[1 - \cos\theta])} \right)
+			The differential cross-section is the fraction of the total number of scattered particles that emerge from a solid angle \cite{fowler}. In Compton scattering, the differential cross-section is the probability for each angle that an incident gamma ray is scattered \cite{manual1}. The Klein-Nishina formula is an equation of the differential cross-section treated quantum mechanically \cite{yazaki}. In a simplified (classical) form we have equations \ref{eq:klein-nishina},
+			\begin{widetext}
+			\begin{equation}
+				\frac{d\sigma}{d\Omega} = \frac{r_0}{2}\left( \frac{1 + \cos^2 \theta}{\left[1 + \alpha (1-\cos\theta)\right]^2} \right) \times \left( 1 + \frac{\alpha^2 (1-\cos\theta)^2}{(1 + \cos^2 \theta)(1 + \alpha[1 - \cos\theta])} \right)
 				\label{eq:klein-nishina}
-			\end{multline}measured in $\text{cm}^2 / \text{sr}$ where $r_0$ is the classical electron radius, $\alpha = \frac{E_\gamma}{m_0 c^2}$, and $d\Omega$ is the solid angle in steradians. The differential cross-section can also be represented in the measurable quantities in this experiment:
+			\end{equation}
+			\end{widetext}measured in $\text{cm}^2 / \text{sr}$ where $r_0$ is the classical electron radius, $\alpha = \frac{E_\gamma}{m_0 c^2}$, and $d\Omega$ is the solid angle in steradians. The differential cross-section can also be represented in the measurable quantities in this experiment:
 			\begin{equation}
 				\frac{\partial \sigma}{\partial \Omega} = \frac{\Sigma_{\gamma'}}{N \Delta \Omega I}
 			\end{equation}where $\Sigma_{\gamma'}$ is the sum under the photopeak divided by the counting time and the intrinsic peak efficiency, $N$ is the number of electrons in the scattering sample, $\Delta \Omega$ is the solid angle of the detector, and $I$ is the number of incident gamma rays per unit area per second at the scattering sample.\\
@@ -120,7 +123,7 @@ aps,
 			\end{figure}
 		
 		\subsection{Results and Analysis}
-			The reciprocal of the energy of the scattered gamma ray was plotted against the angle in figure \ref{fig:energyPlot}. A linear least squares fit was applied and compared to the theory. Note that as the data contained both an uncertainty in the x and y directions an orthogonal distance regression would in theory be a more accurate fit, however as the x uncertainties were mostly insignificant compared to the y uncertanties, for simplicity a least squares fitting was used instead. We see a slight offset from the from the theory line in figure \ref{fig:energyPlot} however the slope is very similar. This is likely due to a systematic error in the alignment of the apparatus such as a misalignment of the placement of the detector in its housing. The total uncertainties for this plot were determined by propagating the error on the measured values through their respective equations.\\
+			The reciprocal of the energy of the scattered gamma ray was plotted against the angle in figure \ref{fig:energyPlot}. A linear least squares fit was applied and compared to the theory. Note that as the data contained both an uncertainty in the x and y directions an orthogonal distance regression would in theory be a more accurate fit, however as the x uncertainties were mostly insignificant compared to the y uncertanties, for simplicity a least squares fitting was used instead. The fitted line has a slope of $1.93$ with an intercept of $1.57$. We see a slight offset from the from the theory line in figure \ref{fig:energyPlot} however the slope is very similar. This is likely due to a systematic error in the alignment of the apparatus such as a misalignment of the placement of the detector in its housing. The total uncertainties for this data were determined by propagating the error on the measured values through their respective equations.\\
 			
 			\begin{figure}
 				\includegraphics[width=0.85\columnwidth]{energyPlot.png}
@@ -168,17 +171,60 @@ aps,
 		
 		Therefore, by plotting the equations for the classical rest mass and the relativistic rest mass (equations \ref{eq:classical} and \ref{eq:relativistic} respectively) and comparing the two, we can see whether the electrons in this reaction need to be treated relativistically.		
 		
-		\subsection{Methodology}
-			Apparatus differences, what sources were used, general procedure	
 		
-			In this experiment a germanium detector was used to measure with high precision.
+			% These figures are placed earlier as Latex's float placing algs need more time for a full width.
+			\begin{figure}
+				\includegraphics[width=0.85\columnwidth]{classicalRestMass.png}
+				\caption{\label{fig:classicalRestMass}A graph of the calculations for $mc^2$ using the energies measured from the sources. We see that the rest mass energy increases as a function of kinetic energy.}
+			\end{figure}
+
+			\begin{figure*}
+				\includegraphics[width=1.7\columnwidth]{relativisticRestMass.png}
+				\caption{\label{fig:relativisticRestMass}A graph of the calculations of the rest mass energy using the energies measured from the sources. We see that the rest mass, when treated relativistically, is a constant with respect to the kinetic energy.}
+			\end{figure*}		
+		
+		\subsection{Methodology}
+			In this part of the experiment, a germanium semiconducter detector was used to measure the gamma ray energy spectra with higher precision than that of the sodium-iodide detector. As in section II.B.2, the system was calibrated using the same calibration sources. To accurately determine the rest mass of the electron, several sources were used to obtain many data points. 11 radioactive sources were measured as listed in table \ref{tab:restMass} although as some of the sources had multiple photopeaks for different decays, 16 sets of data could be made. For each source, the energy of the photopeak and the Compton edge were recorded along with an uncertainty on both. The uncertainty on these values was controlled by the resolution of the spectrum, and determined to be the full width of the photopeak Gaussian.
+			
+\begin{table}[]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+\toprule
+Substance & Photopeak (keV) & Compton Edge (keV) & Uncertainty \\ \midrule
+Bi137     & 569.79          & 392.05             & 5.06        \\
+"         & 1063.73         & 859.96             & 8.45        \\
+In116     & 416.57          & 262.94             & 3.37        \\
+"         & 1096.92         & 892.65             & 3.38        \\
+"         & 1291.91         & 1079.19            & 3.37        \\
+Na22      & 511             & 341                & 4.22        \\
+"         & 1273.76         & 1062.34            & 3.38        \\
+Co57      & 122.31          & 39.65              & 2.53        \\
+Mn54      & 834.25          & 639.39             & 3.37        \\
+Co56      & 1237.45         & 1025.73            & 4.22        \\
+K40       & 1460.08         & 1244.2             & 5.61        \\
+Te108     & 2613.66         & 2379.51            & 5.97        \\
+Cs137     & 661.66          & 477.27             & 4.51        \\
+Ba133     & 356.01          & 208.45             & 5.4         \\
+Co60      & 1173.01         & 968.58             & 6.02        \\
+"         & 1332.6          & 1120.9             & 8.02        \\ \bottomrule
+\end{tabular}%
+}
+\caption{Table of sources used with their respective measurement for the energy of the photopeak and the Compton edge. Quotation marks in the 'Substance' column denote another photopeak for the same source.}
+\label{tab:restMass}
+\end{table}
+
+
+
 		
 		\subsection{Results and Analysis}
-			Determining the uncertainty based on the channel width of the photopeak.
-
+			The data from table \ref{tab:restMass} was graphed in figure \ref{fig:classicalRestMass} using the classical formulation of the rest mass, equation \ref{eq:classical} and they were also graphed in figure \ref{fig:relativisticRestMass} using the relativistic formulation of the rest mass, equation \ref{eq:relativistic}. Figure \ref{fig:classicalRestMass} plots the classical representation of the rest mass whereas figure \ref{fig:relativisticRestMass} plots the relativistic representation. Least squares fitting was used to plot a linear line through the data for the classical representation whereas a simple mean and standard deviation were determined and plotted for the relativistic representation. We see that the rest mass energy increases as a function of kinetic energy in the classical approach. Our assumptions to form the classical equations are not sufficient as by definition the rest mass energy should not increase as a function of the kinetic energy. Conversely, in the relativistic approach we see that the rest mass is a constant with respect to the kinetic energy. We can hence conclude that the electrons in these reactions should be treated relativistically and that the assumption to do so made in the calculations of section II of this report are valid.
 
 	\section{Conclusion}
-
+		The overarching aim of this report was to investigate the scattering interaction between gamma rays and electrons known as Compton scattering. The aims were to determine the energy of the gamma ray after the interaction as a function of angle and to determine the differential cross-section. A separate experiment was undertaken to investigate whether the electrons in this interaction need to be treated relativistically or if classical assumptions are sufficient.\\
+		
+		The gamma ray energy measured as a function of the scattering angle closely followed that of the theoretical function. We see a linear linear function for the reciprocal of the energy which only deviates from the theory by a constant offset. This is likely due to a systematic error in the misalignment of the apparatus. Further experiments to repeat these calculations with different apparatus could be carried out to remove this offset error. We see that the differential cross-section measured follows closely that of the Klein-Nishina formula with the equation falling within the bounds of uncertainty of nearly all the data. The only deviation from the theory is for scattering angles less than 20 degrees where it is likely that incident gamma rays are directly detected and interfere with the results from the scattered rays.\\
+		
+		We conclude from the second part of this investigation that the electrons involved in Compton scattering should be treated relativistically. By calculating the rest mass energy of the electron as a function of the electron kinetic energy, it was determined that treating them classically results in a linear increase in rest mass energy as a function of the kinetic energy. However when treated relativistically the rest mass energy stays constant as expected.
 		
 		
 	\clearpage
@@ -213,7 +259,6 @@ Angle Left & Angle Right & Avg Angle & Energy (keV) & FWHM (keV) & Net Counts & 
 20         & 9.25        & 14.625    & 616.41       & 61.76      & 17480      & 459         & 82.9      & 85.18     \\ \bottomrule
 \end{tabular}%
 }
-\label{tab:my-table}
 \end{table}
 
 		
