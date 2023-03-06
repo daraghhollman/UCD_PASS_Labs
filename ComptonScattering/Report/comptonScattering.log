@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.9)  5 MAR 2023 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.9)  6 MAR 2023 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,59 +413,84 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count296
+\lst@gtempboxa=\box71
+\lst@token=\toks28
+\lst@length=\count297
+\lst@currlwidth=\dimen175
+\lst@column=\count298
+\lst@pos=\count299
+\lst@lostspace=\dimen176
+\lst@width=\dimen177
+\lst@newlines=\count300
+\lst@lineno=\count301
+\lst@maxwidth=\dimen178
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count302
+\lst@skipnumbers=\count303
+\lst@framebox=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (/home/daraghhollman/texmf/tex/latex/commonstuff/bibspacing.sty
 \bibitemsep=\skip57
 \bibparskip=\skip58
 )
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 29.
+lass! (Proceeding with fingers crossed.) on input line 31.
 
 
 Class revtex4-2 Warning: Repair the float package.
 
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 29.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 29.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 29.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 31.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 31.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
-\l__pdf_internal_box=\box71
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box73
 )
 (./comptonScattering.aux)
 \openout1 = `comptonScattering.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen175
-\scratchbox=\box72
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen176
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count305
+\scratchdimen=\dimen179
+\scratchbox=\box74
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen180
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -483,7 +508,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -494,11 +519,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count303
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./comptonScattering.out) (./comptonScattering.out)
 \@outlinefile=\write4
@@ -506,8 +531,10 @@ LaTeX Info: Redefining \nameref on input line 29.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 29.
+\c@lstlisting=\count312
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 31.
 \openout3 = `comptonScatteringNotes.bib'.
 
 
@@ -516,126 +543,126 @@ Class revtex4-2 Warning: Assuming \noaffiliation for authors.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 44.
+(hyperref)                removing `\\' on input line 46.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<compton_scattering.png, id=134, 566.5968pt x 494.3268pt>
+<compton_scattering.png, id=138, 566.5968pt x 494.3268pt>
 File: compton_scattering.png Graphic file (type png)
 <use compton_scattering.png>
-Package pdftex.def Info: compton_scattering.png  used on input line 93.
+Package pdftex.def Info: compton_scattering.png  used on input line 95.
 (pdftex.def)             Requested size: 172.19925pt x 150.23013pt.
 
-Underfull \hbox (badness 1917) in paragraph at lines 101--102
+Underfull \hbox (badness 1917) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 thallium-activated sodium io-dide de-tec-tor (NaI(Tl))
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-<apparatus1.png, id=139, 396.7322pt x 257.46187pt>
+<apparatus1.png, id=143, 396.7322pt x 257.46187pt>
 File: apparatus1.png Graphic file (type png)
 <use apparatus1.png>
-Package pdftex.def Info: apparatus1.png  used on input line 104.
+Package pdftex.def Info: apparatus1.png  used on input line 106.
 (pdftex.def)             Requested size: 209.1015pt x 135.69984pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 [2 <./compton_scattering.png> <./apparatus1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-<gammaspectrum.jpg, id=156, 313.6518pt x 251.4996pt>
+<gammaspectrum.jpg, id=160, 313.6518pt x 251.4996pt>
 File: gammaspectrum.jpg Graphic file (type jpg)
 <use gammaspectrum.jpg>
-Package pdftex.def Info: gammaspectrum.jpg  used on input line 121.
+Package pdftex.def Info: gammaspectrum.jpg  used on input line 123.
 (pdftex.def)             Requested size: 209.1015pt x 167.6711pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<energyPlot.png, id=161, 441.5697pt x 315.0972pt>
+<energyPlot.png, id=165, 441.5697pt x 315.0972pt>
 File: energyPlot.png Graphic file (type png)
 <use energyPlot.png>
-Package pdftex.def Info: energyPlot.png  used on input line 129.
+Package pdftex.def Info: energyPlot.png  used on input line 131.
 (pdftex.def)             Requested size: 209.1015pt x 149.21115pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 [3 <./gammaspectrum.jpg> <./energyPlot.png>]
-<crossSectionPlot.png, id=175, 413.3844pt x 323.7696pt>
+<crossSectionPlot.png, id=179, 413.3844pt x 323.7696pt>
 File: crossSectionPlot.png Graphic file (type png)
 <use crossSectionPlot.png>
-Package pdftex.def Info: crossSectionPlot.png  used on input line 136.
+Package pdftex.def Info: crossSectionPlot.png  used on input line 138.
 (pdftex.def)             Requested size: 209.1015pt x 163.7716pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<classicalRestMass.png, id=183, 424.2249pt x 312.2064pt>
+<classicalRestMass.png, id=187, 424.2249pt x 312.2064pt>
 File: classicalRestMass.png Graphic file (type png)
 <use classicalRestMass.png>
-Package pdftex.def Info: classicalRestMass.png  used on input line 177.
+Package pdftex.def Info: classicalRestMass.png  used on input line 179.
 (pdftex.def)             Requested size: 209.1015pt x 153.8876pt.
-<relativisticRestMass.png, id=184, 744.381pt x 212.4738pt>
+<relativisticRestMass.png, id=188, 744.381pt x 212.4738pt>
 File: relativisticRestMass.png Graphic file (type png)
 <use relativisticRestMass.png>
-Package pdftex.def Info: relativisticRestMass.png  used on input line 182.
+Package pdftex.def Info: relativisticRestMass.png  used on input line 184.
 (pdftex.def)             Requested size: 418.19925pt x 119.36707pt.
 [4 <./crossSectionPlot.png> <./classicalRestMass.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 189.
+               Default added (so using `tbp') on input line 191.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
@@ -645,39 +672,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--128
 people . vcu . edu /
  []
 
-) [7] [8] (./comptonScattering.aux)
+) [7] [8]
+Overfull \hbox (12.00531pt too wide) in paragraph at lines 309--311
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.00562pt too wide) in paragraph at lines 316--318
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.00525pt too wide) in paragraph at lines 320--321
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+28.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 328.
+
+Overfull \hbox (12.00531pt too wide) in paragraph at lines 345--347
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[9]
+Overfull \hbox (42.00562pt too wide) in paragraph at lines 384--385
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.00562pt too wide) in paragraph at lines 386--387
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.00537pt too wide) in paragraph at lines 397--398
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.00543pt too wide) in paragraph at lines 400--401
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (30.0055pt too wide) in paragraph at lines 427--428
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.00543pt too wide) in paragraph at lines 435--436
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (48.00568pt too wide) in paragraph at lines 452--453
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.00537pt too wide) in paragraph at lines 461--462
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (54.00574pt too wide) in paragraph at lines 469--470
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11] [12] (./comptonScattering.aux)
 Package rerunfilecheck Info: File `comptonScattering.out' has not changed.
-(rerunfilecheck)             Checksum: 45F02E1F7438287C43B7659465D63059;3437.
+(rerunfilecheck)             Checksum: 70EB63B97D617A59063E3735112D18F6;3556.
  ) 
 Here is how much of TeX's memory you used:
- 13091 strings out of 480204
- 204195 string characters out of 5895011
- 519260 words of memory out of 5000000
- 30791 multiletter control sequences out of 15000+600000
- 482247 words of font info for 76 fonts, out of 8000000 for 9000
+ 14950 strings out of 480204
+ 229581 string characters out of 5895011
+ 618566 words of memory out of 5000000
+ 32416 multiletter control sequences out of 15000+600000
+ 482582 words of font info for 77 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 69i,9n,76p,1332b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt9.pfb>
-Output written on comptonScattering.pdf (8 pages, 503652 bytes).
+ 69i,9n,76p,1332b,1774s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/daraghhollman/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
+1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on comptonScattering.pdf (12 pages, 525114 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 279 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
