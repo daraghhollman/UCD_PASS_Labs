@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.14)  14 MAR 2023 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.14)  15 MAR 2023 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**comptonScattering.tex
-(./comptonScattering.tex
+**electronics.tex
+(./electronics.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10>
 (/usr/share/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -448,8 +448,8 @@ File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box73
 )
-(./comptonScattering.aux)
-\openout1 = `comptonScattering.aux'.
+(./electronics.aux)
+\openout1 = `electronics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
@@ -469,8 +469,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
 \scratchdimen=\dimen180
@@ -517,9 +516,9 @@ LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
 
-(./comptonScattering.out) (./comptonScattering.out)
+(./electronics.out) (./electronics.out)
 \@outlinefile=\write4
-\openout4 = `comptonScattering.out'.
+\openout4 = `electronics.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -527,7 +526,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count312
 Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 31.
-\openout3 = `comptonScatteringNotes.bib'.
+\openout3 = `electronicsNotes.bib'.
 
 
 
@@ -548,227 +547,126 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-<compton_scattering.png, id=138, 566.5968pt x 494.3268pt>
-File: compton_scattering.png Graphic file (type png)
-<use compton_scattering.png>
-Package pdftex.def Info: compton_scattering.png  used on input line 95.
-(pdftex.def)             Requested size: 172.19925pt x 150.23013pt.
-
-Underfull \hbox (badness 1917) in paragraph at lines 103--104
-\OT1/cmr/m/n/10 thallium-activated sodium io-dide de-tec-tor (NaI(Tl))
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-<apparatus1.png, id=143, 396.7322pt x 257.46187pt>
-File: apparatus1.png Graphic file (type png)
-<use apparatus1.png>
-Package pdftex.def Info: apparatus1.png  used on input line 106.
-(pdftex.def)             Requested size: 209.1015pt x 135.69984pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-[2 <./compton_scattering.png> <./apparatus1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-<gammaspectrum.jpg, id=160, 313.6518pt x 251.4996pt>
-File: gammaspectrum.jpg Graphic file (type jpg)
-<use gammaspectrum.jpg>
-Package pdftex.def Info: gammaspectrum.jpg  used on input line 123.
-(pdftex.def)             Requested size: 209.1015pt x 167.6711pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-<energyPlot.png, id=165, 441.5697pt x 315.0972pt>
-File: energyPlot.png Graphic file (type png)
-<use energyPlot.png>
-Package pdftex.def Info: energyPlot.png  used on input line 131.
-(pdftex.def)             Requested size: 209.1015pt x 149.21115pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-[3 <./gammaspectrum.jpg> <./energyPlot.png>]
-<crossSectionPlot.png, id=179, 413.3844pt x 323.7696pt>
-File: crossSectionPlot.png Graphic file (type png)
-<use crossSectionPlot.png>
-Package pdftex.def Info: crossSectionPlot.png  used on input line 138.
-(pdftex.def)             Requested size: 209.1015pt x 163.7716pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-<classicalRestMass.png, id=187, 424.2249pt x 312.2064pt>
-File: classicalRestMass.png Graphic file (type png)
-<use classicalRestMass.png>
-Package pdftex.def Info: classicalRestMass.png  used on input line 179.
-(pdftex.def)             Requested size: 209.1015pt x 153.8876pt.
-<relativisticRestMass.png, id=188, 744.381pt x 212.4738pt>
-File: relativisticRestMass.png Graphic file (type png)
-<use relativisticRestMass.png>
-Package pdftex.def Info: relativisticRestMass.png  used on input line 184.
-(pdftex.def)             Requested size: 418.19925pt x 119.36707pt.
-[4 <./crossSectionPlot.png> <./classicalRestMass.png>]
+<sampleRC.png, id=149, 570.63188pt x 335.00156pt>
+File: sampleRC.png Graphic file (type png)
+<use sampleRC.png>
+Package pdftex.def Info: sampleRC.png  used on input line 62.
+(pdftex.def)             Requested size: 209.1015pt x 122.7576pt.
+<circuit_ex5.png, id=156, 555.57562pt x 326.72063pt>
+File: circuit_ex5.png Graphic file (type png)
+<use circuit_ex5.png>
+Package pdftex.def Info: circuit_ex5.png  used on input line 70.
+(pdftex.def)             Requested size: 209.1015pt x 122.96861pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 191.
+               Default added (so using `tbp') on input line 77.
 
+<ex5_dualPlot.png, id=160, 400.3758pt x 490.7133pt>
+File: ex5_dualPlot.png Graphic file (type png)
+<use ex5_dualPlot.png>
+Package pdftex.def Info: ex5_dualPlot.png  used on input line 93.
+(pdftex.def)             Requested size: 209.1015pt x 256.28804pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 94.
+
+<ex5_simPlot.png, id=161, 410.4936pt x 298.4751pt>
+File: ex5_simPlot.png Graphic file (type png)
+<use ex5_simPlot.png>
+Package pdftex.def Info: ex5_simPlot.png  used on input line 97.
+(pdftex.def)             Requested size: 209.1015pt x 152.04266pt.
+<ex5_simPlotAdj.png, id=162, 394.5942pt x 298.4751pt>
+File: ex5_simPlotAdj.png Graphic file (type png)
+<use ex5_simPlotAdj.png>
+Package pdftex.def Info: ex5_simPlotAdj.png  used on input line 101.
+(pdftex.def)             Requested size: 209.1015pt x 158.16827pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sampleRC.png> <./circu
+it_ex5.PNG>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-[5 <./relativisticRestMass.png>] (./comptonScattering.bbl [6]
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
- \OT1/cmr/m/n/9 mon-wealth Uni-ver-sity, [][]$\OT1/cmtt/m/n/9 http : / / www . 
-people . vcu . edu /
- []
-
-) [7] [8]
-Overfull \hbox (12.00531pt too wide) in paragraph at lines 309--311
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+LaTeX Warning: A float is stuck (cannot be placed) on input line 106.
 
 
-Overfull \hbox (42.00562pt too wide) in paragraph at lines 316--318
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+LaTeX Warning: A float is stuck (cannot be placed) on input line 106.
 
 
-Overfull \hbox (6.00525pt too wide) in paragraph at lines 320--321
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-28.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 328.
+<ex7_dualPlot.png, id=199, 392.4261pt x 493.6041pt>
+File: ex7_dualPlot.png Graphic file (type png)
+<use ex7_dualPlot.png>
+Package pdftex.def Info: ex7_dualPlot.png  used on input line 129.
+(pdftex.def)             Requested size: 209.1015pt x 263.00983pt.
+(./electronics.bbl [2 <./ex5_dualPlot.png> <./ex5_simPlot.png> <./ex5_simPlotAd
+j.png>]
 
-Overfull \hbox (12.00531pt too wide) in paragraph at lines 345--347
-[][][][][][][][][][][][][][][][][][][][][] 
- []
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
 
-[9]
-Overfull \hbox (42.00562pt too wide) in paragraph at lines 384--385
-[][][][][][][][][][][][][][][][][][][][][][][][] 
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+
+
+Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
+
+[3 <./ex7_dualPlot.png>]
+Underfull \hbox (badness 2941) in paragraph at lines 56--60
+ []\OT1/cmr/m/n/9 J. Pumplin, RC Cir-cuits, [][]$\OT1/cmtt/m/n/9 https : / / we
+b . pa . msu . edu /
  []
 
 
-Overfull \hbox (42.00562pt too wide) in paragraph at lines 386--387
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+ \OT1/cmtt/m/n/9 courses / 2000fall / phy232 / lectures / rccircuits / rc .
  []
 
+! Not loaded.
+\selectlanguage ...ing it}\errmessage {Not loaded}
+                                                  
+l.77   {The art of electronics}}}}
+                                  ,\ \bibinfo {edition} {2nd}\ ed.\ (\bibinfo
+Selecting a language requires a package supporting it
 
-Overfull \hbox (18.00537pt too wide) in paragraph at lines 397--398
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.00543pt too wide) in paragraph at lines 400--401
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[10]
-Overfull \hbox (30.0055pt too wide) in paragraph at lines 427--428
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.00543pt too wide) in paragraph at lines 435--436
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (48.00568pt too wide) in paragraph at lines 452--453
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (18.00537pt too wide) in paragraph at lines 461--462
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.00574pt too wide) in paragraph at lines 469--470
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[11] [12] (./comptonScattering.aux)
-Package rerunfilecheck Info: File `comptonScattering.out' has not changed.
-(rerunfilecheck)             Checksum: 70EB63B97D617A59063E3735112D18F6;3556.
+) [4] (./electronics.aux)
+Package rerunfilecheck Info: File `electronics.out' has not changed.
+(rerunfilecheck)             Checksum: 265B154A70D1970716DE0FC8290421B1;4460.
  ) 
 Here is how much of TeX's memory you used:
- 14962 strings out of 478238
- 228467 string characters out of 5850456
- 624248 words of memory out of 5000000
- 32723 multiletter control sequences out of 15000+600000
- 482582 words of font info for 77 fonts, out of 8000000 for 9000
+ 14432 strings out of 478238
+ 221958 string characters out of 5850456
+ 535589 words of memory out of 5000000
+ 32422 multiletter control sequences out of 15000+600000
+ 482247 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,76p,1332b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sfrm1000.pfb>
-Output written on comptonScattering.pdf (12 pages, 533339 bytes).
+ 69i,10n,76p,832b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb>
+Output written on electronics.pdf (4 pages, 348930 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 540 compressed objects within 6 object streams
- 279 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
