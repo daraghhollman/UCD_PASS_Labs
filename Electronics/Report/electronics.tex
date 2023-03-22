@@ -264,14 +264,81 @@ floatfix
 		\end{equation}where $R_f$ and $R_i$ are the resistors in the feedback loop labelled in figure \ref{fig:ex25Circuit}.
 		
 		\subsection{Methodology}
-		A simple amplifying Op-Amp circuit was constructed following the diagram from the manual \cite{manual}, see figure \ref{fig:ex25Circuit}. Components were chosen such to obtain a gain of 20 dB. Using equation \ref{eq:gain} a voltage ratio of $\frac{V}{V_0} = 10$ was determined and subsequently suitable resistors could be chosen to satisfy equation \ref{eq:resistorRatio}.
+		A simple amplifying Op-Amp circuit was constructed following the diagram from the manual \cite{manual}, see figure \ref{fig:ex25Circuit}. Components were chosen such to obtain a gain of 20 dB. Using equation \ref{eq:gain} a voltage ratio of $\frac{V}{V_0} = 10 = 1 + \frac{R_f}{R_i}$ was determined and subsequently suitable resistors could be chosen to satisfy equation \ref{eq:resistorRatio}. As the ratio of $\frac{R_f}{R_i} = 9$ is impractical, a ratio of $\frac{R_f}{R_i} = 10$ was used to match the components available. Resistors $R_f = 47\,\text{k}\Omega$ and $R_i = 4.7\,\text{k}\Omega$ were used. The circuit was driven by a $1\,\text{kHz}$ sine wave which was recorded using an oscilloscope along with the output. A $1 \,\mu \text{F}$ capacitor was then inserted across $R_f$ and the measurement was repeated.
 		
 		\begin{figure}
 			\includegraphics[width=0.85\columnwidth]{ex25Circuit.png}
 			\caption{\label{fig:ex25Circuit}The circuit diagram provided by the manual for exercise 25 \cite{manual}.}
 		\end{figure}
-		
+	
 		\subsection{Results \& Analysis}
+		The results measured from the oscilloscope were recorded in table \ref{tab:ex25Results} and \ref{tab:ex25ResultsWithCapacitor} and the gain was plotted against frequency in figures \ref{fig:ex25Results} and \ref{fig:ex25ResultsWithCapacitor} for the circuit without and with the capacitor respectively. This calculation was done using equation \ref{eq:gain}.\\
+		
+		For the circuit without the capacitor we see a constant gain up to a specific frequency where the gain attenuates, this frequency was $10^4\,\text{Hz}$. Note although the exercise asked for a gain of $20\,\text{dB}$, the gain here is higher. This is due to the altering of the ratio as mentioned in the theory section to accommodate for the components available to use.\\
+		
+		For the circuit with the capacitor
+		
+		EXPLAIN WHAT IS HAPPENING HERE FOR THE CAPACITOR
+		
+		\begin{table}[]
+			\resizebox{0.5\columnwidth}{!}{%
+				\begin{tabular}{@{}ll@{}}
+					\toprule
+					Frequency (Hz) & Output (V) \\ \midrule
+					10             & 5.43       \\
+					100            & 5.43       \\
+					1000           & 5.43       \\
+					10000          & 5.41       \\
+					12000          & 3.10       \\
+					15000          & 2.37       \\
+					20000          & 1.56       \\
+					25000          & 1.01       \\
+					30000          & 0.680      \\ \bottomrule
+				\end{tabular}%
+			}
+			\caption{The data measured using the oscilloscope for exercise 25.}
+			\label{tab:ex25Results}
+		\end{table}
+	
+		\begin{table}[]
+			\resizebox{0.5\columnwidth}{!}{%
+				\begin{tabular}{@{}ll@{}}
+					\toprule
+					Frequency (Hz) & Output (V) \\ \midrule
+					10             & 1.361      \\
+					12             & 1.36       \\
+					14             & 1.32       \\
+					16             & 1.27       \\
+					18             & 1.21       \\
+					20             & 1.11       \\
+					25             & 0.9         \\
+					30             & 0.8         \\
+					40             & 0.7         \\
+					50             & 0.63        \\
+					70             & 0.57        \\
+					100            & 0.527       \\
+					200            & 0.52        \\
+					500            & 0.51        \\
+					1000           & 0.5         \\
+					5000           & 0.5         \\
+					10000          & 0.5         \\
+					25000          & 0.5         \\
+					43000          & 0.5         \\ \bottomrule
+				\end{tabular}%
+			}
+			\caption{The data measured using the oscilloscope for exercise 25 with the inclusion of the $1\,\mu\text{F}$ capacitor.}
+			\label{tab:ex25ResultsWithCapacitor}
+		\end{table}
+		
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{ex25Results.png}
+			\caption{\label{fig:ex25Results}Data from the measurements of exercise 25. We see a constant gain until the attenuation frequency.}
+		\end{figure}
+		
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{ex25ResultsWithCapacitor.png}
+			\caption{\label{fig:ex25ResultsWithCapacitor}Data from the measurements of exercise 25 with the insertion of the capacitor. We see a smaller bandwidth.}
+		\end{figure}
 		
 	\section{Exercise 27: }
 		\subsection{Theory}
