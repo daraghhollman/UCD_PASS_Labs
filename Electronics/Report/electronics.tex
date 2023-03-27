@@ -39,19 +39,13 @@ floatfix
 	
 	\date{\today}
 	
-	\begin{abstract}
-		
-	\end{abstract}
-	
 	\maketitle
 	
 	\section{Introduction}
-		Comment on the layout of the exercises and that some are being left out.
+		This report features 8 exercises of the 31 included in the 3rd Year Electronics Laboratory manual \cite{manual}. The exercises make use of a combination of simulations carried out on a computer and actual physically creating the circuits to measure them. Many areas of electronics were covered including RC circuits, diodes, transistors, op-amps, and DACs.
 	
 	\section{Exercise 5: RC Circuits}
 		\subsection{Theory}
-		What is an RC circuit? What is the expected outcome.\\
-		
 		Exercise 5 involves the construction and measurement of a RC circuit. An RC circuit is one which consists of a resistor and capacitor. The capacitor stores charge and the resistor controls the rate at which it discharges \cite{pumplin}. This time dependent discharge is an exponential decay given by the following equation:
 		\begin{equation}
 			V_\text{out} = V_\text{in} \exp{\left(\frac{-t}{RC}\right)}
@@ -111,6 +105,7 @@ floatfix
 		Exercise 7 demonstrates how the same RC circuit as in exercise 5 can be used to make a high pass filter \cite{manual}. A high pass filter is a signal filter which allows higher frequencies to pass through unaffected but attenuates signals beyond a cut-off frequency. The combination of a resistor with a capacitor makes it possible to have voltage dividers dependent on frequency \cite{horowitz}. This frequency dependence arises from the impedance of the capacitor.
 		\begin{equation}
 			Z_C = -\frac{j}{\omega C}
+			\label{eq:capacitor}
 		\end{equation}where $j$ is the imaginary number $j=\sqrt{-1}$, $C$ is the capacitance, and $\omega$ is the angular frequency. For the circuit in figure \ref{fig:sampleRC}, by Ohm's law we have a current:
 		\begin{equation}
 			I = \frac{V_\text{in}}{Z_\text{total}} = \frac{V_\text{in}}{R - Z_C}
@@ -144,22 +139,44 @@ floatfix
 			\caption{\label{fig:ex7Results}Bode plot of exercise 7. The circuit is a high pass filter with $R = 1 \text{k}\Omega$, $C = 1 \mu\text{F}$. Note that errorbars are included on both graphs however in some cases are to small to see.}
 		\end{figure}
 		
-	\section{Exercise 12: }
+	\section{Exercise 12: Diodes}
 		\subsection{Theory}
-		The aim of exercise 12 is determine the I-V curve for a diode in forward and reverse bias. A diode is a PN junction which is either in forward bias or reverse bias depending on the direction of current flow across it \cite{manual}. 
+		The aim of exercise 12 is determine the I-V curve for a diode in forward and reverse bias. A diode is a PN junction which is either in forward bias or reverse bias depending on the direction of current flow across it, see figure \ref{fig:pnJunction} \cite{manual}. When forward biased the voltage source is connected such that the anode is positive compared to the cathode, current will flow. When reverse biased, the voltage source is opposite in polarity with respect to forward bias. The cathode has a positive voltage compared to the anode. Due to the nature of PN junctions no current will flow up to a breakdown voltage \cite{manual}.
+		
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{pnJunction.png}
+			\caption{\label{fig:pnJunction}Above: the PN junction of the diode. Below: the schematic symbol of the diode \cite{manual}.}
+		\end{figure}
 		
 		\subsection{Methodology}
+		
+		The aim of this exercise was to measure the I-V curve for the 1N1418 diode. A circuit was designed in TINA to do this using a resistor to limit the current flow and a voltage source to vary to vary the input voltage, see figure \ref{fig:ex12Circuit}. A multimeter was used to measure the current. A $470 \,\Omega$ resistor was chosen to limit the current flow. The voltage was varied between $-10 \,\text{V}$ and $10 \,\text{V}$ and recorded and plotted in figure \ref{fig:IVCurveLinear}.\\
+		
+		The circuit was then driven with a AC sin wave with frequency $500 \,\text{Hz}$ and peak-to-peak amplitude of $3\,\text{V}$. The voltage drop across the resistor was measured by subtracting oscilloscope measurements of the voltage before and after the resistor. This oscilloscope data was recorded and plotted in figure \ref{fig:ex12bResults}. A $10 \,\mu\text{F}$ capacitor was added in parallel across the resistor and the measurement was repeated. This was recorded and plotted in figure \ref{fig:ex12bResultsWithCap}.
 		
 		\begin{figure}
 			\includegraphics[width=0.85\columnwidth]{ex12Circuit.png}
 			\caption{\label{fig:ex12Circuit}Circuit diagram create in TINA for exercise 12. Note that this doesn't include the capacitor added in the second half of the exercise.}
 		\end{figure}
+	
 		\subsection{Results \& Analysis}
+		From figure \ref{fig:IVCurveLinear} we can see the linear proportionality of current to voltage as depicted by Ohm's law when in forward bias. In reverse bias we see no current as the breakdown voltage of the diode was much higher than the maximum output of the voltage generator and hence any leak-through current was too small to be measured by the multimeter. According to a manufacturer data-sheet \cite{diodeData}, the 1N4148 diode needs a reverse bias voltage of $\approx 75 \,\text{V}$ before it leaks a current on the order of micro-amps.\\
 		
-		...As the breakthrough voltage of the diode was much higher than the maximum output of the voltage generator and hence any leak-through voltage was too small to be measured by the voltmeter.
+		When driven with the sin wave, we see no voltage across the resistor when the AC signal is in reverse bias, and a peak when the signal is in forward bias. This is again expected and due to the diode stopping current flow in reverse bias. When the capacitor is added, we see a similar effect but with some distinct differences. The capacitor in parallel causes less current to flow across the resistor making for a smaller peak voltage drop across it, this can be visually seen. We also see a delay in the peak voltage drop across the resistor, and a sustained voltage drop even during reverse bias. This is due to the nature of the capacitor taking time to charge and discharge. We see the peak voltage drop lag behind as the capacitor charges and we see a decaying voltage drop in reverse bias as the capacitor discharges.
+		
 		\begin{figure}
 			\includegraphics[width=0.85\columnwidth]{IVCurveLinear.png}
-			\caption{\label{fig:IVCurveLinear}I-V curve for the circuit in forward bias. As the breakthrough voltage of the diode was much higher than the maximum output of the voltage generator and hence any leak-through voltage was too small to be measured by the voltmeter.}
+			\caption{\label{fig:IVCurveLinear}I-V curve for the circuit in forward and reverse bias. As the breakdown voltage of the diode was much higher than the maximum output of the voltage generator and hence any leak-through current was too small to be measured by the multimeter.}
+		\end{figure}
+	
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{ex12bResults.png}
+			\caption{\label{fig:ex12bResults}Voltage drop over the resistor when the circuit from exercise 12 was driven by a sin wave.}
+		\end{figure}
+	
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{ex12bResultsWithCap.png}
+			\caption{\label{fig:ex12bResultsWithCap}Voltage drop over the resistor with a capacitor in parallel, when the circuit from exercise 12 was driven by a sin wave.}
 		\end{figure}
 		
 	\section{Exercise 19: Transistors as a Current Amplifier}
@@ -276,9 +293,7 @@ floatfix
 		
 		For the circuit without the capacitor we see a constant gain up to a specific frequency where the gain attenuates, this frequency was $10^4\,\text{Hz}$. Note although the exercise asked for a gain of $20\,\text{dB}$, the gain here is higher. This is due to the altering of the ratio as mentioned in the theory section to accommodate for the components available to use.\\
 		
-		For the circuit with the capacitor
-		
-		EXPLAIN WHAT IS HAPPENING HERE FOR THE CAPACITOR
+		For the circuit with the capacitor we see the same shape but with a reduced bandwidth. This is because of the inverse frequency dependence of the impedance of a capacitor as described by equation \ref{eq:capacitor}. As the frequency increases, the voltage at the inverting input approaches that of the non-inverting input and the gain hence goes to zero.
 		
 		\begin{table}[]
 			\resizebox{0.5\columnwidth}{!}{%
@@ -340,10 +355,33 @@ floatfix
 			\caption{\label{fig:ex25ResultsWithCapacitor}Data from the measurements of exercise 25 with the insertion of the capacitor. We see a smaller bandwidth.}
 		\end{figure}
 		
-	\section{Exercise 27: }
+	\section{Exercise 27: Digital-to-Analogue Converter}
 		\subsection{Theory}
+		A Digital-to-Analogue Converter, or DAC, is a circuit which takes a digital signal such as a binary number and converts it to an analogue voltage. In a 4-bit DAC, a four digit binary number is used to represent a signal (i.e. 1011). The DAC circuit will then output a voltage corresponding to the input signal. A common DAC circuit uses a summing amplifier to sum the currents from input branches corresponding to the signal, see figure \ref{fig:summingAmp}. The output voltage is a combination of each of the input voltages weighted by their corresponding resistor. The output voltage is given by the following equation \cite{manual}:
+		\begin{equation}
+			V_\text{out} = -R_f \left(\frac{V_1}{R_1} + \frac{V_2}{R_2} + \dots + \frac{V_N}{R_N}\right)
+			\label{eq:DAC}
+		\end{equation}
+		
+		\begin{figure}
+			\includegraphics[width=0.85\columnwidth]{summingAmp.png}
+			\caption{\label{fig:summingAmp}A sample summing amplifier use to make DAC circuits \cite{manual}.} 
+		\end{figure}
+		
 		\subsection{Methodology}
+		A DAC circuit was constructed in TINA following the sample summing amplifier in figure \ref{fig:summingAmp}. A 4-bit signal was used as the input with a digital voltage high of $5 \,\text{V}$ and a low of $0 \,\text{V}$. Switches were used to manually select the input signal. From the binary number 0000 to 1111 there are 16 numbers inclusive. Each of these was mapped to a voltage with $0000 \to 0 \,\text{V}$ and $1111 \to -3 \,\text{V}$ and the rest were spaced evenly between. Equation \ref{eq:DAC} was then used to determine the input resistance needed to achieve these results. Using the input signals which isolated one resistor (i.e. 0001, 0010, 0100, and 1000), a ratio between each input resistor and $R_f$ could be determined. $R_f$ was then arbitrarily picked and the input resistors were calculated based on these ratios.
+		
 		\subsection{Results \& Analysis}
+		The circuit diagram as constructed in TINA is shown in figure \ref{fig:ex27ResultsOff} with an input of $0000$, and in figure \ref{fig:ex27ResultsOn} with an input of $1111$. It can clearly be seen that resistances chosen map the DAC accordingly. Note that an ideal Op-Amp was used in this instance.
+		
+		\begin{figure*}
+			\includegraphics[width=1.6\columnwidth]{circuitZero.png}
+			\caption{\label{fig:ex27ResultsOff}}
+		\end{figure*}
+		\begin{figure*}
+			\includegraphics[width=1.6\columnwidth]{circuitMax.png}
+			\caption{\label{fig:ex27ResultsOn}}
+		\end{figure*}
 		
 	\clearpage
 	\bibliography{electronics.bib}% Produces the bibliography via BibTeX.

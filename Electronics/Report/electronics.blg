@@ -29,47 +29,48 @@ Control: production of eprint (0) enabled
 Warning--empty year in pumplin
 Warning--empty year in manual
 Warning--empty year in TINA
+Warning--empty year in diodeData
 Warning--empty year in seeed
 Warning--empty year in sengpiel
-You've used 8 entries,
+You've used 9 entries,
             6079 wiz_defined-function locations,
-            1668 strings with 15853 characters,
-and the built_in function-call counts, 4772 in all, are:
-= -- 315
+            1674 strings with 16015 characters,
+and the built_in function-call counts, 5264 in all, are:
+= -- 361
 > -- 69
 < -- 46
-+ -- 34
++ -- 36
 - -- 32
-* -- 654
-:= -- 509
-add.period$ -- 6
-call.type$ -- 8
-change.case$ -- 34
-chr.to.int$ -- 24
-cite$ -- 15
-duplicate$ -- 511
-empty$ -- 315
+* -- 713
+:= -- 562
+add.period$ -- 7
+call.type$ -- 9
+change.case$ -- 39
+chr.to.int$ -- 25
+cite$ -- 19
+duplicate$ -- 562
+empty$ -- 359
 format.name$ -- 33
-if$ -- 846
+if$ -- 941
 int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 65
-newline$ -- 70
+int.to.str$ -- 16
+missing$ -- 70
+newline$ -- 73
 num.names$ -- 15
-pop$ -- 236
+pop$ -- 266
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 29
 quote$ -- 0
-skip$ -- 176
+skip$ -- 196
 stack$ -- 0
-substring$ -- 101
-swap$ -- 393
+substring$ -- 117
+swap$ -- 425
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 83
-warning$ -- 6
+type$ -- 94
+warning$ -- 7
 while$ -- 22
 width$ -- 0
-write$ -- 98
-(There were 6 warnings)
+write$ -- 105
+(There were 7 warnings)
